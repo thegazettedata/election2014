@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <link rel="icon" href="images/KCRGFavicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="images/KCRGFavicon.ico" type="image/x-icon" />
+      <meta name="google-site-verification" content="mSLZfnGCCMvyCbAFktbXddebcSobPDI7R2Qi05KUjWM" />
+      <title>
+          KCRG-TV9 | Cedar Rapids, Iowa News, Sports, and Weather
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta property="fb:app_id" content="435499969866540" />        
+      <!-- Mobile meta tags-->
+      <meta name="HandheldFriendly" content="True">
+      <meta name="MobileOptimized" content="320"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      <meta name="apple-touch-fullscreen" content="yes" />
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta http-equiv="cleartype" content="on">
+			<link rel="icon" href="http://media.kcrg.com/designimages/KCRGFavicon.ico" type="image/x-icon">
+      <link rel="shortcut icon" href="http://kcrg.com/favicon.ico" type="image/x-icon" />
+
+<link rel="stylesheet" href="css/alpha_general.css" type="text/css" />
+<link rel="stylesheet" href="css/gemini.css" type="text/css" />
+<link rel="stylesheet" href="css/bim_tools.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/kcrg_styles.css" type="text/css" />
+<link rel="stylesheet" href="css/kcrg_top_styles.css" type="text/css" />
+<link rel="stylesheet" href="css/weather.css" type="text/css" />
+<link rel="stylesheet" href="css/story_wide.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/new_sevenday.css"/>
+<link rel="stylesheet" type="text/css" href="css/accordian.kcrg.css"/>
+<!--[if IE 7]> 
+<link rel="stylesheet" href="css/IE7.css" type="text/css">
+<![endif]-->
+
+<!-- INCLUDES -->
+<!-- Base styles: Libraries -->
+<link rel="stylesheet" type="text/css" href="includes/data/css/lib/bootstrap.css" />
+<link rel="stylesheet" href="includes/data/css/lib/jquery.dataTables.min.css" />
+<!-- Map styles -->
+<link rel="stylesheet" type="text/css" href="includes/data/css/lib/leaflet-0.7.css" />
+<link rel="stylesheet" type="text/css" href="includes/data/css/lib/leaflet.awesome-markers.css" />
+<!--[if lte IE 8]>
+	<link rel="stylesheet" type="text/css" href="includes/data/css/lib/leaflet.ie.css" />
+<![endif]-->
+<!-- Base styles -->
+<link rel="stylesheet" type="text/css" href="css/lib/font-awesome-4.2.0.css">
+<link rel="stylesheet" type="text/css" href="includes/data/css/lib/jquery-ui-1.11.2-smoothness-edit.css">
+<link rel="stylesheet" type="text/css" href="includes/data/projects/elections2014/css/base-map.css" />
+<link rel="stylesheet" type="text/css" href="includes/data/projects/elections2014/css/base-datatable.css" />
+<link rel="stylesheet" type="text/css" href="css/mobileArticle.css">
+<link rel="stylesheet" type="text/css" href="css/responsiveHeader.css">
+<!-- Custom styles -->
+<link rel="stylesheet" type="text/css" href="includes/data/projects/elections2014/css/styles.css" />
+<!-- JS: Libraries -->
+<script type="text/javascript" src="includes/data/js/lib/spin.min.js"></script>
+<script type="text/javascript" src="includes/data/js/lib/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="includes/data/js/lib/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="includes/data/js/lib/underscore.js"></script>
+<script type="text/javascript" src="includes/data/js/lib/backbone-min-1.1.2.js"></script>
+<script type="text/javascript" src="includes/data/js/lib/handlebars-v2.0.0-alpha4.js"></script>
+<script type="text/javascript" src="includes/data/js/lib/jquery-ui-1.10.4.js"></script>
+<!-- Map: Libraries -->
+<script type="text/javascript" src="includes/data/js/lib/jquery.geocodify.js"></script>
+<script type="text/javascript" src="includes/data/js/lib/leaflet-0.7.js"></script>
+<script type="text/javascript" src="includes/data/js/lib/tile.stamen.js"></script>
+<script type="text/javascript" src="includes/data/js/lib/leaflet.awesome-markers.js"></script>
+<script type="text/javascript" src="includes/data/js/lib/jquery.countdown.min.js"></script>
+<!-- Base JS -->
+<script src="js/mobileart.js"></script>
+<script src="js/responsiveHeader.js"></script>
+<script type="text/javascript" src="http://widgets.wsi.com/1.0/wx.js?cid=273805670"></script>
+<script>
+jQuery.browser = {};
+ 	(function () {
+ 	    jQuery.browser.msie = false;
+ 	    jQuery.browser.version = 0;
+ 	    if (navigator.userAgent.match(/MSIE ([0-9]+)\./)) {
+ 	        jQuery.browser.msie = true;
+ 	        jQuery.browser.version = RegExp.$1;
+ 	    }
+ 	})();
+</script>
+<!-- Optimizely Code  -->
+<script src="http://cdn.optimizely.com/js/237891966.js"></script>
+<script type="text/javascript">_qoptions = {
+	qacct:"p-9a3CzpxOy4iiQ"
+ 	};
+</script>
+<script type="text/javascript" src="http://pixel.quantserve.com/seg/p-9a3CzpxOy4iiQ.js"></script>
+<script type="text/javascript">
+	 function _quantgc(n) {
+	 var c=document.cookie;if(!c)return '';
+	 var i=c.indexOf(n+"=");if(-1==i)return '';
+	 var len=i+n.length+1;
+	 var end=c.indexOf(";", len);
+	 return c.substring(len,end<0?c.length:end);
+	 }
+	 quantSegs = "";
+	 var _qsegs = _quantgc('__qseg').split('|');
+	 for (var i=0;i < _qsegs.length;i++) {
+	 var qArr=_qsegs[i].split("_")
+	 if(qArr.length>1){ quantSegs += ("qcseg=" + qArr[1] + ";");}
+	 }
+</script>
+<script language="Javascript" type="text/javascript">document.write('<scr'+'ipt language="Javascript" type="text/javascript" src="http://cas.clickability.com/cas/caspl.js?r='+Math.random()+'&c=3031&m=2601&d=96236&p=346&p=351&p=816&p=1381&p=1386&p=1416&p=1421&p=1426&p=1431&p=1436&p=1451&p=1456&p=1461&p=2192"></scr'+'ipt>');</script>
+<!-- Start Google Analytics Javascript -->
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-30416-84', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script>
+<!-- End Google Analytics Javascript -->
+<!-- BEGIN Queryly Script -->
+	<script type="text/javascript" src="http://www.queryly.com/js/queryly.js"></script>
+	<script type="text/javascript">
+	queryly.QuerylyKey = '53a4541ac27b4adc';
+	queryly.layout.topMargin = -5;
+	var ProcessEnterKey = function(e) {
+	var keyCode = e.keyCode || e.which;
+	if (keyCode == 13) { ForwardSearch(); }
+	}
+	var ForwardSearch = function() {
+	var searchterm = queryly.util.getFullSuggestion();
+	if (searchterm == '') { searchterm = queryly.jquery('.queryly').val(); }
+	window.location = "http://www.kcrg.com/searchresults?query=" + encodeURIComponent(searchterm);
+	}
+	</script>
+<!-- END Queryly Script -->
+<body class="parentnews  wide" id="news">
+    <!-- body   -->
+    <!--Responsive header begins -->
+    <div id="fb-root"></div>
+    <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+    <div id="container">
+        <div id="main">
+            <script language=JavaScript type="text/javascript">
+              <!--
+              //configuration
+              OAS_url = 'http://oascentral.gazetteonline.com/RealMedia/ads/';
+              if (window.location.pathname == '/') {
+                OAS_sitepage = 'kcrg/homepage';
+              } else {
+                 var locationPath = window.location.pathname;
+                 OAS_sitepage = 'kcrg' + locationPath.toLowerCase();
+              }
+              if (OAS_sitepage == 'kcrg/homepage' || OAS_sitepage == 'kcrg/news' || OAS_sitepage == 'kcrg/sports' || OAS_sitepage == 'kcrg/weather') {
+                OAS_listpos = 'Top,Right,Right1,Frame1,Frame2,Bottom,Position1,Position2,Top2';
+              } else {
+                OAS_listpos = 'Top,Right,Right1,Frame1,Frame2,Bottom,Position1,Position2,Top2';
+              }
+              OAS_query = '';
+              OAS_target = '_top';
+              //end of configuration
+              OAS_version = 10;
+              OAS_rn = '001234567890'; OAS_rns = '1234567890';
+              OAS_rn = new String (Math.random()); OAS_rns = OAS_rn.substring (2, 11);
+              //-->
+            </script>
+            <script language=JavaScript1.1 type="text/javascript">
+              <!--
+              OAS_version = 11;
+              document.write('<SCR' + 'IPT LANGUAGE=JavaScript1.1 SRC="' + OAS_url +
+              'adstream_mjx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '?'
+              + OAS_query + '"><\/SCRIPT>');//-->
+            </script>
+            <script language=JavaScript>
+              <!--
+              document.write('');
+              function OAS_AD(pos) {
+                OAS_RICH(pos);
+              }
+              //-->
+            </script>
+            <div id="LeaderboardTop">
+              <!-- OAS AD 'Top' begin -->
+              <script language=JavaScript>
+                <!--
+                OAS_AD('Top');
+                //-->
+              </script>
+              <!-- OAS AD 'Top' end -->
+            </div>
+            <div id="aboveHeaderModules">
+                <div id="natadad728x90aboveheader" class="callout">
+                    <!-- Code Loads Here -->
+                </div>
+            </div>
+            <div id="header" class="header">
+                <div id="responsive" class="hide-desktop show-mobile">
+                  <div id="header-mobile">
+		<a href="/" target="_parent"><img id="icon" src="images/logo-big.jpg" /></a>
+		<h1></h1>
+		<div id="sections">
+			<h3>Sections</h3>
+			<img src="images/burger.png" />
+		</div>
+		<div>
+			<div style="background: white; ">
+				<script type="text/javascript">
+					queryly.QuerylyKey = '53a4541ac27b4adc';
+					queryly.layout.topMargin = -5;
+					var ProcessEnterKeyHeader = function(e) {
+						var keyCodeHeader = e.keyCode || e.which;
+						if (keyCodeHeader == 13) {
+							ForwardSearchHeader();
+						}
+					}
+					var ForwardSearchHeader = function() {
+						var searchtermHeader = queryly.util.getFullSuggestion();
+						if (searchtermHeader == '') {
+							searchtermHeader = queryly.jquery('.queryly-search-header').val();
+						}
+						//window.location = "http://thegazette.com/?s=" + encodeURIComponent(searchterm);
+						window.location = "http://www.kcrg.com/searchresults?query=" + encodeURIComponent(searchtermHeader);
+					}
+				</script>
+		        <input type="text" class="queryly-search-header" autocomplete="off" placeholder="Search..." onkeydown="ProcessEnterKeyHeader(event)"><div class="queryly-search-button-header fa fa-search" onclick="ForwardSearchHeader()"></div>
+		        <!-- Replace above <input> with this when search results page is ready...
+		        <input type="text" style="width: 185px; margin: 0px; border: 0px none; font-size: 14px; padding: 1px;" class="queryly" autocomplete="off" placeholder="search..." onkeydown="ProcessEnterKeyHeader(event)">
+		        -->
+			</div>
+		</div>
+	</div>
+	<div id="nav-mobile">
+		<h4>Select a section</h4>
+		<a href="/news" ><div>NEWS</div></a>
+		<a href="/weather" ><div>WEATHER</div></a>
+		<a href="/cancellations" ><div>CANCELLATIONS</div></a>
+		<a href="/sports" ><div>SPORTS</div></a>
+		<a href="/9point2" ><div>9.2</div></a>
+		<a href="/9point3" ><div>9.3</div></a>
+		<a href="/care" ><div>SHOW YOU CARE</div></a>
+		<a href="http://younews.kcrg.com/" ><div>YOUNEWS</div></a>
+		<a href="/contactus" ><div>CONTACT US</div></a>
+	</div>
+
+                </div>
+                <div id="midhead" class="hide-mobile">
+                    <div id="stationtabs">
+                        <ul>
+                            <li id="tab1"><a href="http://events.hooplanow.com/events/search" title="Local Events" >Local Events</a></li>
+                            <li id="tab2"><a href="http://hooplanow.com" title="HooplaNow.com" >HooplaNow.com</a></li>
+                            <li id="tab3"><a href="/mobile-and-tools" title="Mobile" >Mobile</a></li>
+                            <li id="tab5"><a href="http://www.facebook.com/kcrgtv9" title="Facebook" >Facebook</a></li>
+                            <li id="tab6"><a href="http://twitter.com/#!/KCRG" title="Twitter" >Twitter</a></li>
+                            <li id="tab7"><a href="/section/?template=RSS&mime=xml" title="RSS" >RSS</a></li>
+                            <li id="tab8"><a href="https://stations.fcc.gov/station-profile/kcrg-tv/equal-employment-opportunity-records/" title="EEO Report" >EEO Records</a></li>
+                            <li id="tab4"><a href="mailto:newsroom@kcrg.com" title="send us story tips" >Send us story tips</a>
+                            <div class="fa fa-envelope-o"></div></li>
+                        </ul>
+                    </div>
+                    <!-- Header updates -->
+                    <script type="text/javascript" src="http://gaweb.cdr.dc.publicus.com/assets/static/weather/header_updates.js"></script>
+                    <script type="text/javascript">
+                    if (header_data_count > 0){
+                        $('#header_alert_bar_wrapper').show();
+                    }
+                    </script>
+                    <div id="midhead-content">
+                      <div id="weatherbox">
+                          <div class="sectiondiv3">
+                              <h1>Cedar Rapids Weather</h1>
+                          </div>
+                          <div id="logo-wrapper" class="content-wrapper">
+                            <a href="http://kcrg.com/">
+                              <div class="logo-container">
+                                <img src="http://www.kcrg.com/images/logo_large.png" alt="KCRG" title="KCRG">
+                              </div>
+                            </a>
+                          </div>
+                            <div id="weathercontent">
+                              <div id="weatherdata">
+                                  <script type="text/javascript" src="js/kcrg_wx_header_current_conditions_new.js"></script>
+                                  <wx:widget type="current-conditions" template="simple-box" location="USIA0138" header="false"></wx:widget>
+                              </div>
+                              <div id="forecast"></div>
+                              <a class="more" href="/weather">More Weather</a>
+                          </div>
+                      </div>
+                      <div id="position-wrapper">
+                          <div id="marketplace" class="marketplace-container">
+                              <div class="title">Marketplace</div>
+                              <div class="kcrg-marketplace">
+                                  <div class="link-wrapper">
+                                      <div class="link item1 autos" style="margin-top: 8px;">
+                                          <a href="http://autos.kcrg.com/?utm_source=kcrg&utm_medium=web&utm_campaign=kcrgheader">kcrg autos</a>
+                                      </div>
+                                  </div>
+                                  <div class="link-wrapper">
+                                      <div class="link item2 careers">
+                                          <a href="http://corridorcareers.com/?utm_source=kcrg&utm_medium=web&utm_campaign=kcrgheader">corridor careers</a>
+                                      </div>
+                                  </div>
+                                  <div class="link-wrapper">
+                                      <div class="link item3 htd">
+                                          <a href="http://gazettekcrg.upickem.net/engine/Splash.aspx?contestid=23713&GroupMode=2053144&LID=3335&utm_source=kcrg&utm_medium=header&utm_campaign=deal+links">here's the deal</a>
+                                      </div>
+                                  </div>
+                                  <div class="link-wrapper">
+                                      <div class="link item4 classifieds">
+                                          <a href="http://classifieds.thegazette.com">classifieds</a>
+                                      </div>
+                                  </div>
+                                  <div class="link-wrapper">
+                                      <div class="link item5 homes">
+                                          <a href="https://garagesales.thegazette.com/?utm_source=kcrg&utm_medium=web&utm_campaign=kcrgheader">garage sales</a>
+                                      </div>
+                                  </div>
+                              <!-- Close kcrg marketplace -->
+                              </div>
+                          <!-- Close marketplace -->
+                          </div>
+                      <!-- Close position-wrapper -->
+                      </div>
+
+    <!--Responsive header ends -->
+              <!-- Header promos -->
+              <div class="headerpromo"><img width="370" height="108" border="0" src="images/KCRG_COM_Header_News.png"/></div>
+          <!-- Close midhead content -->
+          </div>
+        <!-- Close midhead -->
+        </div>
+        <!--Navigation macro begins -->
+        <div id="nav" class="hide-mobile">
+	<ul id="navbuttons">
+  <li id="nav1" ><a href="/" target="" >Home</a></li>
+<li> 
+	<a href="/news">News</a>
+</li>  
+<li> 
+	<a href="/weather">Weather</a>
+</li>  
+<li> 
+	<a href="/cancellations">Cancellations</a>
+</li>  
+<li> 
+	<a href="/sports">Sports</a>
+</li>  
+<li> 
+	<a href="/9point2">9.2</a>
+</li>  
+<li> 
+	<a href="/9point3">9.3</a>
+</li>  
+<li> 
+	<a href="/care">Show You Care</a>
+</li>  
+<li> 
+	<a href="http://younews.kcrg.com">YouNews</a>
+</li>  
+<li> 
+	<a href="/contactus">Contact Us</a>
+</li>
+		<li id="newJSSearch">
+		    <input placeholder=" Search KCRG..." onkeydown="ProcessEnterKey(event)" type="text" class="queryly" autocomplete="off">
+		    <div class="fa fa-search" onclick="ForwardSearch()"></div>
+		    <script type="text/javascript">queryly.QuerylyBind();</script>
+		    <script>
+			    $(function() {
+			        $('.searchform').replaceWith($('#newJSSearch'));
+			        $('#newJSSearch').show();
+			    });
+			</script>
+		</li>
+	</ul>
+	<div id="subnav"> 	
+<li class="subnav1 --2409">
+  <a href="/email-newsletters" target="">Email Newsletter</a>
+</li>
+<li class="subnav2 --2409">
+  <a href="/fridaynightlights" target="">Friday Night Lights</a>
+</li>
+<li class="subnav3 --2409">
+  <a href="/livechat" target="">Live Chat</a>
+</li>
+<li class="subnav4 --2409">
+  <a href="/streaming" target="">Live Stream</a>
+</li>
+<li class="subnav5 --2409">
+  <a href="/streaming2" target="">Live Stream 2</a>
+</li>
+<li class="subnav6 --2409">
+  <a href="/ourtown" target="">Our Town</a>
+</li>
+<li class="subnav7 --2409">
+  <a href="/apps/pbcs.dll/section?profile=2204" target="">Sports Special Features</a>
+</li>
+<li class="subnav8 --2409">
+  <a href="/apps/pbcs.dll/section?profile=1848" target="">Top 9 News</a>
+</li>
+<li class="subnav9 --2409">
+  <a href="/apps/pbcs.dll/section?profile=1849" target="">Top 9 Sports</a>
+</li>
+<li class="subnav10 --2409">
+  <a href="/apps/pbcs.dll/section?profile=2181" target="">Weather Special Features</a>
+</li>
+<li class="subnav11 --2409">
+  <a href="/zachjohnsonclassic" target="">Zach Johnson Classic KCRG</a>
+</li>
+	</div>
+</div> 
+        <!--Navigation macro ends -->
+    <!-- Close header -->
+    </div>
+    <!-- Alerts -->
+    <div id="alertscontainer"></div>
+	<script>
+	   function getBreakingCookie(c_name)
+	   {
+	   var i,x,y,ARRcookies=document.cookie.split(";");
+	   for (i=0;i<ARRcookies.length;i++)
+	   {
+	     x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("="));
+	     y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+	     x=x.replace(/^\s+|\s+$/g,"");
+	     if (x==c_name)
+	       {
+	       return unescape(y);
+	       }
+	     }
+	   }
+	   function setBreakingcookie(idname) {
+	     var date = new Date();
+	     date.setTime(date.getTime()+(4*60*60*1000));
+	     var expires = "; expires="+date.toGMTString();
+	   	var value = "hidden"
+	     document.cookie = idname+"="+value+expires+"; path=/";
+	   }
+	   function readBreakingcookie(idname){
+	   var cookiename=getBreakingCookie(idname);
+	   	if (cookiename=="hidden") {
+	   	    $("#"+idname).toggle();
+	   	}
+	   }
+	   function hideMe(e){
+	   		$("#"+e).toggle("slow");
+	   		setBreakingcookie(e);
+	    	  return false; //Prevent the browser jump to the link anchor
+	   }
+	   var ids = $('.liveAlert').get();
+	   for(var i in ids) {
+	     var idvar = $('.liveAlert')[i].id;
+	   	readBreakingcookie(idvar);
+	   }
+	</script>
+	<!-- Start Crazy Egg Analytics --> 
+<script type="text/javascript"> 
+setTimeout(function(){var a=document.createElement("script"); 
+var b=document.getElementsByTagName("script")[0]; 
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0017/2302.js?"+Math.floor(new Date().getTime()/3600000); 
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1); 
+</script> 
+<!-- End Crazy Egg Analytics -->
+
+
+<!-- Race info -->
+<!-- For mobile header -->
+<div id="paragraphs" class="paragraphs-responsive-header"></div>
+<div id="mobile-posttitle-default" style="display: none">VOTE 2014</div>
+<!-- CONTENT -->
+<div id="maintable" cellpadding="0" cellspacing="0" border="0">
+	<!-- Election box -->
+	<div id="election">
+		<div id="first-p" class="page-title-box">
+		  	<table>
+		    	<tr><td>
+		      		<img style="max-width:300px;float:left;padding-left:5px;" src="images/votelogo.png" />
+		      	</td><td class="complete-results-header hide-mobile">
+		      		Complete Results
+		      	</td><td style="border-right:none;">
+					<div class="ad-spot">
+						<a href="http://imon.net/" target="_blank"><img src="includes/data/projects/elections2014/imgs/ImOn-ad.jpg" /></a>
+			      	</div>
+		    	</td></tr>
+		  	</table>
+		</div>
+		<div id="video-explainer">
+		<div style="width:100%;height:20px;">
+			<a class="hide-mobile" style="float:left;" id="about-box"><i class="fa fa-info-circle"></i> About this page</a>
+			<a style="float:right;" title="Tweet" class="share-action twitter" href="https://twitter.com/share?url=http://kcrg.com/elections&text=Live 2014 election results from Iowa:&via=kcrg" target="_blank"><div class="share fa fa-twitter"></div></a>
+			<a style="float:right;" title="Share on Facebook" class="share-action facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://kcrg.com/elections" target="_blank"><div class="share fa fa-facebook"></div></a>
+			<a style="float:right;" href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent(window.location); return false"> <div class="share fa fa-reddit"></div> </a>
+		</div>
+			<div class="video-box hide-mobile">
+				<script src='http://player.bimvid.com/v2/vp/kcrg/d5b29b0335018d3820639973c8cb1c8e69a448f2'></script>
+			</div>
+		</div>
+		<!-- Race at the top of the page -->
+		<div id="displayedRace" class="hide-800"></div>
+		<span id="refresh-countdown-update-container">
+			<div id="update-container">Last updated: <span id="update"></span></div>
+			<!-- <div id="refresh-countdown-container" class="hide-mobile">Results will refresh in <span id="refresh-countdown"></span> mins.</div>
+			<div id="polls-close-container">Polls close at 9 p.m. CST</div> -->
+		</span>
+		<!-- Left rail -->
+		<div id="raceSelect">
+			<div id="raceBoxes">
+				<ul class="nav nav-tabs hide-800">
+					<li id="more-races-text" class="active">
+						<a href="#"><i class="fa fa-archive"></i> Top race results</a>
+					</li>
+					<li id="county-breakdown-header">
+						<a href="#"><i class="fa fa-male"></i> County demographics</a>
+					</li>
+				</ul>
+				<h4 class="show-race-header hide-800">Select a race <i class="fa fa-level-down"></i></h4>
+				<div id="raceBoxes-container"></div>
+				<p class="show-race-text hide-800">Click on a race from the list above to show more information on the map. Statewide races show a county breakdown of the results. State races show how each district has voted.</p>
+				<p class="show-race-text hide-desktop show-mobile">For more comprehensive results of these races, load this webpage on a desktop computer.</p>
+				<div id="county-breakdown" class="hide-800">
+					<div class="slider-details-box"></div>
+				</div>
+				<p class="show-county-breakdown-text hide-800">Drag the sliders left and right to show and hide counties based on a particular demographic. Counties not shown on the map don't fit within the range selected. The map uses 2012-2013 <a href="http://censusreporter.org/" target="_blank">U.S. Census</a> data.</p>
+			<!-- Close raceBoxes -->
+			</div>
+		<!-- Close raceSelect -->
+		</div>
+		<!-- Right rail: Map -->
+		<div id="map-container" class="hide-mobile">
+			<div id="map"></div>
+			<div id="sidebar">
+				<div class="sidebar-content">
+					<div class="sidebar_content_colors">
+						<p></p>
+							<table class="colors">
+							<tbody><tr>
+							<td class="color-box" style="width:24%">
+								<span style="background-color:#c01c0f;"></span>GOP won</td>
+							<td class="color-box" style="width:24%">
+								<span style="background-color:#f47d73;"></span>GOP leading</td>
+							<td class="color-box" style="width:24%">
+								<span style="background-color:#4597dd;"></span>Dem leading</td>
+							<td class="color-box" style="width:24%">
+								<span style="background-color:#154974;"></span>Dem won</td>
+							</tr></tbody>
+						</table>
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<table id="liveStreaming">
+			<tr id="streamerRow">
+				<td><a href="http://kcrg.com/streaming" target="_blank"><i class="fa fa-video-camera"></i> KCRG's live local coverage</a></td>
+				<td style="background-color:white;"><a href="http://kcrg.com/streaming2" target="_blank"><i class="fa fa-video-camera"></i> Coverage from the podium</a></td>
+				<td><a href="http://kcrg.com/vote2014/abclivestream" target="_blank"><i class="fa fa-video-camera"></i> ABC's live national coverage</a></td>
+			</tr>
+		</table>
+		<!-- Right rail: Local races table -->
+		<div id="localRaces">
+			<h3>All contested races</h3>
+	       	<p>Use the search bar to look up a particular race. For instance, search for U.S. House races, type in "U.S. House". For state races, type in "State of Iowa".</p>
+	       	<table id="searchable-table" class="table">
+				<thead>
+				    <tr>
+				        <th></th>
+				        <th></th>
+				        <th></th>
+				        <th></th>
+				        <th></th>
+				        <th></th>
+				        <th></th>
+				        <th></th>
+				    </tr>
+				</thead>
+				<tbody></tbody>
+			</table>
+			<div id="ad-box">
+				<script language=JavaScript>
+				<!--
+				OAS_AD('Right');
+				//-->
+				</script>
+				<div id="twitterbox" style="margin-top:25px;max-width:300px;">
+		 			<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/hashtag/iavotes" data-widget-id="527556438403452928">#iavotes Tweets</a>
+		            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	            </div>
+			</div>
+		</div>
+	<!-- Close election box -->
+	</div>
+</div>
+<!-- Templates -->
+<script id="displayedRace-template" type="text/x-handlebars-template">
+	<div class="raceBox" id="{{#removespecial}}{{race}}{{/removespecial}}-selected">
+		{{#checkboxraceboxes}}displayedRace {{leftcandidatewon}} {{rightcandidatewon}}{{/checkboxraceboxes}}
+		<div class="candidates">
+			<div class="leftPhoto candidatePhoto">
+				<img src="includes/data/projects/elections2014/imgs/{{leftcandidatephoto}}" />
+			</div>
+			<div class="candidateNames">
+				<div class="raceLabel">
+					<h2>{{race}}</h2>
+				</div>
+				<div class="leftCandidate">
+					<h2 class="name leftCandidateName">{{leftcandidate}}</h2>
+					<h3 class="percent leftCandidatePercent">{{leftcandidatepercentstring}}</h3>
+				</div>
+				<div class="rightCandidate">
+					<h2 style="float:right;" class="name rightCandidateName">{{rightcandidate}}</h2>
+					<div style="clear:both"></div>
+					<h3 style="float:right;"class="percent rightCandidatePercent">{{rightcandidatepercentstring}}</h3>
+				</div>
+			</div>
+			<div class="rightPhoto candidatePhoto">
+				<img src="includes/data/projects/elections2014/imgs/{{rightcandidatephoto}}" />
+			</div>
+		</div>
+		<div id="displayedRacesBar" class="seatBar"></div>
+		<div style="clear:both"></div>
+		<div class="medium"><p>50%</p></div>
+		<div class="precincts">{{#precinctscheck}}{{#removespecial}}{{race}}{{/removespecial}} {{precinctsin}} {{precinctstotal}}{{/precinctscheck}}</div>
+		<div class="storyLink">
+			<span class="developing"><a class="developing-coverage-text" href="{{url}}" target="_blank">Developing Coverage</a></span><a href="{{url}}"  target="_blank">{{headline}}</a>
+		</div>
+	</div>
+</script>
+<script id="raceBoxes-template" type="text/x-handlebars-template">
+	<div class="raceBox" id="{{#removespecial}}{{race}}{{/removespecial}}">
+		{{#checkboxraceboxes}}raceBoxes {{leftcandidatewon}} {{rightcandidatewon}}{{/checkboxraceboxes}}
+		<div class="raceBox-container">
+			<div class="candidates">
+				<div class="leftCandidate">
+					<h2 class="name leftCandidateName">{{leftcandidate}}</h2>
+				</div>
+				<div class="rightCandidate">
+					<h2 class="name rightCandidateName">{{rightcandidate}}</h2>
+				</div>
+			</div>
+			<div class="numbers">
+				<h3 class="percent leftCandidatePercent">{{leftcandidatepercentstring}}</h3>
+				<div class="raceLabel">
+					<h4>{{race}}</h4>
+				</div>
+				<h3 class="percent rightCandidatePercent">{{rightcandidatepercentstring}}</h3>
+			</div>
+			<div class="raceBar">
+				<div class="leftBar" style="width:{{leftcandidatepercent}}%"></div>
+				<div class="rightBar" style="width:{{rightcandidatepercent}}%"></div>
+			</div>
+			<div style="clear:both"></div>
+			<h4 class="coverageLink"><a href="{{url}}" target="_blank">Read about this race &#187;</a></h4>
+			<h4 class="mapLink hide-mobile"><a href="#map{{#removespecial}}{{race}}{{/removespecial}}">Map this race &#187;</a></h4>
+		</div>
+	</div>
+</script>
+<script id="datatable-template" type="text/x-handlebars-template">
+    {{#each CANDIDATEINFO.CANDIDATE}}
+	    <tr name="{{../RACEINFO.RACE_NAME1}} {{../RACEINFO.RACE_NAME2}}">
+	        <td>{{../RACEINFO.RACE_NAME1}} {{../RACEINFO.RACE_NAME2}}</td>
+	        <td>{{../RACEINFO.PRECINCTS_REPORTING}}</td>
+	        <td>{{../RACEINFO.PRECINCTS_TOTAL}}</td>
+	        <td class="candidate">{{#checkboxdatatable}}{{WINNER}}{{/checkboxdatatable}} {{FIRST_NAME}} {{LAST_NAME}}</td>
+	        <td>{{#colorcheck}}{{PARTY_ABBR}}{{/colorcheck}}</td>
+	        <td class="votes">{{#nullcheck}}{{VOTE_TOTAL}}{{/nullcheck}} votes</td>
+	        <td class="percents">{{#nullcheck}}{{PCT_TOTAL}}{{/nullcheck}}%</td>
+	        <td class="raceBar">{{#barchart}}{{PARTY_ABBR}} {{PCT_TOTAL}}{{/barchart}}</td>
+	    </tr>
+    {{/each}}
+</script>
+<!-- Spin.js -->
+<script>
+var opts = {
+	lines: 13, // The number of lines to draw
+  	length: 20, // The length of each line
+  	width: 10, // The line thickness
+  	radius: 30, // The radius of the inner circle
+  	corners: 1, // Corner roundness (0..1)
+  	rotate: 0, // The rotation offset
+  	direction: 1, // 1: clockwise, -1: counterclockwise
+  	color: '#000', // #rgb or #rrggbb or array of colors
+  	speed: 1, // Rounds per second
+  	trail: 60, // Afterglow percentage
+  	shadow: false, // Whether to render a shadow
+  	hwaccel: false, // Whether to use hardware acceleration
+  	className: 'spinner', // The CSS class to assign to the spinner
+  	zIndex: 2e9, // The z-index (defaults to 2000000000)
+  	top: '700px', // Top position relative to parent
+  	left: '50%' // Left position relative to parent
+};
+var target = document.getElementById('election');
+var spinner = new Spinner(opts);
+// Start load spinner
+if ($(window).width() > 650) {
+	spinner.spin(target);
+}
+</script>
+<!-- JSON files -->
+<script src="includes/data/projects/elections2014/json/counties.json"></script>
+<script src="includes/data/projects/elections2014/json/house.json"></script>
+<script src="includes/data/projects/elections2014/json/senate.json"></script>
+<script src="includes/data/projects/elections2014/json/senate-races-no-election.json"></script>
+<!-- Base JS -->
+<script src="includes/data/projects/elections2014/js/base.js"></script>
+<script src="includes/data/projects/elections2014/js/base-map.js"></script>
+<!-- Custom JS -->
+<script src="includes/data/projects/elections2014/js/displayed-race-model-view.js"></script>				
+<script src="includes/data/projects/elections2014/js/raceboxes-model-view.js"></script>
+<script src="includes/data/projects/elections2014/js/router-view.js"></script>
+<script src="includes/data/projects/elections2014/js/datatable-model-view.js"></script>
+<script src="includes/data/projects/elections2014/js/script.js"></script>
+<script src="includes/data/projects/elections2014/js/map-geojson.js"></script>
+<script src="includes/data/projects/elections2014/js/slider.js"></script>
+			<div id="footer">
+			   	<div id="navbottom">
+			      <ul id="navbuttons" style="padding:0;margin:0;background-color:#333;">
+			        <li id="nav1" class="">
+			            <a href="/" target="" class="">Home</a>
+			        </li>
+			        <li id="nav2" class="">
+			            <a href="/news" target="" class="">News</a>
+			        </li>
+			        <li id="nav3" class="">
+			            <a href="/weather" target="" class="">Weather</a>
+			        </li>
+			        <li id="nav4" class="">
+			            <a href="/cancellations" target="" class="">Cancellations</a>
+			        </li>
+			        <li id="nav5" class="">
+			            <a href="/sports" target="" class="">Sports</a>
+			        </li>
+			        <li id="nav6" class="">
+			            <a href="/9point2" target="" class="">9.2</a>
+			        </li>
+			        <li id="nav7" class="">
+			            <a href="/9point3" target="" class="">9.3</a>
+			        </li>
+			        <li id="nav8" class="">
+			            <a href="/care" target="" class="">Show You Care</a>
+			        </li>
+			        <li id="nav9" class="">
+			            <a href="/contactus" target="" class="">Contact Us</a>
+			        </li>
+			      </ul>
+			   </div>
+			   <div class="copyright">Copyright &copy; 2014</div>
+			   <div class="company">
+			      <a href="/">KCRG.com</a>
+			   </div>
+			   <div class="address"> All content Copyright 2014 Cedar Rapids Television Company, </div>
+			   <div class="br"></div>
+			   <div class="email"><a href="mailto:online@kcrg.com">online@kcrg.com</a></div>
+			   <div class="copydoc"><a href="/email-newsletters" target="new"> Newsletters </a></div>
+			   <div class="copydoc"><a href="http://abc.go.com" target="new"> ABC </a></div>
+			   <div class="copydoc"><a href="/contactus" target="new"> Contact Us </a></div>
+			   <div class="copydoc"><a href="http://www.kcrg.com/home/related/89432952.html" target="new"> Policies </a></div>
+			   <div class="copydoc"><a href="http://fusionfarm.com" target="new"> Fusionfarm </a></div>
+			   <div class="copydoc"><a href="/contactus/advertise" target="new"> Advertising </a></div>
+			   <div class="copydoc"><a href="/mobile-and-tools" target="new"> Tools &amp; Widgets </a></div>
+			   <div class="copydoc"><a href="/news/entertainment" target="new"> Gameroom </a></div>
+			   <div class="copydoc"><a href="/sitemap" target="new"> Sitemap </a></div>
+			   <div class="copydoc"><a href="https://stations.fcc.gov/station-profile/kcrg" target="new"> Public Inspection File </a></div>
+			   <!-- <div class="disclaim"> <a target="new" href="https://stations.fcc.gov/station-profile/kcrg-tv/equal-employment-opportunity-records/"> EEO Records </a> </div> -->
+			   <div class="disclaim hide-mobile"> <a target="new" href="http://files.gazlab.com/content-host/2014_eeo.pdf"> EEO Records </a> </div>
+			   <div id="affiliate"><a href="http://www.abc.go.com" target="new" title="ABC">ABC</a></div>
+			   <div id="bimpower"></div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	 	
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=435499969866540&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<td class="columncenter" valign="top">
+    <div id="storysection" class=" video16x9">
+        <script language="javascript1.2">
+            <!--
+                var clickTitle="EEOC Ordered To Pay Trucking Firm's Legal Fees For Harassment Claims";
+                //-->
+        </script>
+        <!--startclickprintinclude-->
+        <!--clickprintexcludeimages-->
+        <script type="text/javascript">
+            function showHide(shID) {
+                if (document.getElementById(shID)) {
+            	if (document.getElementById(shID+'-show').style.display != 'none') {
+            	    document.getElementById(shID+'-show').style.display = 'none';
+            	    document.getElementById(shID).style.display = 'block';
+            	}
+            	else {
+            	    document.getElementById(shID+'-show').style.display = 'inline';
+            	    document.getElementById(shID).style.display = 'none';
+            	}
+                }
+            }
+        </script>
+        <!-- videoGalleryContent [] -->
+        <div class="storybox">
+        	<h1 class="title"><span class="storylabel"></span>Election Night</h1>
+
+        	
+            <div id="storytools" style="width:630px;">
+
+
+            
+                <!--startclickprintexclude-->
+                <div class="pw-widget pw-size-medium">
+                  <a class="pw-button-facebook"></a>
+                  <a class="pw-button-twitter"></a>
+                  <a class="pw-button-googleplus"></a>
+                  <a class="pw-button-linkedin"></a>
+                  <a class="pw-button-reddit"></a>
+                  <a class="pw-button-email"></a>
+                  <a class="pw-button-print"></a>
+                </div>
+                <script src="http://i.po.st/static/v3/post-widget.js#publisherKey=4i26v85h427m9us50vru&retina=true" type="text/javascript"></script>
+                <!--endclickprintexclude-->
+                <div class="storyinfo">
+                    <p><span class="createdate">Story Created:
+                        Jan 1, 2000 at 12:01 AM  CDT
+                        </span>
+                    </p>
+                    <p class="pmoddate"><span class="moddate">Story Updated:
+                        Oct 28, 2014 at 10:22 AM CDT
+                        </span>
+                    </p>
+                </div>
+            </div>
+            
+
+
+        </div>
+        <div class="storybody">
+     <p><a id="ussenate-selected-story" href="http://thegazette.com/subject/news/ernst-wins-the-day-in-battle-for-iowas-us-senate-seat-20141104" target="_parent">Ernst wins the day in battle for Iowa's U.S. Senate seat</a> <a id="governor-selected-story" href="http://thegazette.com/subject/news/politics/election/branstad-wins-record-sixth-term-20141104" target="_parent">Branstad wins record sixth term</a> <a id="housedist1-selected-story" href="http://thegazette.com/subject/news/blum-defeats-murphy-to-win-district-1-congressional-seat-20141104" target="_parent">Blum defeats Murphy to win District 1 Congressional seat</a> <a id="housedist2-selected-story" href="http://thegazette.com/article/20141104/ARTICLE/141109814/1834" target="_parent">Loebsack wins 2nd District race</a> <a id="statesenate-selected-story" href="http://thegazette.com/subject/news/iowa-legislature-up-for-grabs-20141102" target="_parent">Iowa legislature up for grabs</a> <a id="statehouse-selected-story" href="http://thegazette.com/subject/news/iowa-legislature-up-for-grabs-20141102" target="_parent">Iowa legislature up for grabs</a></p>
+</div>
+        
+  
+  
+  <pbs:contentstats Count="5" Days=2 types="stories" interval="48hours" listfields="Bimvid_id_1">
+        <div  id="mpcontext" >
+            <!--startclickprintexclude-->
+            
+    <!--Comments are not loading because UserCommentsStatus is  -->
+  
+
+  					<div class="OUTBRAIN" data-src="http://www.kcrg.com/section/ELECTIONS&profile=2409" data-widget-id="AR_1" data-ob-template="TheGazetteCompany"></div>
+						<div class="OUTBRAIN" data-src="http://www.kcrg.com/section/ELECTIONS&profile=2409" data-widget-id="AR_2" data-ob-template="TheGazetteCompany"></div>
+						<script type="text/javascript" async="async" src="http://widgets.outbrain.com/outbrain.js"></script>
+
+       		<!--endclickprintexclude-->
+  <!-- Track CTAs -->
+  
+    
+      <!-- Field_Has_CTA defined, but is not equal to "Yes" -->
+    
+  
+  <!-- END Track CTAs -->
+</div>
+</td>
+<td class="columnleft" valign="top">
+</td>
+
+	 	<script type="text/javascript">
+	 	var stories = [];
+	 		$(".stories a").each(function(){
+	 			var id = $(this).attr("id");
+	 			var href = $(this).attr("href");
+	 			var text = $(this).html();
+	 			var matchingID = id.substring(0, (id.length-6));
+	 			stories.push([matchingID, href, text]);
+	 		});
+	 	</script>
+	</div>
+	</body>
+</html>
+<!--Updated: 2014/12/01 08:18:22-->

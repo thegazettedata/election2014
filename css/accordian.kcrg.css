@@ -1,0 +1,132 @@
+﻿body #programming{
+    color: #000000;
+    font: 12px/18px arial,sans-serif;
+  background: #ffffff;
+}
+
+
+#programming h4 
+{
+  /*http://www.colorzilla.com/gradient-editor/*/
+    background: #434a4e; /* Old browsers */
+    background: -moz-linear-gradient(top, #434a4e 0%, #55635f 72%, #0a0a0a 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#434a4e), color-stop(72%,#55635f), color-stop(100%,#0a0a0a)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #434a4e 0%,#55635f 72%,#0a0a0a 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #434a4e 0%,#55635f 72%,#0a0a0a 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #434a4e 0%,#55635f 72%,#0a0a0a 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #434a4e 0%,#55635f 72%,#0a0a0a 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#434a4e', endColorstr='#0a0a0a',GradientType=0 ); /* IE6-9 */
+ 
+    color: #FFFFFF;
+    cursor: pointer;
+    font: 12px Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 3px 13px;
+    height: 15px;
+}
+#programming h4.on 
+{
+    background: #1f406b; /* Old browsers */
+    background: -moz-linear-gradient(top, #1f406b 0%, #3987c4 72%, #0a0a0a 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1f406b), color-stop(72%,#3987c4), color-stop(100%,#0a0a0a)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #1f406b 0%,#3987c4 72%,#0a0a0a 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #1f406b 0%,#3987c4 72%,#0a0a0a 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #1f406b 0%,#3987c4 72%,#0a0a0a 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #1f406b 0%,#3987c4 72%,#0a0a0a 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f406b', endColorstr='#0a0a0a',GradientType=0 ); /* IE6-9 */
+}
+#programming h4.unselectable  {
+  /* "pretty functionalty" - used so that tab titles don't get selected as user clicks on tabs and the accoridian is sliding up or down*/
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;/*Introduced in IE 10. */
+   user-select: none;/*Introduced in IE 10. */
+}
+#programming table {
+    margin: 0.1em 0 0.30em;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding-bottom: 22px;
+  background: #ffffff;
+}
+#programming table td {
+    border: 1px solid #CCCCCC;
+    cursor: default;
+    font-size: 11px;
+    padding: 0.2em 0.5em;
+}
+#programming p {
+    text-align: center;
+}
+#programming span.title {
+    width: 205px;
+    display: inline-block;
+    visibility: visible !important;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space:nowrap;
+    vertical-align: middle;
+}
+#preview {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 2px solid #333333;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+    color: #333333;
+    display: none;
+    overflow: hidden;
+    padding: 10px;
+    position: absolute;
+    width: 300px;
+    z-index: 999;
+}
+#preview img {
+    float: left;
+    margin: 2px 10px 5px 0;
+}
+#preview p {
+    margin: 0 0 10px;
+}
+.listingsLink {
+    color: #666666;
+    float: right;
+    font: 11px/14px arial,sans-serif;
+    margin: 2px 0 0;
+}
+.listingsLink a, .listingsLink a:active,.listingsLink a:visited
+{
+  color: #666666;
+}
+span.arrow {
+  color: #4c4c4c;
+}
+.over {
+ cursor: pointer !important;
+}
+.info {
+ background-image: url('../images/video_camera_24.png');
+ background-size: 14px 14px;
+ background-position: 98% 50%;
+ background-repeat: no-repeat;
+}
+.liveStreaming {
+ cursor: pointer !important;
+ height: 13px;
+ width: 75px;
+ }
+.divDescription {
+  position: absolute;
+  background-color: #f2f2f2;
+  overflow: auto;
+  border: 1px solid #000;
+  padding: 0.2em 0.5em;
+}
+.loadingData{
+  background-image: url('/images/loading.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  height: 25px;
+}

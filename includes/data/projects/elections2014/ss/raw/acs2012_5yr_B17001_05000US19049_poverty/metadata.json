@@ -1,0 +1,252 @@
+{
+    "release": {
+        "id": "acs2012_5yr",
+        "name": "ACS 2012 5-year",
+        "years": "2008-2012"
+    },
+    "tables": {
+        "B17001": {
+            "title": "Poverty Status in the Past 12 Months by Sex by Age",
+            "universe": "Population for Whom Poverty Status Is Determined",
+            "denominator_column_id": "B17001001",
+            "columns": {
+                "B17001001": {
+                    "name": "Total:",
+                    "indent": 0
+                },
+                "B17001002": {
+                    "name": "Income in the past 12 months below poverty level:",
+                    "indent": 1
+                },
+                "B17001003": {
+                    "name": "Male:",
+                    "indent": 2
+                },
+                "B17001004": {
+                    "name": "Under 5 years",
+                    "indent": 3
+                },
+                "B17001005": {
+                    "name": "5 years",
+                    "indent": 3
+                },
+                "B17001006": {
+                    "name": "6 to 11 years",
+                    "indent": 3
+                },
+                "B17001007": {
+                    "name": "12 to 14 years",
+                    "indent": 3
+                },
+                "B17001008": {
+                    "name": "15 years",
+                    "indent": 3
+                },
+                "B17001009": {
+                    "name": "16 and 17 years",
+                    "indent": 3
+                },
+                "B17001010": {
+                    "name": "18 to 24 years",
+                    "indent": 3
+                },
+                "B17001011": {
+                    "name": "25 to 34 years",
+                    "indent": 3
+                },
+                "B17001012": {
+                    "name": "35 to 44 years",
+                    "indent": 3
+                },
+                "B17001013": {
+                    "name": "45 to 54 years",
+                    "indent": 3
+                },
+                "B17001014": {
+                    "name": "55 to 64 years",
+                    "indent": 3
+                },
+                "B17001015": {
+                    "name": "65 to 74 years",
+                    "indent": 3
+                },
+                "B17001016": {
+                    "name": "75 years and over",
+                    "indent": 3
+                },
+                "B17001017": {
+                    "name": "Female:",
+                    "indent": 2
+                },
+                "B17001018": {
+                    "name": "Under 5 years",
+                    "indent": 3
+                },
+                "B17001019": {
+                    "name": "5 years",
+                    "indent": 3
+                },
+                "B17001020": {
+                    "name": "6 to 11 years",
+                    "indent": 3
+                },
+                "B17001021": {
+                    "name": "12 to 14 years",
+                    "indent": 3
+                },
+                "B17001022": {
+                    "name": "15 years",
+                    "indent": 3
+                },
+                "B17001023": {
+                    "name": "16 and 17 years",
+                    "indent": 3
+                },
+                "B17001024": {
+                    "name": "18 to 24 years",
+                    "indent": 3
+                },
+                "B17001025": {
+                    "name": "25 to 34 years",
+                    "indent": 3
+                },
+                "B17001026": {
+                    "name": "35 to 44 years",
+                    "indent": 3
+                },
+                "B17001027": {
+                    "name": "45 to 54 years",
+                    "indent": 3
+                },
+                "B17001028": {
+                    "name": "55 to 64 years",
+                    "indent": 3
+                },
+                "B17001029": {
+                    "name": "65 to 74 years",
+                    "indent": 3
+                },
+                "B17001030": {
+                    "name": "75 years and over",
+                    "indent": 3
+                },
+                "B17001031": {
+                    "name": "Income in the past 12 months at or above poverty level:",
+                    "indent": 1
+                },
+                "B17001032": {
+                    "name": "Male:",
+                    "indent": 2
+                },
+                "B17001033": {
+                    "name": "Under 5 years",
+                    "indent": 3
+                },
+                "B17001034": {
+                    "name": "5 years",
+                    "indent": 3
+                },
+                "B17001035": {
+                    "name": "6 to 11 years",
+                    "indent": 3
+                },
+                "B17001036": {
+                    "name": "12 to 14 years",
+                    "indent": 3
+                },
+                "B17001037": {
+                    "name": "15 years",
+                    "indent": 3
+                },
+                "B17001038": {
+                    "name": "16 and 17 years",
+                    "indent": 3
+                },
+                "B17001039": {
+                    "name": "18 to 24 years",
+                    "indent": 3
+                },
+                "B17001040": {
+                    "name": "25 to 34 years",
+                    "indent": 3
+                },
+                "B17001041": {
+                    "name": "35 to 44 years",
+                    "indent": 3
+                },
+                "B17001042": {
+                    "name": "45 to 54 years",
+                    "indent": 3
+                },
+                "B17001043": {
+                    "name": "55 to 64 years",
+                    "indent": 3
+                },
+                "B17001044": {
+                    "name": "65 to 74 years",
+                    "indent": 3
+                },
+                "B17001045": {
+                    "name": "75 years and over",
+                    "indent": 3
+                },
+                "B17001046": {
+                    "name": "Female:",
+                    "indent": 2
+                },
+                "B17001047": {
+                    "name": "Under 5 years",
+                    "indent": 3
+                },
+                "B17001048": {
+                    "name": "5 years",
+                    "indent": 3
+                },
+                "B17001049": {
+                    "name": "6 to 11 years",
+                    "indent": 3
+                },
+                "B17001050": {
+                    "name": "12 to 14 years",
+                    "indent": 3
+                },
+                "B17001051": {
+                    "name": "15 years",
+                    "indent": 3
+                },
+                "B17001052": {
+                    "name": "16 and 17 years",
+                    "indent": 3
+                },
+                "B17001053": {
+                    "name": "18 to 24 years",
+                    "indent": 3
+                },
+                "B17001054": {
+                    "name": "25 to 34 years",
+                    "indent": 3
+                },
+                "B17001055": {
+                    "name": "35 to 44 years",
+                    "indent": 3
+                },
+                "B17001056": {
+                    "name": "45 to 54 years",
+                    "indent": 3
+                },
+                "B17001057": {
+                    "name": "55 to 64 years",
+                    "indent": 3
+                },
+                "B17001058": {
+                    "name": "65 to 74 years",
+                    "indent": 3
+                },
+                "B17001059": {
+                    "name": "75 years and over",
+                    "indent": 3
+                }
+            }
+        }
+    }
+}

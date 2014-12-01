@@ -1,0 +1,497 @@
+/* Geocoder */
+#geocoder_box {
+    float: right;
+    height: 38px;
+    margin: 5px;
+}
+
+#geocoder {
+    display: table-cell;
+    float: left;
+    padding: 0;
+    vertical-align: middle;
+    line-height: 18px;
+    height: 100%;
+    margin: 0px;
+}
+
+#geocoder .geocodifyInput {
+    border-radius: 4px 0 0 4px;
+    border-right: 0;
+    height: 100%;
+    margin: 0px 0px 5px 0px;
+    padding: 0px 0px 0px 9.5px; 
+}
+
+#geocoder .geocodifyButton {
+    border: 1px solid #ccc;
+    border-radius: 0 4px 4px 0;
+    float: right;
+    padding: 11px;
+}
+
+#geocoder .geocodifyDropdown {
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top-color: #d9d9d9;
+    margin: 0 !important;
+    padding: 5px 0 !important;
+    position: absolute;
+    width: 240px;
+    z-index: 9003;
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#geocoder .geocodifyDropdown ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#geocoder .geocodifyDropdown li {
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 5px 8px;
+    text-align: left;
+}
+
+#geocoder .selected {
+    background-color: #2262cc;
+    background-repeat: repeat-x;
+    color: #fff;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+    background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+    background-image: -webkit-gradient(linear, 0 0, 0 100, from(#0088cc), to(#0077b3));
+    background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+    background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+    background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+}
+
+/* Header */
+.header #share {
+    display: none;
+}
+
+/* Map */
+#map, #sidebar {
+    position: absolute;
+    background-color: #FFF;
+    position: absolute;
+    height: 100%;
+    top: 0;
+}
+
+#map {
+    float: left;
+    left: 0;
+    width: 55%;
+    z-index: 7;
+}
+
+
+#zoom-to-iowa a {
+    border-radius: 4px;
+    box-shadow: 0 1px 3px 0 #444;
+    position: absolute;
+    cursor: pointer;
+    left: 12px;
+    top: 115px;
+    font-size: 20px;
+    cursor: text;
+    width: 26px;
+    z-index: 12;
+    background-color: #f4f4f4;
+    color: #bbb;
+    text-align: center;
+}
+
+/* Pop-up information */
+.popup-box-header {
+    font-size: 16px;
+}
+
+.popup_table {
+    width: 200px;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.popup_table td {
+    padding: 2px 8px;
+}
+
+.leaflet-popup-content {
+    margin: 7px 15px;
+}
+
+.leaflet-popup-content h4 {
+    font-size: 15.5px;
+    line-height: 18px;
+}
+
+.leaflet-popup-content p {
+    margin: 5px 0;
+}
+
+/* Sidebar */
+#sidebar {
+    float: right;
+    right: 0;
+    width: 45%;
+    z-index: 10;
+    box-shadow: 0 1px 3px 0 #444;
+}
+
+#sidebar-inner {
+    padding: 2%;
+    padding-top: 55px;
+}
+
+/* Share */
+#sidebar .icons-share {
+    padding-right: 5%;
+    color: #666;
+}
+
+#sidebar #share li {
+    list-style: none;
+    float: left;
+    width: 49%;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#sidebar #share li a {
+    color: #666;
+}
+
+#sidebar #share li a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+#sidebar #share ul {
+    width: 100%;
+    margin: 0px;
+}
+
+#sidebar #share-first-li {
+    border-right: 1px dotted #ccc;
+}
+
+/* Sidebar content */
+#sidebar .sidebar-content {
+    margin-top: 10px;
+}
+
+#sidebar .sidebar-content p {
+    float: left;
+    width: 100%;
+}
+
+.sidebar_text_header p, .sidebar-text-header-mobile p {
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #333;
+    line-height: 22px;
+    font-size: 20px;
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    margin: 10px 0px 5px 0px;
+}
+
+.sidebar_text_intro p {
+    margin-top: 10px;
+}
+
+/* Sidebar colors */
+.colors {
+  width: 100%;
+}
+
+.color-box {
+    vertical-align: top;
+    float: left;
+    display: block;
+    width: 20%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.color-box span {
+    height: 15px;
+    width: 100%;
+    display: block;
+    opacity: 1;
+}
+
+
+/* Special annotation in sidebar */
+.note {
+    color: grey;
+    font-size: 12px;
+    margin-top: 5px;
+    float: right;
+}
+
+
+/* Toggle buttons */
+.toggles {
+    text-align: center;
+    width: 48%;
+    float: right;
+    margin: 1%;
+}
+
+.toggle-prev {
+    float: left;
+}
+
+.toggle-next {
+    float: right;
+}
+
+.toggles .btn {
+    padding-top: 4%;
+    padding-right: 2%;
+    padding-bottom: 4%;
+    padding-left: 2%;
+    font-size: 14px;
+    width: 96%;
+}
+
+/* Credits */
+#sidebar #credits {
+    margin-top: 15px;
+    float: left;
+    font-size: 12px;
+    line-height: 1.5em;
+    width: 99%;
+    background-color: #FFF;
+    padding: 1%;
+    color: #666;
+}
+
+/* Leaflet controls */
+.leaflet-control-zoom a, .leaflet-control-zoom a:hover {
+    text-decoration: none;
+}
+
+.leaflet-top {
+    z-index: 8;
+    padding-top: 45px;
+}
+
+.leaflet-right {
+    left: 0;
+    right: 100;
+}
+
+.leaflet-bottom {
+    pointer-events: none;
+    z-index: 8;
+}
+
+/* Styles from iFrames */
+@media (max-width: 700px) {
+    /* Geocoder */
+    #geocoder-input {
+        width: 150px;
+    }
+
+    #geocoder .geocodifyDropdown {
+        width: 190px;
+    }
+
+    /* Header */
+    .header h3 {
+        display: inline;
+    }
+
+    /* Social buttons */
+    .header #share {
+        display: block;
+    }
+
+    /* Sidebar */
+    #sidebar .sidebar-content {
+        margin-top: 90px;
+    }
+
+    #sidebar .sidebar-content p {
+        margin: 0 0 5px;                              
+    }
+
+    #sidebar-inner {
+        padding-top: 0px;
+    }
+
+    /* Credits */
+    #sidebar #credits {
+        margin-top: 5px;
+    }
+
+    /* Map controls */
+    .leaflet-top {
+        padding-top: 85px;
+    }
+
+    #zoom-to-iowa a {
+        top: 155px;
+    }
+
+    .header h3 {
+        font-size: 17px;
+        line-height: 30px;
+        max-width: none;
+    }
+
+}
+
+/* Styles from mobile devices */
+@media (max-width: 600px) {
+    /* Social buttons */
+    .header #share {
+        display: none;
+    }
+
+    /* Sidebar */
+    #sidebar {
+        font-size: 12px;
+        position: absolute;
+        top: auto;
+        height: auto;
+        bottom: 0;
+        left: 0;
+        padding: 0%;
+        margin: 0%;
+        width: 100%;
+        z-index: 1000000;
+        box-shadow: 0px -1px 3px -1px #666;
+        background-color: #FFF;
+        border-top: 1px solid #999;
+        max-height: 100px;
+        overflow: visible;
+    }   
+
+    #sidebar #share {
+        position: fixed;
+        width: 100%;
+        bottom: 0%;
+        background-color: #FFF;
+        box-shadow: 0px 1px 3px 0px #333;
+        left: 0%;
+    }
+    
+    #sidebar .sidebar-content {
+        margin-top: 0px;
+    }
+    
+    #sidebar .sidebar-content p {
+        margin: 0 0 10px;                              
+    }
+
+    #inner {
+        height: auto;
+        background-color: #FFF;
+        width: auto;
+        padding: 1%;
+        left: 0%;
+        border-bottom: 1px solid #333;
+        position: relative;
+        overflow: scroll;
+    }
+
+    /* Map */
+    #map {
+        position: absolute;
+        cursor: default;
+        top: 0%;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /* Credits */
+    #sidebar #credits {
+        margin-top: 15px;
+        padding-bottom: 50px;
+    }
+
+    /* Leaflet controls */
+    .leaflet-popup-content {
+        margin: 7px 15px;
+    }
+    
+    .leaflet-popup-content h4 {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .leaflet-popup-content p {
+        margin: 0px;
+        font-size: 11px;
+    }
+
+    .leaflet-container .leaflet-control-attribution, .leaflet-container .leaflet-control-scale {
+        font-size: 10px;
+    }
+
+    .leaflet-bar {
+        box-shadow: 0 0 0 rgba(0,0,0,0.4);
+    }
+
+    /* Map controls */
+    .leaflet-top, .leaflet-right {
+        display: none;
+    }
+}
+
+/* Styles from mobile devices */
+@media (max-width: 500px) {
+    #geocoder-input {
+        width: 125px;
+    }
+
+    #geocoder .geocodifyDropdown {
+        width: 175px;
+    }
+}
+
+
+/* Styles from mobile devices */
+@media (max-width: 400px) {
+    .header #share {
+        display: none;
+    }
+
+    #geocoder-input {
+        width: 100px;
+    }
+
+    #geocoder .geocodifyDropdown {
+        width: 140px;
+    }
+
+    .header h3 {
+        font-size: 14px;
+        line-height: 24px;
+        max-width: none;
+    }
+
+    #sidebar .sidebar-content p {
+        margin-top: 10px;
+    }
+}

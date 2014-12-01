@@ -1,0 +1,1160 @@
+body {
+    width: 100% !important;
+    min-width: 0 !important;
+    margin: 0px auto !important;
+    padding: 0px !important;
+}
+
+.hide-desktop {
+    display: none;
+}
+.show-desktop {
+    display: block;
+}
+
+/* Header */
+#container {
+    width: 100% !important;
+    max-width: 960px !important;
+    padding: 0px !important;
+    margin: 0px auto !important;
+}
+
+/* Body container */
+#container #main {
+    float: left !important;
+    padding: 0px !important;
+    width: 100% !important;
+    margin: 0px auto !important;
+    background-color: #FFF;
+}
+
+#container #main #header {
+    height: auto !important;
+    width: 100%;
+    padding-top: 0px;
+    background-color: #FFF;
+}
+
+#container #main #header #midhead {
+    border-top: 0px solid #FFF !important;
+    border-bottom: 0px solid #FFF !important;
+    background: #FFF !important;
+    height: auto !important;
+    margin-bottom: 0 !important;
+    overflow: hidden !important;
+}
+
+#container #main #header #midhead #midhead-content{
+    height: 131px !important;
+    overflow: hidden !important;
+    float: left !important;
+    width: 100% !important;
+}
+
+/* Leaderboard ad */
+#LeaderboardTop {
+    width: 100% !important;
+    position: relative;
+}
+
+
+/* Station tabs */
+#stationtabs, #stationtabs ul li a, #stationtabs #tab4 a, #stationtabs #tab4 .fa-envelope-o {
+    background-color: #2A2A2A !important;
+    color: #CFCFCF !important;
+}
+
+#stationtabs {
+    float: left !important;
+    width: 100% !important;
+    margin: 0 !important;
+    position: relative !important;
+    clear: both !important;
+    top: 0px !important;
+    border-bottom: 1px solid #CFCFCF !important;
+}
+
+#stationtabs ul li a {
+    border-right: #CFCFCF 1px solid;
+}
+
+#stationtabs #tab4 {
+    float: right !important;
+    padding-left: 0px !important;
+    padding-right: 5% !important;
+    padding-top: 3px !important;
+}
+
+#stationtabs #tab4 a {
+    background: none !important;
+    font-size: 12px !important;
+    line-height: 15px !important;
+    letter-spacing: 0px !important;
+    padding: 0px !important;
+    text-indent: 0px !important;
+    width: auto !important;
+    float: left !important;
+    margin-right: 5px !important;
+}
+
+#stationtabs #tab4 .fa-envelope-o {
+    float: right !important;
+    padding-bottom: 1px !important;
+    line-height: 14px !important;
+}
+
+#stationtabs #tab5, #stationtabs #tab6, #stationtabs #tab7 {
+    margin-right: 3px !important;
+    width: 30px !important;
+}
+
+#stationtabs #tab5 {
+    background-color: #385998 !important;
+}
+
+#stationtabs #tab5 a {
+    background: url("images/facebook-128.png") !important;
+    background-size: 20px !important;
+}
+
+#stationtabs #tab6 {
+    background-color: #00ACED !important;
+}
+
+#stationtabs #tab6 a {
+    background: url("images/twitter-128.png") !important;
+    background-size: 20px !important;
+}
+
+#stationtabs #tab7 {
+    background-color: #E67E22 !important;
+}
+
+#stationtabs #tab7 a {
+    background: url("images/rss-128.png") !important;
+    background-size: 20px !important;
+}
+
+#stationtabs ul #tab8 a {
+    line-height: 15px !important;
+}
+
+
+/* Header alert box */
+#header_alert_bar_wrapper {
+    display: none;
+    width: 100% !important;
+    top: 0px !important;
+    border-bottom: 1px solid #CFCFCF;
+    box-shadow: 0 0px 1px 0px #333;
+}
+
+#header_alert_bar_wrapper {
+    background-color: #5A5A5A;
+    padding:0px 0px 20px 0;
+    overflow: hidden;
+}
+
+#header_alert_bar_wrapper ul {margin:0; padding:0;}
+#header_alert_bar_wrapper li {list-style:none;}
+#header_alert_bar_wrapper .blue, #header_alert_bar_wrapper .red {color:white; margin:0px 10px 0px 5px; padding:5px 7px; font-weight: bold;}
+#header_alert_bar_wrapper .blue {background-color: #47B5F0;}
+#header_alert_bar_wrapper .red {background-color:#9C0901;}
+#header_alert_bar_wrapper .header_alert_text {color:#cfcfcf; line-height: 30px;}
+.header_alert_box {float:left; padding: 0px 7px;}
+#header_alert_content {height: 30px}
+
+/* Ticker Styles */
+ul#ticker {
+height: 120px;
+overflow: hidden;
+}
+ul#ticker  li {
+height: 99px;
+padding: 10px;
+}
+ul#ticker li a {
+    color: #EDEDED;
+    text-decoration: none;
+}
+ul#ticker li a:hover {text-decoration: underline;}
+ul#ticker li span {
+display: block;
+color: #06C;
+}
+
+/* Logo */
+#logo-wrapper {
+    float: left;
+}
+
+/* Weather */
+#weatherbox {
+    margin-top: 5px !important;
+    height: auto !important;
+    top: 0px !important;
+    padding: 0px !important;
+    width: auto !important;
+}
+
+#weatherbox #weathercontent {
+    float: right !important;
+    width: auto !important;
+    height: auto !important;
+    margin-left: 10px !important;
+}
+
+/* Header promo */
+.headerpromo {
+    float: right !important;
+    margin: 0px !important;
+    right: 6% !important;
+    position: relative !important;
+    top: 0px !important;
+    margin-top: 22px !important;
+}
+
+
+/* Date, time */
+.date-weather {
+    display: inline-block;
+    font-family: 'Helvetica Neue', Helvetica, arial, san-serif !important;
+}
+
+.logo-container, .date-weather .date-wrapper {
+    padding-left: 0px !important;
+}
+
+.date-weather .date, .date-weather .weather, .date-weather .skycondition, .date-weather .wind{
+    color: #2A2A2A !important;
+    padding-top: 0px !important;
+    line-height: 20px !important;
+    letter-spacing: 0 !important;
+}
+
+.date-weather .date {
+    font-size: 18px !important;
+    font-weight: bold !important;
+    min-width: 175px !important;
+}
+
+.date-weather .temp-condition {
+    height: 20px !important;
+}
+.date-weather .weather, .date-weather .skycondition {
+    font-size: 16px !important;
+}
+
+.date-weather .skycondition {
+    margin-left: 5px !important;
+}
+
+.date-weather .wind {
+    font-size: 14px !important;
+}
+
+.date-weather a:hover {
+    color: #2d546b !important;
+    text-decoration: underline !important;
+}
+
+.content-wrapper a img {
+    height: 120px !important;
+}
+
+
+
+/* Weather box */
+#header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-box-format {
+    min-width: 0px !important;
+    width: auto !important;
+    max-width: none !important;
+    margin-top: 5px !important;
+    float: left !important;
+}
+
+#header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default #wx-widget-1 .wx-panel-widget .wx-format {
+    border: 0 !important;
+}
+
+
+/* .wx-header */
+#header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-panel-widget .wx-header {
+    /*background-color: #eee !important;*/
+    background-color: #000 !important;
+    color:#fff !important;
+    border-bottom: 1px solid #cccccc !important;
+}
+
+/* Header City/State Label */
+#header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-panel-widget .wx-header h2 {/
+    color: #fff !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    display: inline-block !important;
+}
+#header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-panel-widget .wx-header h2 div span.wx-city {
+}
+#header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-panel-widget .wx-header h2 div span.wx-state {
+}
+
+/* Sky icon */
+#header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-current-conditions-widget .wx-box-format .wx-content .wx-summary .wx-sky {
+    float: left !important;
+    width: 65px !important;
+}
+
+#header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-current-conditions-widget .wx-box-format .wx-content .wx-summary .wx-sky img {
+    height: 40px !important;
+}
+
+/* Current Temperature */
+#header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-current-conditions-widget .wx-box-format .wx-content .wx-summary {
+    font-size: 14px !important;
+}
+
+#header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-current-conditions-widget .wx-box-format .wx-content .wx-summary .wx-sky .wx-wrapper, #header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-current-conditions-widget .wx-box-format .wx-content .wx-summary .wx-temperature .wx-wrapper {
+    padding-top: 0px !important;
+    height: 70px !important;
+}
+
+#header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-current-conditions-widget .wx-box-format .wx-content .wx-summary .wx-sky .wx-text {
+    font-size: 12px !important;
+    top: 45px !important;
+}
+
+/* Temperature */
+#header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-current-conditions-widget .wx-box-format .wx-content .wx-summary .wx-temperature {
+    float: right !important;
+    width: 85px !important;
+}
+
+#header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-current-conditions-widget .wx-box-format .wx-content .wx-summary .wx-temperature .wx-text  {
+    font-size: 13px !important;
+    top: 45px !important;
+}
+
+#header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-current-conditions-widget .wx-box-format .wx-content .wx-summary .wx-temperature .wx-wrapper {
+    text-align: center !important;
+}
+
+#header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-current-conditions-widget .wx-box-format .wx-content .wx-summary .wx-temperature .wx-text {
+    text-align: center !important;
+}
+
+#header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-panel-widget dl.wx-current dd {
+    font-size: 30px !important;
+    line-height: 45px !important;
+    font-weight: bold !important;
+}
+
+#header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-current-conditions-widget .wx-box-format .wx-content .wx-summary .wx-temperature .wx-wrapper dl.wx-current dd {
+    margin-top: 0px !important;
+}
+
+/* Feels Like Temperature */
+#header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-panel-widget p.wx-feels-like {
+    padding-left: 0 !important;
+    padding-right: 0px !important;
+    font-size: 12px !important;
+}
+
+/* Marketplace */
+#aboveHeaderModules {
+    height: auto !important;
+    margin-bottom: 0 !important;
+    overflow: hidden !important;
+}
+
+#position-wrapper {
+    margin-top: 10px !important;
+    width: 160px !important;
+    left: 0 !important;
+    padding: 0px !important;
+    position: relative !important;
+    float: right !important;
+}
+
+.kcrg-marketplace {
+    width: 100% !important;
+    max-width: 140px !important;
+    float: right !important;
+}
+
+#marketplace {
+    width: auto !important;
+    padding: 0px !important;
+    height: auto !important;
+}
+
+#marketplace .title {
+    background-color: #E67E22 !important;
+    border-radius: 6px !important;
+    color: white !important; 
+    font-family: 'Helvetica Neue', Helvetica, arial, san-serif !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+    padding: 2px 0 2px 0 !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    line-height: 18px !important;
+    width: 94% !important;
+    margin-left: 4% !important;
+}
+
+#marketplace .link-wrapper {
+    padding: 0 14px 0  !important0;
+    line-height: 16px !important;
+}
+
+#marketplace .link {
+    padding-left: 20px !important;
+    line-height: 14px !important;
+}
+
+#marketplace .link a, #marketplace .link a:visited {
+    font-size: 12px !important;
+    font-family: 'Helvetica Neue', Helvetica, arial, san-serif !important;
+    text-decoration: none !important;
+    color: #0060A9!important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    font-weight: bold !important;
+}
+
+#marketplace .link a:hover {
+    color: #00355D !important;
+    text-decoration: underline !important;
+}
+
+
+#marketplace .link {
+  background-image: url(images/graydot.png);
+  background-repeat: no-repeat;
+  padding-left: 16px;
+}
+#marketplace .link.autos:hover {
+  background-image: url(images/greendot.png);
+}
+#marketplace .link.careers:hover {
+  background-image: url(images/bluedot.png);
+}
+#marketplace .link.htd:hover {
+  background-image: url(images/purpledot.png);
+}
+#marketplace .link.classifieds:hover {
+  background-image: url(images/yellowdot.png);
+}
+#marketplace .link.homes:hover {
+  background-image: url(images/reddot.png);
+}
+
+/* Navigation */
+#nav {
+    float: left !important;
+    position: relative !important;
+    top: 0px !important;
+    margin-top: 0px !important;
+    width: 100% !important;
+    max-width: 960px !important;
+    margin-bottom: 15px !important;
+}
+
+#nav.locked {
+    position: fixed !important;
+    top: 0 !important;
+    z-index: 100000 !important;
+}
+
+#nav #navbuttons {
+    width: 100%;
+    background-color: #cfcfcf;
+    box-shadow: 0 0px 1px 0px #333;
+    border-bottom: 1px solid #013763;
+    height: 30px !important;
+    line-height: 30px !important;
+    float: left !important;
+    margin: 0 !important;
+}
+
+#nav #navbuttons li {
+    float: left !important;
+}
+
+#nav #navbuttons li:first-child {
+  display: none !important;
+}
+
+#nav #navbuttons li:last-child {
+    float:none !important;
+    overflow:hidden !important;
+}
+
+#nav #navbuttons a {
+    color: #2A2A2A;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    padding: 0 8px;
+}
+
+/* Sub nav */
+#subnav {
+    width: 100% !important;
+    line-height: 24px !important;
+    height: 24px !important;
+    border-bottom: #6b6b6b solid 1px;
+    box-shadow: 0 0px 1px 0px #333;
+}
+
+#subnav li {
+    height: 25px !important;
+}
+
+#subnav a {
+    line-height: 25px !important;
+    height: 25px !important;
+}
+
+
+/* Search box */
+#newJSSearch {
+    /*float: left !important;*/
+    /*position: relative !important;*/
+    /*margin-top: 0px !important;*/
+    /*color: #333 !important;*/
+    /*width: 100% !important;*/
+    /*padding: 5px 0 !important;*/
+    border-left: none !important;
+}
+
+#newJSSearch:before {
+    margin-top: 8px !important;
+    height: 100% !important;
+}
+
+#newJSSearch .fa-search {
+    color: #333333 !important;
+    float: right !important;
+    cursor: pointer !important;
+    text-shadow: 1px 1px #CCCCCC;
+    padding-top: 8px;
+}
+
+#newJSSearch input {
+    float: right !important;
+    font-size: 12px !important;
+    line-height: 24px !important;
+    height: 24px !important;
+    width: auto !important;
+    max-width: 120px !important;
+    border: 0px !important;
+    border-radius: 0px !important;
+    box-shadow: 0 0 10px #777777;
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    /* border: 1px solid #2A2A2A !important; */
+    /* margin-right: 3% !important; */
+    margin: 3px !important;
+    padding: 0 5px !important;
+}
+
+
+/* Queryly search box */
+#queryly_result a {
+  font-family: Arial;
+  color: #FFF !important;
+  line-height: 20px !important;
+  height: 40px !important;
+  text-transform: none !important;
+}
+
+#queryly_result a:hover {
+  color: #333 !important;
+  text-decoration: underline !important;
+}
+
+#queryly_header > div > div:nth-child(1) > a {
+  font-size: 24px !important;
+  padding-top: 5px !important;
+}
+
+#queryly_header > div > div:nth-child(1) > a:hover {
+  color: #DDD !important;
+  text-decoration: none !important;
+}
+
+#queryly_header > div {
+  height: 35px !important;
+  background: #2A2A2A !important;
+}
+
+.queryly_desc {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  text-decoration: none !important;
+  text-transform: none !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  font-weight: normal !important;
+
+}
+
+.columnright .radar-wrapper {
+    float: left;
+}
+
+#maintable {
+    background-color: #FFF;
+}
+
+#RightCol1 {
+    float: left;
+}
+
+/* Footer */
+#footer {
+    width: 100%;
+}
+
+#footer #navbottom {
+    margin-bottom: 5px;
+}
+
+#footer .company {
+    margin-left: 3px;
+}
+
+@media (max-width: 960px) {
+    .hide-960 {
+        display: none;
+    }
+    .show-960 {
+        display: block;
+    }
+
+    /* Box above nav */
+    #container #main #header #midhead #midhead-content {
+        height: 119px !important;
+    }
+
+    /* Header bar */
+    #header_alert_bar_wrapper {
+        margin-bottom: 5px !important;
+    }
+
+    /* Logo */
+    #weatherbox {
+        margin-top: 0 !important;
+    }
+
+    .content-wrapper a img {
+        /*height: 110px !important;*/
+    }
+
+    /* Promo image */
+    .headerpromo {
+        margin-top: 16px !important;
+    }
+
+    .headerpromo img {
+        width: 300px !important;
+        margin-top: 15px !important;
+    }
+
+    /* Marketplace */
+    #position-wrapper {
+        margin-top: 5px !important;
+    }
+
+    /* Navigation */
+    #nav #navbuttons li {
+        padding: 0px !important;
+    }
+
+    #nav #navbuttons a {
+        font-size: 14px;
+        padding: 0 7px;
+    }
+
+    #subnav a {
+        padding: 0px 12px 0 12px;
+        font-size: 12px;
+    }
+
+    /* Footer */
+    #footer .copydoc {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .hide-900 {
+        display: none;
+    }
+    .show-900 {
+        display: block;
+    }
+
+    /* Weather */
+    .date-weather .date {
+        font-size: 16px !important;
+        line-height: 18px !important;
+    }
+
+    .date-weather .weather, .date-weather .skycondition, .date-weather .wind {
+        font-size: 14px !important;
+        line-height: 18px !important;
+    }
+
+    #header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-box-format {
+        margin-top: 15px !important;
+    }
+
+    #header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-current-conditions-widget .wx-box-format .wx-content .wx-summary .wx-sky img {
+        height: 25px !important;
+    }
+
+
+    #header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-current-conditions-widget .wx-box-format .wx-content .wx-summary .wx-sky .wx-text {
+        top: 30px !important;
+    }
+    #header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-current-conditions-widget .wx-box-format .wx-content .wx-summary .wx-temperature .wx-text  {
+        top: 30px !important;
+    }
+
+    #header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-panel-widget dl.wx-current dd {
+        font-size: 20px !important;
+        line-height: 25px !important;
+    }
+
+    /* Navigation */
+    #nav #navbuttons a {
+        font-size: 13px;
+        padding: 0 6px;
+    }
+
+    #subnav a {
+        padding: 0px 9px 0 9px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 850px) {
+    .hide-850 {
+        display: none;
+    }
+    .show-850 {
+        display: block;
+    }
+
+    /* Box above nav */
+    #container #main #header #midhead #midhead-content {
+        height: 109px !important;
+    }
+
+    /* Logo */
+    .content-wrapper a img {
+        height: 100px !important;
+        margin-top: 5px !important;
+    }
+
+    /* Promo image */
+    .headerpromo {
+        margin-top: 5px !important;
+    }
+
+    .headerpromo img {
+        margin-top: 15px !important;
+    }
+
+    /* Weather */
+    .date-weather .date {
+        font-size: 14px !important;
+        line-height: 16px !important;
+    }
+
+    .date-weather .weather, .date-weather .skycondition, .date-weather .wind {
+        font-size: 13px !important;
+        line-height: 16px !important;
+    }
+
+    #header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-box-format {
+        margin-top: 5px !important;
+    }
+
+    /* Marketplace */
+    #position-wrapper {
+        width: 130px !important;
+    }
+    
+    #marketplace .title {
+        font-size: 12px !important;
+        line-height: 14px !important;
+    }
+
+    #marketplace .link a {
+        font-size: 10px !important;
+        line-height: 12px !important;
+    }
+    
+    .autos {
+        margin-top: 2px !important;
+    }
+
+    /* Navigation */
+    #nav #navbuttons a {
+        font-size: 12px;
+        padding: 0 5px;
+    }
+
+    #subnav a {
+        padding: 0px 7px 0 7px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 800px) {
+    .hide-800 {
+        display: none;
+    }
+
+    .show-800 {
+        display: block;
+    }
+
+    /* Box above nav */
+    #container #main #header #midhead #midhead-content {
+        height: 101px !important;
+    }
+
+    /* Header bar */
+    #header_alert_bar_wrapper {
+        margin-bottom: 2px !important;
+    }
+
+    /* Logo */
+    .content-wrapper a img {
+        height: 80px !important;
+        margin-top: 10px !important;
+    }
+
+    /* Promo image */
+    .headerpromo {
+        margin-top: 12px !important;
+    }
+
+    .headerpromo img {
+        width: 250px !important;
+        margin-top: 15px !important;
+    }
+
+    /* Marketplace */
+    #position-wrapper {
+        margin-top: 2px !important;
+    }
+
+    .autos {
+        margin-top: 0px !important;
+    }
+
+    /* Navigation */
+    #nav #navbuttons a {
+        font-size: 11px;
+        padding: 0 4px;
+    }
+
+    #subnav a {
+        padding: 0px 4px 0 4px;
+        font-size: 10px;
+    }
+    
+}
+
+@media (max-width: 750px) {
+    .hide-750 {
+        display: none;
+    }
+    .show-750 {
+        display: block;
+    }
+
+    /* Box above nav */
+    #container #main #header #midhead #midhead-content {
+        height: 84px !important;
+    }
+
+    /* Station tabs */
+    #stationtabs ul li {
+        height: 20px !important;
+    }
+
+    #stationtabs ul li a, #stationtabs #tab4 a, #stationtabs #tab4 .fa-envelope-o {
+        font-size: 11px !important;
+        line-height: 12px !important;
+    }
+
+    #stationtabs ul li {
+        height: 20px !important;
+    }
+
+    #stationtabs #tab5, #stationtabs #tab6, #stationtabs #tab7 {
+        width: 20px !important;
+    }
+
+    #stationtabs #tab5 a, #stationtabs #tab6 a, #stationtabs #tab7 a {
+        background-size: 19px !important;
+    }
+
+    /* Top ad */
+    #LeaderboardTop {
+        display: none !important;
+    }
+
+    /* Header */
+    #header {
+        padding-top: 0px !important;
+    }
+
+    /* Logo */
+    .content-wrapper a img {
+        margin-top: 0px !important;
+    }
+
+    /* Weather */
+    .date-weather .wind {
+        padding-bottom: 0px !important;
+    }
+
+    #header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-current-conditions-widget .wx-box-format .wx-content .wx-summary .wx-sky .wx-sky-icon {
+        display: none !important;
+    }
+
+    #header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-current-conditions-widget .wx-box-format .wx-content .wx-summary .wx-sky .wx-text {
+        top: 5px !important;
+        text-align: left !important;
+    }
+
+    #header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-panel-widget dl.wx-current dd {
+        display: none !important;
+    }
+
+    #header #midhead #midhead-content #weatherbox #weatherdata .wx-skin-default .wx-current-conditions-widget .wx-box-format .wx-content .wx-summary .wx-temperature .wx-text {
+        top: 5px !important;
+        text-align: left !important;
+    }
+
+    /* Header promo */
+    .headerpromo {
+        right: 1% !important;
+        margin-top: 0px !important;
+    }
+
+    .headerpromo img {
+        margin-top: 10px !important;
+    }
+
+    /* Marketplace */
+    #position-wrapper {
+        display: none !important;
+    }
+
+    /* Navigation */
+    #newJSSearch input {
+        max-width: 90px !important;
+    }
+
+    /* Footer */
+    #navbuttons li {
+        padding: 0;
+    }
+
+    #navbottom #navbuttons a {
+        padding: 6px 10px;
+    }
+}
+
+@media (max-width: 700px) {
+    .hide-700 {
+        display: none;
+    }
+    .show-700 {
+        display: block;
+    }
+
+    #newJSSearch, #subnav {
+        display: none !important;
+    }
+}
+
+@media (max-width: 650px) {
+    .hide-mobile {
+        display: none;
+    }
+    .show-mobile {
+        display: block;
+    }
+
+    #maintable {
+        margin-top: 60px;
+    }
+
+    /* Footer */
+    #footer {
+        padding: 0;
+    }
+
+    #footer #navbottom {
+        margin-bottom: 0px;
+    }
+    
+    #navbuttons li {
+        width: 100%;
+        float: left;
+        padding: 0;
+        margin: 0;
+        border: none;
+    }
+
+    #navbottom #navbuttons {
+        height: auto;
+        overflow: auto;
+        width: 100%;
+    }
+
+    #navbottom #navbuttons a {
+        height: auto;
+        overflow: auto;
+        padding: 6px 0;
+        border-bottom: 1px solid #666;
+        letter-spacing: 0px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    #footer .copyright, #footer .company, #footer .address, #footer .email {
+        position: relative;
+        float: left;
+        display: block;
+        width: 100%;
+        background-color: #333;
+        color: #FFF;
+        visibility: visible;
+        padding: 8px 0 4px 4px;
+        right: 0px;
+        left: 0px;
+        /* border-bottom: 1px solid #666; */
+        font-size: 12px;
+        line-height: 14px;
+        text-align: left;
+    }
+
+    #footer .email {
+        padding-bottom: 8px;
+    }
+    
+    #footer .email a:link, #footer .email a:visited, #footer .email a:active {
+        color: #FFF;
+    }
+
+    #footer .company a {
+        color: #FFF;
+    }
+
+    #footer .address {
+        margin-top: 0px;
+    }
+
+}
+
+/* Styles for mobile devices */
+@media (max-width: 600px) {
+    /* Universal classes */
+    .hide-600 {
+        display: none;
+    }
+
+    .show-600 {
+        display: block;
+    }
+
+    .show-mobile-inline {
+        display: inline;
+    } 
+}
+
+/* Styles for mobile devices */
+@media (max-width: 550px) {
+    .hide-550 {
+        display: none;
+    }
+
+    .show-550 {
+        display: block;
+    }
+
+    .show-550-inline {
+        display: inline;
+    }
+}
+
+/* Styles for mobile devices */
+@media (max-width: 500px) {
+    .hide-500 {
+        display: none;
+    }
+
+    .show-500 {
+        display: block;
+    }
+
+    .show-500-inline {
+        display: inline;
+    }
+}
+
+/* Styles for mobile devices */
+@media (max-width: 450px) {
+    .hide-450 {
+        display: none;
+    }
+
+    .show-450 {
+        display: block;
+    }
+
+    .show-450-inline {
+        display: inline;
+    }
+}
+
+/* Styles from mobile devices */
+@media (max-width: 400px) {
+    /* Universal classes */
+    .hide-400 {
+        display: none;
+    }
+
+    .show-400 {
+        display: block;
+    }
+
+    .show-400-inline {
+        display: inline;
+    }
+}
+
+/* Styles for mobile devices */
+@media (max-width: 350px) {
+    .hide-350 {
+        display: none;
+    }
+
+    .show-350 {
+        display: block;
+    }
+
+    .show-350-inline {
+        display: inline;
+    }
+}

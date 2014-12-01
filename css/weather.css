@@ -1,0 +1,260 @@
+* {
+ padding: 0;
+ /*margin: 0; Commented on 8_oct_2013 for weather page */ 
+ }
+
+#alert_wrapper {
+ font-family: Helvetica, Arial, sans-serif;
+ font-size: 12px;
+ margin: 0 auto;
+ width: 640px;
+ height: 297px;
+ background-color: #636161;
+ }
+
+
+#leveloneheader {
+ width: 640px;
+ float: left;
+ padding: 0px 0px 0px 0px;
+ height: 44px;
+ margin: 0px 0px 0px 0px;
+
+ }
+ 
+#levelonefooter {
+ width: 640px;
+ float: left;
+ padding: 0px 0px 0px 0px;
+ height: 40px;
+ margin: 0px 0px 0px 0px;
+
+ }
+ 
+ #leveltwoheader {
+ width: 640px;
+ float: left;
+ padding: 0px 0px 0px 0px;
+ height: 44px;
+ margin: 0px 0px 0px 0px;
+
+ }
+ 
+#leveltwofooter {
+ width: 640px;
+ float: left;
+ padding: 0px 0px 0px 0px;
+ height: 40px;
+ margin: 0px 0px 0px 0px;
+
+ }
+ 
+ #levelthreeheader {
+ width: 640px;
+ float: left;
+ padding: 0px 0px 0px 0px;
+ height: 44px;
+ margin: 0px 0px 0px 0px;
+
+ }
+ 
+#levelthreefooter {
+ width: 640px;
+ float: left;
+ padding: 0px 0px 0px 0px;
+ height: 40px;
+ margin: 0px 0px 0px 0px;
+
+ }
+ 
+#mapbox { 
+ margin: 0px 0px 0px 0px;
+ padding: 5px 20px 5px 5px;
+ height: 203px;
+ width: 190px;
+ float: left;
+}
+
+#weathercontent {
+ /*float: right;*/
+ padding: 0px 0px 0px 0px;
+ height: 203px;
+ width: 440px;
+ margin: 0px 0px 0px 0px;
+}
+
+p.infotext
+{
+font-family: Helvetica, Arial, sans-serif;
+font-size: 12px;
+font-weight: normal;
+text-align: left;
+color: #FFFFFF;
+}
+
+#alert_legend {
+    width:425px;
+    height:50px;
+    float:right;
+    padding-top:15px;
+}
+
+#alert_legend li div {
+    margin-top:2px;
+}
+
+#alert_legend li {
+    color:white;
+    font-weight:bold;
+    width:200px;
+}
+
+#alert_map {
+    width:190px;
+    height:203px;
+}
+
+#alert_click_county {
+    display:none;
+}
+
+.ui-dialog {
+    background-color:#D3D3D3;
+    border-style:solid;
+    border-width:1px;
+    margin:0 auto;
+    width:306px!important;
+}
+
+#weathersevere #storysection .title {
+    display: none;
+}
+#weathersevere .columncenter .sectiondiv {
+    display: none;
+    visibility: hidden;
+}
+
+
+
+
+#weathersevere .columncenter #headlineWeatherWaterCooler .sectiondiv {
+    display: block;
+    visibility: visible;
+}
+#weathersevere .columncenter #kcrg_citycam .sectiondiv {
+    display: block;
+    visibility: visible;
+}
+#weathersevere .columncenter #topstory .sectiondiv {
+    background: url("http://media.kcrg.com/images/LiveStream-Header-2011-Sponsor.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+    display: block;
+    height: 52px;
+    margin: 0 0 10px 25px;
+    text-indent: -9999px;
+    visibility: visible;
+    width: 640px;
+}
+#kcrg_severeweather_top {
+    overflow: hidden;
+    width: 630px;
+}
+#kcrg_severeweather_middle {
+    overflow: hidden;
+    width: 630px;
+}
+#smg_livetabs-0, #smg_livetabs-1, #smg_livetabs-2, #smg_livetabs-3 {
+    margin-top: 20px;
+    text-align: center;
+}
+#kcrg_severeweather_bottom {
+    overflow: hidden;
+    width: 630px;
+}
+#kcrg_severeweather_br {
+    float: left;
+    margin-left: 20px;
+    overflow: hidden;
+    width: 300px;
+}
+#kcrg_severeweather_bl {
+    float: left;
+    margin-left: 10px;
+    overflow: hidden;
+    width: 300px;
+}
+#kcrg_severeweather_bottom .kcrg_sw_box h1 {
+    font-family: Arial,Vedana,Helvetica,sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: none;
+}
+#kcrg_severeweather_bottom .kcrg_sw_box h2, #kcrg_severeweather_bottom .yn h2 {
+    border-bottom: 3px solid #CCCCCC;
+    font-family: Arial,Vedana,Helvetica,sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+}
+#kcrg_severeweather_bottom .kcrg_sw_box {
+    margin-bottom: 26px;
+    width: 300px;
+}
+#kcrg_severeweather_bottom .kcrg_sw_box div.hr {
+    background-color: #3B3B3B;
+    color: #3B3B3B;
+    height: 1px;
+    margin: 10px 0;
+    width: 20px;
+}
+#kcrg_severeweather_bottom #kcrg_citycam {
+    height: 300px;
+}
+#kcrg_severeweather_bottom #headlineWeatherWaterCooler {
+}
+#kcrg_severeweather_bottom .yn {
+    float: none;
+}
+#kcrg_severeweather_bottom #ad_12 {
+    float: none;
+}
+#kcrg_severeweather_bottom #ad_12 img {
+    border: 0 none;
+}
+#kcrg_severeweather_bottom #kcrg_safetyinfo {
+}
+#kcrg_severeweather_bottom #kcrg_textalerts {
+}
+#kcrg_severeweather_bottom #kcrg_citycam img {
+    width: 300px;
+}
+#kcrg_severeweather_bottom #headlineWeatherWaterCooler ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+#kcrg_severeweather_bottom #headlineWeatherWaterCooler li {
+    border-bottom: 1px dotted #CCCCCC;
+    margin: 10px 0 0;
+    padding: 0 0 10px;
+}
+#kcrg_severeweather_bottom #headlineWeatherWaterCooler li:last-child {
+    border-bottom: 0 none;
+}
+#kcrg_severeweather_bottom #headlineWeatherWaterCooler li a {
+    font-size: 14px;
+    font-weight: bold;
+}
+#kcrg_severeweather_bottom .kcrg_sw_box {
+    font-size: 12px;
+}
+#kcrg_severeweather_bottom .kcrg_sw_box ul {
+    font-size: 12px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#stormnet.sectiondiv {
+    margin-left: 10px;
+}

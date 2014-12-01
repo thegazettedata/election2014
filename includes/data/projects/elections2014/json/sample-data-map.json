@@ -1,0 +1,893 @@
+var sample_data_map = [
+    {
+        "county": "adair",
+        "democrats": "1068",
+        "republicans": "1907",
+        "noparty": "2010",
+        "inactive": "534",
+        "lean": "Leans Republican",
+        "rowNumber": 1
+    },
+    {
+        "county": "adams",
+        "democrats": "647",
+        "republicans": "929",
+        "noparty": "1177",
+        "inactive": "285",
+        "lean": "Leans Republican",
+        "rowNumber": 2
+    },
+    {
+        "county": "allamakee",
+        "democrats": "2142",
+        "republicans": "4212",
+        "noparty": "3138",
+        "inactive": "605",
+        "lean": "Strong Republican",
+        "rowNumber": 3
+    },
+    {
+        "county": "appanoose",
+        "democrats": "2488",
+        "republicans": "2737",
+        "noparty": "3037",
+        "inactive": "968",
+        "lean": "Leans Republican",
+        "rowNumber": 4
+    },
+    {
+        "county": "audubon",
+        "democrats": "1253",
+        "republicans": "1545",
+        "noparty": "1404",
+        "inactive": "349",
+        "lean": "Leans Republican",
+        "rowNumber": 5
+    },
+    {
+        "county": "benton",
+        "democrats": "4416",
+        "republicans": "4873",
+        "noparty": "7472",
+        "inactive": "1224",
+        "lean": "Leans Republican",
+        "rowNumber": 6
+    },
+    {
+        "county": "blackhawk",
+        "democrats": "28998",
+        "republicans": "20225",
+        "noparty": "31782",
+        "inactive": "7272",
+        "lean": "Strong Democrat",
+        "rowNumber": 7
+    },
+    {
+        "county": "boone",
+        "democrats": "5146",
+        "republicans": "5398",
+        "noparty": "6864",
+        "inactive": "1335",
+        "lean": "Leans Republican",
+        "rowNumber": 8
+    },
+    {
+        "county": "bremer",
+        "democrats": "3655",
+        "republicans": "4883",
+        "noparty": "7460",
+        "inactive": "1541",
+        "lean": "Strong Republican",
+        "rowNumber": 9
+    },
+    {
+        "county": "buchanan",
+        "democrats": "3700",
+        "republicans": "3006",
+        "noparty": "6497",
+        "inactive": "920",
+        "lean": "Leans Democrat",
+        "rowNumber": 10
+    },
+    {
+        "county": "buenavista",
+        "democrats": "2929",
+        "republicans": "3877",
+        "noparty": "4712",
+        "inactive": "777",
+        "lean": "Leans Republican",
+        "rowNumber": 11
+    },
+    {
+        "county": "butler",
+        "democrats": "1716",
+        "republicans": "4453",
+        "noparty": "3515",
+        "inactive": "565",
+        "lean": "Strong Republican",
+        "rowNumber": 12
+    },
+    {
+        "county": "calhoun",
+        "democrats": "1401",
+        "republicans": "2336",
+        "noparty": "2754",
+        "inactive": "564",
+        "lean": "Leans Republican",
+        "rowNumber": 13
+    },
+    {
+        "county": "carroll",
+        "democrats": "3886",
+        "republicans": "3813",
+        "noparty": "6099",
+        "inactive": "1124",
+        "lean": "Leans Democrat",
+        "rowNumber": 14
+    },
+    {
+        "county": "cass",
+        "democrats": "1569",
+        "republicans": "4636",
+        "noparty": "3071",
+        "inactive": "1020",
+        "lean": "Strong Republican",
+        "rowNumber": 15
+    },
+    {
+        "county": "cedar",
+        "democrats": "3077",
+        "republicans": "3581",
+        "noparty": "4646",
+        "inactive": "868",
+        "lean": "Leans Republican",
+        "rowNumber": 16
+    },
+    {
+        "county": "cerrogordo",
+        "democrats": "9156",
+        "republicans": "7851",
+        "noparty": "12523",
+        "inactive": "2577",
+        "lean": "Strong Democrat",
+        "rowNumber": 17
+    },
+    {
+        "county": "cherokee",
+        "democrats": "1901",
+        "republicans": "3075",
+        "noparty": "3095",
+        "inactive": "658",
+        "lean": "Strong Republican",
+        "rowNumber": 18
+    },
+    {
+        "county": "chickasaw",
+        "democrats": "2754",
+        "republicans": "2094",
+        "noparty": "3556",
+        "inactive": "629",
+        "lean": "Leans Democrat",
+        "rowNumber": 19
+    },
+    {
+        "county": "clarke",
+        "democrats": "1574",
+        "republicans": "1707",
+        "noparty": "2186",
+        "inactive": "654",
+        "lean": "Leans Republican",
+        "rowNumber": 20
+    },
+    {
+        "county": "clay",
+        "democrats": "2401",
+        "republicans": "4352",
+        "noparty": "4269",
+        "inactive": "1131",
+        "lean": "Strong Republican",
+        "rowNumber": 21
+    },
+    {
+        "county": "clayton",
+        "democrats": "3319",
+        "republicans": "3235",
+        "noparty": "4789",
+        "inactive": "958",
+        "lean": "Leans Democrat",
+        "rowNumber": 22
+    },
+    {
+        "county": "clinton",
+        "democrats": "10237",
+        "republicans": "6990",
+        "noparty": "12969",
+        "inactive": "3743",
+        "lean": "Strong Democrat",
+        "rowNumber": 23
+    },
+    {
+        "county": "crawford",
+        "democrats": "2673",
+        "republicans": "3042",
+        "noparty": "3465",
+        "inactive": "804",
+        "lean": "Leans Republican",
+        "rowNumber": 24
+    },
+    {
+        "county": "dallas",
+        "democrats": "10153",
+        "republicans": "16100",
+        "noparty": "18486",
+        "inactive": "6705",
+        "lean": "Strong Republican",
+        "rowNumber": 25
+    },
+    {
+        "county": "davis",
+        "democrats": "1859",
+        "republicans": "1481",
+        "noparty": "1442",
+        "inactive": "461",
+        "lean": "Leans Democrat",
+        "rowNumber": 26
+    },
+    {
+        "county": "decatur",
+        "democrats": "1502",
+        "republicans": "1601",
+        "noparty": "1535",
+        "inactive": "1134",
+        "lean": "Leans Republican",
+        "rowNumber": 27
+    },
+    {
+        "county": "delaware",
+        "democrats": "2522",
+        "republicans": "3800",
+        "noparty": "4936",
+        "inactive": "714",
+        "lean": "Strong Republican",
+        "rowNumber": 28
+    },
+    {
+        "county": "desmoines",
+        "democrats": "11095",
+        "republicans": "5898",
+        "noparty": "8547",
+        "inactive": "2594",
+        "lean": "Strong Democrat",
+        "rowNumber": 29
+    },
+    {
+        "county": "dickinson",
+        "democrats": "2408",
+        "republicans": "5019",
+        "noparty": "4437",
+        "inactive": "674",
+        "lean": "Strong Republican",
+        "rowNumber": 30
+    },
+    {
+        "county": "dubuque",
+        "democrats": "24638",
+        "republicans": "14635",
+        "noparty": "22756",
+        "inactive": "5299",
+        "lean": "Strong Democrat",
+        "rowNumber": 31
+    },
+    {
+        "county": "emmet",
+        "democrats": "1954",
+        "republicans": "1606",
+        "noparty": "2829",
+        "inactive": "937",
+        "lean": "Leans Democrat",
+        "rowNumber": 32
+    },
+    {
+        "county": "fayette",
+        "democrats": "3594",
+        "republicans": "3905",
+        "noparty": "4168",
+        "inactive": "672",
+        "lean": "Leans Republican",
+        "rowNumber": 33
+    },
+    {
+        "county": "floyd",
+        "democrats": "3084",
+        "republicans": "2599",
+        "noparty": "4769",
+        "inactive": "629",
+        "lean": "Leans Democrat",
+        "rowNumber": 34
+    },
+    {
+        "county": "franklin",
+        "democrats": "1263",
+        "republicans": "3024",
+        "noparty": "2352",
+        "inactive": "480",
+        "lean": "Strong Republican",
+        "rowNumber": 35
+    },
+    {
+        "county": "fremont",
+        "democrats": "1180",
+        "republicans": "1945",
+        "noparty": "1642",
+        "inactive": "925",
+        "lean": "Leans Republican",
+        "rowNumber": 36
+    },
+    {
+        "county": "greene",
+        "democrats": "1868",
+        "republicans": "2045",
+        "noparty": "2275",
+        "inactive": "552",
+        "lean": "Leans Republican",
+        "rowNumber": 37
+    },
+    {
+        "county": "grundy",
+        "democrats": "1432",
+        "republicans": "4016",
+        "noparty": "3020",
+        "inactive": "494",
+        "lean": "Strong Republican",
+        "rowNumber": 38
+    },
+    {
+        "county": "guthrie",
+        "democrats": "1826",
+        "republicans": "2599",
+        "noparty": "2832",
+        "inactive": "627",
+        "lean": "Leans Republican",
+        "rowNumber": 39
+    },
+    {
+        "county": "hamilton",
+        "democrats": "2614",
+        "republicans": "3443",
+        "noparty": "3794",
+        "inactive": "967",
+        "lean": "Leans Republican",
+        "rowNumber": 40
+    },
+    {
+        "county": "hancock",
+        "democrats": "1497",
+        "republicans": "3171",
+        "noparty": "2808",
+        "inactive": "534",
+        "lean": "Strong Republican",
+        "rowNumber": 41
+    },
+    {
+        "county": "hardin",
+        "democrats": "2530",
+        "republicans": "4455",
+        "noparty": "3931",
+        "inactive": "1198",
+        "lean": "Strong Republican",
+        "rowNumber": 42
+    },
+    {
+        "county": "harrison",
+        "democrats": "2151",
+        "republicans": "3420",
+        "noparty": "2251",
+        "inactive": "106",
+        "lean": "Strong Republican",
+        "rowNumber": 43
+    },
+    {
+        "county": "henry",
+        "democrats": "2804",
+        "republicans": "5120",
+        "noparty": "4860",
+        "inactive": "1256",
+        "lean": "Strong Republican",
+        "rowNumber": 44
+    },
+    {
+        "county": "howard",
+        "democrats": "1799",
+        "republicans": "1406",
+        "noparty": "2521",
+        "inactive": "466",
+        "lean": "Leans Democrat",
+        "rowNumber": 45
+    },
+    {
+        "county": "humboldt",
+        "democrats": "1304",
+        "republicans": "2485",
+        "noparty": "2514",
+        "inactive": "608",
+        "lean": "Strong Republican",
+        "rowNumber": 46
+    },
+    {
+        "county": "ida",
+        "democrats": "880",
+        "republicans": "2047",
+        "noparty": "1875",
+        "inactive": "396",
+        "lean": "Strong Republican",
+        "rowNumber": 47
+    },
+    {
+        "county": "iowa",
+        "democrats": "2673",
+        "republicans": "3669",
+        "noparty": "4848",
+        "inactive": "845",
+        "lean": "Leans Republican",
+        "rowNumber": 48
+    },
+    {
+        "county": "jackson",
+        "democrats": "5428",
+        "republicans": "2609",
+        "noparty": "5559",
+        "inactive": "1254",
+        "lean": "Strong Democrat",
+        "rowNumber": 49
+    },
+    {
+        "county": "jasper",
+        "democrats": "8244",
+        "republicans": "6830",
+        "noparty": "7959",
+        "inactive": "3462",
+        "lean": "Strong Democrat",
+        "rowNumber": 50
+    },
+    {
+        "county": "jefferson",
+        "democrats": "3338",
+        "republicans": "3380",
+        "noparty": "3375",
+        "inactive": "1508",
+        "lean": "Leans Republican",
+        "rowNumber": 51
+    },
+    {
+        "county": "johnson",
+        "democrats": "37849",
+        "republicans": "17982",
+        "noparty": "30988",
+        "inactive": "20809",
+        "lean": "Strong Democrat",
+        "rowNumber": 52
+    },
+    {
+        "county": "jones",
+        "democrats": "3350",
+        "republicans": "3556",
+        "noparty": "5924",
+        "inactive": "858",
+        "lean": "Leans Republican",
+        "rowNumber": 53
+    },
+    {
+        "county": "keokuk",
+        "democrats": "2147",
+        "republicans": "2243",
+        "noparty": "2323",
+        "inactive": "506",
+        "lean": "Leans Republican",
+        "rowNumber": 54
+    },
+    {
+        "county": "kossuth",
+        "democrats": "3345",
+        "republicans": "3321",
+        "noparty": "4232",
+        "inactive": "808",
+        "lean": "Leans Democrat",
+        "rowNumber": 55
+    },
+    {
+        "county": "lee",
+        "democrats": "9697",
+        "republicans": "3946",
+        "noparty": "8028",
+        "inactive": "2178",
+        "lean": "Strong Democrat",
+        "rowNumber": 56
+    },
+    {
+        "county": "linn",
+        "democrats": "48875",
+        "republicans": "37100",
+        "noparty": "52288",
+        "inactive": "14062",
+        "lean": "Strong Democrat",
+        "rowNumber": 57
+    },
+    {
+        "county": "louisa",
+        "democrats": "1721",
+        "republicans": "2353",
+        "noparty": "2486",
+        "inactive": "845",
+        "lean": "Leans Republican",
+        "rowNumber": 58
+    },
+    {
+        "county": "lucas",
+        "democrats": "1372",
+        "republicans": "2050",
+        "noparty": "2007",
+        "inactive": "576",
+        "lean": "Leans Republican",
+        "rowNumber": 59
+    },
+    {
+        "county": "lyon",
+        "democrats": "869",
+        "republicans": "5300",
+        "noparty": "1712",
+        "inactive": "608",
+        "lean": "Strong Republican",
+        "rowNumber": 60
+    },
+    {
+        "county": "madison",
+        "democrats": "2778",
+        "republicans": "3799",
+        "noparty": "3743",
+        "inactive": "961",
+        "lean": "Strong Republican",
+        "rowNumber": 61
+    },
+    {
+        "county": "mahaska",
+        "democrats": "3007",
+        "republicans": "5804",
+        "noparty": "4911",
+        "inactive": "1646",
+        "lean": "Strong Republican",
+        "rowNumber": 62
+    },
+    {
+        "county": "marion",
+        "democrats": "5293",
+        "republicans": "8951",
+        "noparty": "7507",
+        "inactive": "2743",
+        "lean": "Strong Republican",
+        "rowNumber": 63
+    },
+    {
+        "county": "marshall",
+        "democrats": "7149",
+        "republicans": "7286",
+        "noparty": "9041",
+        "inactive": "2508",
+        "lean": "Leans Republican",
+        "rowNumber": 64
+    },
+    {
+        "county": "mills",
+        "democrats": "1884",
+        "republicans": "4680",
+        "noparty": "2987",
+        "inactive": "1025",
+        "lean": "Strong Republican",
+        "rowNumber": 65
+    },
+    {
+        "county": "mitchell",
+        "democrats": "1750",
+        "republicans": "2451",
+        "noparty": "2693",
+        "inactive": "430",
+        "lean": "Leans Republican",
+        "rowNumber": 66
+    },
+    {
+        "county": "monona",
+        "democrats": "1933",
+        "republicans": "1801",
+        "noparty": "2351",
+        "inactive": "525",
+        "lean": "Leans Democrat",
+        "rowNumber": 67
+    },
+    {
+        "county": "monroe",
+        "democrats": "1694",
+        "republicans": "1449",
+        "noparty": "1529",
+        "inactive": "325",
+        "lean": "Leans Democrat",
+        "rowNumber": 68
+    },
+    {
+        "county": "montgomery",
+        "democrats": "988",
+        "republicans": "3638",
+        "noparty": "2096",
+        "inactive": "893",
+        "lean": "Strong Republican",
+        "rowNumber": 69
+    },
+    {
+        "county": "muscatine",
+        "democrats": "7568",
+        "republicans": "7792",
+        "noparty": "10455",
+        "inactive": "3210",
+        "lean": "Leans Republican",
+        "rowNumber": 70
+    },
+    {
+        "county": "o'brien",
+        "democrats": "1305",
+        "republicans": "5231",
+        "noparty": "2728",
+        "inactive": "908",
+        "lean": "Strong Republican",
+        "rowNumber": 71
+    },
+    {
+        "county": "osceola",
+        "democrats": "503",
+        "republicans": "2490",
+        "noparty": "1097",
+        "inactive": "460",
+        "lean": "Strong Republican",
+        "rowNumber": 72
+    },
+    {
+        "county": "page",
+        "democrats": "1523",
+        "republicans": "4134",
+        "noparty": "3298",
+        "inactive": "1401",
+        "lean": "Strong Republican",
+        "rowNumber": 73
+    },
+    {
+        "county": "paloalto",
+        "democrats": "2312",
+        "republicans": "1533",
+        "noparty": "2171",
+        "inactive": "597",
+        "lean": "Leans Democrat",
+        "rowNumber": 74
+    },
+    {
+        "county": "plymouth",
+        "democrats": "3115",
+        "republicans": "7589",
+        "noparty": "5520",
+        "inactive": "1465",
+        "lean": "Strong Republican",
+        "rowNumber": 75
+    },
+    {
+        "county": "pocahontas",
+        "democrats": "1078",
+        "republicans": "1642",
+        "noparty": "2242",
+        "inactive": "553",
+        "lean": "Leans Republican",
+        "rowNumber": 76
+    },
+    {
+        "county": "polk",
+        "democrats": "101444",
+        "republicans": "79398",
+        "noparty": "81622",
+        "inactive": "16853",
+        "lean": "Strong Democrat",
+        "rowNumber": 77
+    },
+    {
+        "county": "pottawattamie",
+        "democrats": "15587",
+        "republicans": "20448",
+        "noparty": "18914",
+        "inactive": "6579",
+        "lean": "Strong Republican",
+        "rowNumber": 78
+    },
+    {
+        "county": "poweshiek",
+        "democrats": "3570",
+        "republicans": "3552",
+        "noparty": "5148",
+        "inactive": "2093",
+        "lean": "Leans Democrat",
+        "rowNumber": 79
+    },
+    {
+        "county": "ringgold",
+        "democrats": "890",
+        "republicans": "1425",
+        "noparty": "759",
+        "inactive": "135",
+        "lean": "Leans Republican",
+        "rowNumber": 80
+    },
+    {
+        "county": "sac",
+        "democrats": "1308",
+        "republicans": "3016",
+        "noparty": "2568",
+        "inactive": "744",
+        "lean": "Strong Republican",
+        "rowNumber": 81
+    },
+    {
+        "county": "scott",
+        "democrats": "34943",
+        "republicans": "29662",
+        "noparty": "45291",
+        "inactive": "15818",
+        "lean": "Strong Democrat",
+        "rowNumber": 82
+    },
+    {
+        "county": "shelby",
+        "democrats": "1826",
+        "republicans": "3524",
+        "noparty": "2558",
+        "inactive": "1161",
+        "lean": "Strong Republican",
+        "rowNumber": 83
+    },
+    {
+        "county": "sioux",
+        "democrats": "1629",
+        "republicans": "14359",
+        "noparty": "3906",
+        "inactive": "1087",
+        "lean": "Strong Republican",
+        "rowNumber": 84
+    },
+    {
+        "county": "story",
+        "democrats": "15834",
+        "republicans": "15365",
+        "noparty": "20775",
+        "inactive": "11214",
+        "lean": "Leans Democrat",
+        "rowNumber": 85
+    },
+    {
+        "county": "tama",
+        "democrats": "3243",
+        "republicans": "3264",
+        "noparty": "4609",
+        "inactive": "1039",
+        "lean": "Leans Republican",
+        "rowNumber": 86
+    },
+    {
+        "county": "taylor",
+        "democrats": "738",
+        "republicans": "1829",
+        "noparty": "1211",
+        "inactive": "501",
+        "lean": "Strong Republican",
+        "rowNumber": 87
+    },
+    {
+        "county": "union",
+        "democrats": "1708",
+        "republicans": "2736",
+        "noparty": "3118",
+        "inactive": "423",
+        "lean": "Strong Republican",
+        "rowNumber": 88
+    },
+    {
+        "county": "vanburen",
+        "democrats": "1009",
+        "republicans": "2057",
+        "noparty": "1587",
+        "inactive": "468",
+        "lean": "Strong Republican",
+        "rowNumber": 89
+    },
+    {
+        "county": "wapello",
+        "democrats": "8949",
+        "republicans": "4976",
+        "noparty": "7007",
+        "inactive": "2105",
+        "lean": "Strong Democrat",
+        "rowNumber": 90
+    },
+    {
+        "county": "warren",
+        "democrats": "9493",
+        "republicans": "10457",
+        "noparty": "10894",
+        "inactive": "2508",
+        "lean": "Leans Republican",
+        "rowNumber": 91
+    },
+    {
+        "county": "washington",
+        "democrats": "2890",
+        "republicans": "5543",
+        "noparty": "5174",
+        "inactive": "1037",
+        "lean": "Strong Republican",
+        "rowNumber": 92
+    },
+    {
+        "county": "wayne",
+        "democrats": "975",
+        "republicans": "1319",
+        "noparty": "1147",
+        "inactive": "351",
+        "lean": "Leans Republican",
+        "rowNumber": 93
+    },
+    {
+        "county": "webster",
+        "democrats": "8315",
+        "republicans": "6345",
+        "noparty": "8488",
+        "inactive": "2522",
+        "lean": "Strong Democrat",
+        "rowNumber": 94
+    },
+    {
+        "county": "winnebago",
+        "democrats": "1503",
+        "republicans": "2918",
+        "noparty": "2738",
+        "inactive": "665",
+        "lean": "Strong Republican",
+        "rowNumber": 95
+    },
+    {
+        "county": "winneshiek",
+        "democrats": "3499",
+        "republicans": "4364",
+        "noparty": "5152",
+        "inactive": "2082",
+        "lean": "Leans Republican",
+        "rowNumber": 96
+    },
+    {
+        "county": "woodbury",
+        "democrats": "18265",
+        "republicans": "18550",
+        "noparty": "18681",
+        "inactive": "5970",
+        "lean": "Leans Republican",
+        "rowNumber": 97
+    },
+    {
+        "county": "worth",
+        "democrats": "1472",
+        "republicans": "1701",
+        "noparty": "1984",
+        "inactive": "493",
+        "lean": "Leans Republican",
+        "rowNumber": 98
+    },
+    {
+        "county": "wright",
+        "democrats": "1937",
+        "republicans": "3460",
+        "noparty": "2699",
+        "inactive": "683",
+        "lean": "Strong Republican",
+        "rowNumber": 99
+    }
+] 

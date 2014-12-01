@@ -1,0 +1,436 @@
+{
+    "release": {
+        "id": "acs2012_5yr",
+        "name": "ACS 2012 5-year",
+        "years": "2008-2012"
+    },
+    "tables": {
+        "B08126": {
+            "title": "Means of Transportation to Work by Industry",
+            "universe": "Workers 16 Years and Over",
+            "denominator_column_id": "B08126001",
+            "columns": {
+                "B08126001": {
+                    "name": "Total:",
+                    "indent": 0
+                },
+                "B08126002": {
+                    "name": "Agriculture, forestry, fishing and hunting, and mining",
+                    "indent": 2
+                },
+                "B08126003": {
+                    "name": "Construction",
+                    "indent": 2
+                },
+                "B08126004": {
+                    "name": "Manufacturing",
+                    "indent": 2
+                },
+                "B08126005": {
+                    "name": "Wholesale trade",
+                    "indent": 2
+                },
+                "B08126006": {
+                    "name": "Retail trade",
+                    "indent": 2
+                },
+                "B08126007": {
+                    "name": "Transportation and warehousing, and utilities",
+                    "indent": 2
+                },
+                "B08126008": {
+                    "name": "Information",
+                    "indent": 2
+                },
+                "B08126009": {
+                    "name": "Finance and insurance, and real estate and rental and leasing",
+                    "indent": 2
+                },
+                "B08126010": {
+                    "name": "Professional, scientific, and management, and administrative and waste management services",
+                    "indent": 2
+                },
+                "B08126011": {
+                    "name": "Educational services, and health care and social assistance",
+                    "indent": 2
+                },
+                "B08126012": {
+                    "name": "Arts, entertainment, and recreation, and accommodation and food services",
+                    "indent": 2
+                },
+                "B08126013": {
+                    "name": "Other services (except public administration)",
+                    "indent": 2
+                },
+                "B08126014": {
+                    "name": "Public administration",
+                    "indent": 2
+                },
+                "B08126015": {
+                    "name": "Armed forces",
+                    "indent": 2
+                },
+                "B08126016": {
+                    "name": "Car, truck, or van - drove alone:",
+                    "indent": 1
+                },
+                "B08126017": {
+                    "name": "Agriculture, forestry, fishing and hunting, and mining",
+                    "indent": 2
+                },
+                "B08126018": {
+                    "name": "Construction",
+                    "indent": 2
+                },
+                "B08126019": {
+                    "name": "Manufacturing",
+                    "indent": 2
+                },
+                "B08126020": {
+                    "name": "Wholesale trade",
+                    "indent": 2
+                },
+                "B08126021": {
+                    "name": "Retail trade",
+                    "indent": 2
+                },
+                "B08126022": {
+                    "name": "Transportation and warehousing, and utilities",
+                    "indent": 2
+                },
+                "B08126023": {
+                    "name": "Information",
+                    "indent": 2
+                },
+                "B08126024": {
+                    "name": "Finance and insurance, and real estate and rental and leasing",
+                    "indent": 2
+                },
+                "B08126025": {
+                    "name": "Professional, scientific, and management, and administrative and waste management services",
+                    "indent": 2
+                },
+                "B08126026": {
+                    "name": "Educational services, and health care and social assistance",
+                    "indent": 2
+                },
+                "B08126027": {
+                    "name": "Arts, entertainment, and recreation, and accommodation and food services",
+                    "indent": 2
+                },
+                "B08126028": {
+                    "name": "Other services (except public administration)",
+                    "indent": 2
+                },
+                "B08126029": {
+                    "name": "Public administration",
+                    "indent": 2
+                },
+                "B08126030": {
+                    "name": "Armed forces",
+                    "indent": 2
+                },
+                "B08126031": {
+                    "name": "Car, truck, or van - carpooled:",
+                    "indent": 1
+                },
+                "B08126032": {
+                    "name": "Agriculture, forestry, fishing and hunting, and mining",
+                    "indent": 2
+                },
+                "B08126033": {
+                    "name": "Construction",
+                    "indent": 2
+                },
+                "B08126034": {
+                    "name": "Manufacturing",
+                    "indent": 2
+                },
+                "B08126035": {
+                    "name": "Wholesale trade",
+                    "indent": 2
+                },
+                "B08126036": {
+                    "name": "Retail trade",
+                    "indent": 2
+                },
+                "B08126037": {
+                    "name": "Transportation and warehousing, and utilities",
+                    "indent": 2
+                },
+                "B08126038": {
+                    "name": "Information",
+                    "indent": 2
+                },
+                "B08126039": {
+                    "name": "Finance and insurance, and real estate and rental and leasing",
+                    "indent": 2
+                },
+                "B08126040": {
+                    "name": "Professional, scientific, and management, and administrative and waste management services",
+                    "indent": 2
+                },
+                "B08126041": {
+                    "name": "Educational services, and health care and social assistance",
+                    "indent": 2
+                },
+                "B08126042": {
+                    "name": "Arts, entertainment, and recreation, and accommodation and food services",
+                    "indent": 2
+                },
+                "B08126043": {
+                    "name": "Other services (except public administration)",
+                    "indent": 2
+                },
+                "B08126044": {
+                    "name": "Public administration",
+                    "indent": 2
+                },
+                "B08126045": {
+                    "name": "Armed forces",
+                    "indent": 2
+                },
+                "B08126046": {
+                    "name": "Public transportation (excluding taxicab):",
+                    "indent": 1
+                },
+                "B08126047": {
+                    "name": "Agriculture, forestry, fishing and hunting, and mining",
+                    "indent": 2
+                },
+                "B08126048": {
+                    "name": "Construction",
+                    "indent": 2
+                },
+                "B08126049": {
+                    "name": "Manufacturing",
+                    "indent": 2
+                },
+                "B08126050": {
+                    "name": "Wholesale trade",
+                    "indent": 2
+                },
+                "B08126051": {
+                    "name": "Retail trade",
+                    "indent": 2
+                },
+                "B08126052": {
+                    "name": "Transportation and warehousing, and utilities",
+                    "indent": 2
+                },
+                "B08126053": {
+                    "name": "Information",
+                    "indent": 2
+                },
+                "B08126054": {
+                    "name": "Finance and insurance, and real estate and rental and leasing",
+                    "indent": 2
+                },
+                "B08126055": {
+                    "name": "Professional, scientific, and management, and administrative and waste management services",
+                    "indent": 2
+                },
+                "B08126056": {
+                    "name": "Educational services, and health care and social assistance",
+                    "indent": 2
+                },
+                "B08126057": {
+                    "name": "Arts, entertainment, and recreation, and accommodation and food services",
+                    "indent": 2
+                },
+                "B08126058": {
+                    "name": "Other services (except public administration)",
+                    "indent": 2
+                },
+                "B08126059": {
+                    "name": "Public administration",
+                    "indent": 2
+                },
+                "B08126060": {
+                    "name": "Armed forces",
+                    "indent": 2
+                },
+                "B08126061": {
+                    "name": "Walked:",
+                    "indent": 1
+                },
+                "B08126062": {
+                    "name": "Agriculture, forestry, fishing and hunting, and mining",
+                    "indent": 2
+                },
+                "B08126063": {
+                    "name": "Construction",
+                    "indent": 2
+                },
+                "B08126064": {
+                    "name": "Manufacturing",
+                    "indent": 2
+                },
+                "B08126065": {
+                    "name": "Wholesale trade",
+                    "indent": 2
+                },
+                "B08126066": {
+                    "name": "Retail trade",
+                    "indent": 2
+                },
+                "B08126067": {
+                    "name": "Transportation and warehousing, and utilities",
+                    "indent": 2
+                },
+                "B08126068": {
+                    "name": "Information",
+                    "indent": 2
+                },
+                "B08126069": {
+                    "name": "Finance and insurance, and real estate and rental and leasing",
+                    "indent": 2
+                },
+                "B08126070": {
+                    "name": "Professional, scientific, and management, and administrative and waste management services",
+                    "indent": 2
+                },
+                "B08126071": {
+                    "name": "Educational services, and health care and social assistance",
+                    "indent": 2
+                },
+                "B08126072": {
+                    "name": "Arts, entertainment, and recreation, and accommodation and food services",
+                    "indent": 2
+                },
+                "B08126073": {
+                    "name": "Other services (except public administration)",
+                    "indent": 2
+                },
+                "B08126074": {
+                    "name": "Public administration",
+                    "indent": 2
+                },
+                "B08126075": {
+                    "name": "Armed forces",
+                    "indent": 2
+                },
+                "B08126076": {
+                    "name": "Taxicab, motorcycle, bicycle, or other means:",
+                    "indent": 1
+                },
+                "B08126077": {
+                    "name": "Agriculture, forestry, fishing and hunting, and mining",
+                    "indent": 2
+                },
+                "B08126078": {
+                    "name": "Construction",
+                    "indent": 2
+                },
+                "B08126079": {
+                    "name": "Manufacturing",
+                    "indent": 2
+                },
+                "B08126080": {
+                    "name": "Wholesale trade",
+                    "indent": 2
+                },
+                "B08126081": {
+                    "name": "Retail trade",
+                    "indent": 2
+                },
+                "B08126082": {
+                    "name": "Transportation and warehousing, and utilities",
+                    "indent": 2
+                },
+                "B08126083": {
+                    "name": "Information",
+                    "indent": 2
+                },
+                "B08126084": {
+                    "name": "Finance and insurance, and real estate and rental and leasing",
+                    "indent": 2
+                },
+                "B08126085": {
+                    "name": "Professional, scientific, and management, and administrative and waste management services",
+                    "indent": 2
+                },
+                "B08126086": {
+                    "name": "Educational services, and health care and social assistance",
+                    "indent": 2
+                },
+                "B08126087": {
+                    "name": "Arts, entertainment, and recreation, and accommodation and food services",
+                    "indent": 2
+                },
+                "B08126088": {
+                    "name": "Other services (except public administration)",
+                    "indent": 2
+                },
+                "B08126089": {
+                    "name": "Public administration",
+                    "indent": 2
+                },
+                "B08126090": {
+                    "name": "Armed forces",
+                    "indent": 2
+                },
+                "B08126091": {
+                    "name": "Worked at home:",
+                    "indent": 1
+                },
+                "B08126092": {
+                    "name": "Agriculture, forestry, fishing and hunting, and mining",
+                    "indent": 2
+                },
+                "B08126093": {
+                    "name": "Construction",
+                    "indent": 2
+                },
+                "B08126094": {
+                    "name": "Manufacturing",
+                    "indent": 2
+                },
+                "B08126095": {
+                    "name": "Wholesale trade",
+                    "indent": 2
+                },
+                "B08126096": {
+                    "name": "Retail trade",
+                    "indent": 2
+                },
+                "B08126097": {
+                    "name": "Transportation and warehousing, and utilities",
+                    "indent": 2
+                },
+                "B08126098": {
+                    "name": "Information",
+                    "indent": 2
+                },
+                "B08126099": {
+                    "name": "Finance and insurance, and real estate and rental and leasing",
+                    "indent": 2
+                },
+                "B08126100": {
+                    "name": "Professional, scientific, and management, and administrative and waste management services",
+                    "indent": 2
+                },
+                "B08126101": {
+                    "name": "Educational services, and health care and social assistance",
+                    "indent": 2
+                },
+                "B08126102": {
+                    "name": "Arts, entertainment, and recreation, and accommodation and food services",
+                    "indent": 2
+                },
+                "B08126103": {
+                    "name": "Other services (except public administration)",
+                    "indent": 2
+                },
+                "B08126104": {
+                    "name": "Public administration",
+                    "indent": 2
+                },
+                "B08126105": {
+                    "name": "Armed forces",
+                    "indent": 2
+                }
+            }
+        }
+    }
+}

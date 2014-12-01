@@ -1,0 +1,15 @@
+#ie_warning {
+  background-color: #333;
+  border-top: 1px solid #fff;
+  bottom: 0;
+  color: #fff;
+  left: 0;
+  padding: 1%;
+  position: absolute;
+  z-index: 10000000;
+  width: 53%;
+}
+
+/*#geocoder .geocodifyInput {
+    height: 31px;
+}*/

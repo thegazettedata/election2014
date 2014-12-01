@@ -1,0 +1,255 @@
+a {
+    transition: all 0.2s ease-out; 
+}
+
+/* Geocoder */
+#geocoder_box {
+    float: right;
+    height: 38px;
+    margin: 5px;
+}
+
+#geocoder {
+    display: table-cell;
+    float: left;
+    padding: 0;
+    vertical-align: middle;
+    line-height: 18px;
+    height: 100%;
+    margin: 0px;
+}
+
+#geocoder .geocodifyInput {
+    border-radius: 4px 0 0 4px;
+    border-right: 0;
+    height: 100%;
+    margin: 0px 0px 5px 0px;
+    padding: 0px 0px 0px 9.5px; 
+}
+
+#geocoder .geocodifyButton {
+    border: 1px solid #ccc;
+    border-radius: 0 4px 4px 0;
+    float: right;
+    padding: 11px;
+}
+
+#geocoder .geocodifyDropdown {
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top-color: #d9d9d9;
+    margin: 0 !important;
+    padding: 5px 0 !important;
+    position: absolute;
+    width: 240px;
+    z-index: 9003;
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#geocoder .geocodifyDropdown ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#geocoder .geocodifyDropdown li {
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 5px 8px;
+    text-align: left;
+}
+
+#geocoder .selected {
+    background-color: #2262cc;
+    background-repeat: repeat-x;
+    color: #fff;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+    background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+    background-image: -webkit-gradient(linear, 0 0, 0 100, from(#0088cc), to(#0077b3));
+    background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+    background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+    background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+}
+
+#zoom-to-iowa a {
+    border-radius: 4px;
+    box-shadow: 0 1px 3px 0 #444;
+    position: absolute;
+    cursor: pointer;
+    left: 12px;
+    top: 115px;
+    font-size: 20px;
+    cursor: text;
+    width: 26px;
+    z-index: 12;
+    background-color: #f4f4f4;
+    color: #bbb;
+    text-align: center;
+}
+
+/* Pop-up information */
+.popup-box-header {
+    font-size: 16px;
+}
+
+.popup_table {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.popup_table thead {
+    font-weight: bold;
+}
+
+.popup_table td {
+    padding: 2px 8px;
+}
+
+.popup_table .party, .popup_table .incumbent {
+    text-align: center;
+}
+
+.popup_table .votes {
+    text-align: right;
+}
+
+.leaflet-popup-content {
+    margin: 5px 10px;
+}
+
+.leaflet-popup-content h4 {
+    font-size: 15.5px;
+    line-height: 18px;
+    margin: 0 0 5px 0;
+    float: left;
+}
+
+.popup-precincts {
+    float: right;
+    color: #666;
+    font-size: 11px;
+    font-style: italic;
+    margin-right: 15px;
+}
+
+.leaflet-popup-content p {
+    margin: 5px 0;
+}
+
+
+/* Toggle buttons */
+.toggles {
+    text-align: center;
+    width: 48%;
+    float: right;
+    margin: 1%;
+}
+
+.toggle-prev {
+    float: left;
+}
+
+.toggle-next {
+    float: right;
+}
+
+.toggles .btn {
+    padding-top: 4%;
+    padding-right: 2%;
+    padding-bottom: 4%;
+    padding-left: 2%;
+    font-size: 14px;
+    width: 96%;
+}
+
+/* Leaflet controls */
+.leaflet-control-zoom a, .leaflet-control-zoom a:hover {
+    text-decoration: none;
+}
+
+.leaflet-top {
+    z-index: 8;
+    right: 10px;
+    left: auto;
+}
+
+.leaflet-right {
+    left: 0;
+    right: 100;
+}
+
+.leaflet-bottom {
+    pointer-events: none;
+    z-index: 8;
+}
+
+/* Styles from iFrames */
+@media (max-width: 700px) {
+    /* Geocoder */
+    #geocoder-input {
+        width: 150px;
+    }
+
+    #geocoder .geocodifyDropdown {
+        width: 190px;
+    }
+
+    /* Map controls */
+    #zoom-to-iowa a {
+        top: 155px;
+    }
+
+}
+
+/* Styles from mobile devices */
+@media (max-width: 600px) {
+    /* Leaflet controls */
+    .leaflet-popup-content {
+        margin: 7px 15px;
+    }
+    
+    .leaflet-popup-content h4 {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .leaflet-popup-content p {
+        margin: 0px;
+        font-size: 11px;
+    }
+
+    .leaflet-container .leaflet-control-attribution, .leaflet-container .leaflet-control-scale {
+        font-size: 10px;
+    }
+}
+
+/* Styles from mobile devices */
+@media (max-width: 500px) {
+    #geocoder-input {
+        width: 125px;
+    }
+
+    #geocoder .geocodifyDropdown {
+        width: 175px;
+    }
+}
+
+
+/* Styles from mobile devices */
+@media (max-width: 400px) {
+    #geocoder-input {
+        width: 100px;
+    }
+
+    #geocoder .geocodifyDropdown {
+        width: 140px;
+    }
+}

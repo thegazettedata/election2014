@@ -1,0 +1,105 @@
+var sample_data = [
+	{
+		'race': 'U.S. Senate',
+		'candidates': [
+			{
+				'candidate': 'Joni Ernst',
+				'votes': 150156,
+				'party': 'R'
+			}, {
+				'candidate': 'Bruce Braley',
+				'votes': 101500,
+				'party': 'D'
+			}
+		],
+		'url': 'http://thegazette.com',
+		'headline': 'Headline goes here',
+		'precinctsin': 100000,
+		'precinctstotal': 100000
+	}, {
+		'race': 'Governor',
+		'candidates': [
+			{
+				'candidate': 'Terry Branstad',
+				'votes': 100153,
+				'party': 'R'
+			}, {
+				'candidate': 'Jack Hatch',
+				'votes': 101500,
+				'party': 'D'
+			}
+		],
+		'url': 'http://thegazette.com',
+		'headline': 'Headline goes here',
+		'precinctsin': 40123,
+		'precinctstotal': 100000
+	}, {
+		'race': 'House Dist. 1',
+		'candidates': [
+			{
+				'candidate': 'Rod Blum',
+				'votes': 15154,
+				'party': 'R'
+			}, {
+				'candidate': 'Pat Murphy',
+				'votes': 101500,
+				'party': 'D'
+			}
+		],
+		'url': 'http://thegazette.com',
+		'headline': 'Headline goes here',
+		'precinctsin': 50127,
+		'precinctstotal': 90077
+	}, {
+		'race': 'House Dist. 2',
+		'candidates': [
+			{
+				'candidate': 'Mariannette Miller-Meeks',
+				'votes': 150156,
+				'party': 'R'
+			}, {
+				'candidate': 'Dave Loebsack',
+				'votes': 101500,
+				'party': 'D'
+			}
+		],
+		'url': 'http://thegazette.com',
+		'headline': 'Headline goes here',
+		'precinctsin': 34123,
+		'precinctstotal': 60045
+	}, {
+		'race': 'State Senate',
+		'candidates': [
+			{
+				'candidate': 'Republicans',
+				'votes': 20,
+				'party': 'R',
+			}, {
+				'candidate': 'Democrats',
+				'votes': 24,
+				'party': 'D'
+			}
+		],
+		'url': 'http://thegazette.com',
+		'headline': 'Headline goes here',
+		'precinctsin': 65321,
+		'precinctstotal': 65321
+	}, {
+		'race': 'State House',
+		'candidates': [
+			{
+				'candidate': 'Republicans',
+				'votes': 54,
+				'party': 'R'
+			}, {
+				'candidate': 'Democrats',
+				'votes': 20,
+				'party': 'D'
+			}
+		],
+		'url': 'http://thegazette.com',
+		'headline': 'Headline goes here',
+		'precinctsin': 45678,
+		'precinctstotal': 50134
+	}
+]

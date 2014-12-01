@@ -1,0 +1,6773 @@
+/*---------------- GENERAL ---------------------*/
+body {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+#container {
+width: 960px;
+margin: 0px auto;
+background: #fff;
+}
+
+#main {
+width: 960px;
+margin: 0 auto;
+text-align: left;
+}
+
+.columnright {
+padding: 8px 4px 0 0;
+}
+
+.story columnright{
+padding: 8px 4px 0 8px;
+}
+
+.columncenter {
+padding: 0px 10px 5px 0px;
+width: 660px;
+}
+
+a:link, a:visited, a:active {
+color: #437fa1;
+text-decoration: none;
+}
+
+a:hover {
+color: #437fa1;
+text-decoration: underline;
+}
+
+.more {
+display: none;
+visibility: hidden;
+}
+
+.disclaim {
+font-size: 8px;
+font-style:normal !important;
+}
+
+#storytools .tool-comment a {
+   background: url("http://media.younewstv.com/designimages/comment.gif") no-repeat scroll 4px 4px transparent;
+}
+
+#storysection .storybody {
+padding-right: 15px;
+}
+
+/*---------More Stories Pages---------*/
+#moretopstories .sectiondiv {
+height: 28px;
+padding: 0px 8px;
+margin-bottom: 4px;
+}
+
+#moretopstories h1, .weather_title {
+font-size: 20px;
+line-height:20px;
+margin: 0;
+border-bottom: 3px solid #d2d2d2;
+text-transform: uppercase;
+font-weight:bold;
+color: #111;
+padding-bottom: 2px;
+}
+.weather_title{
+border-bottom: 2px solid #d2d2d2;
+margin-bottom:12px;
+}
+#local9point2specials #moretopstories h1 {
+border:none;
+text-transform:capitalize;
+font-size:14px;
+}
+
+#moretopstories {
+background-color: #FFF;
+width: 100%;
+margin: 0 0 8px 0;
+}
+
+#moretopstories .topstorymore {
+height: auto;
+overflow: hidden;
+padding: 0 8px;
+margin: 0 0 8px 0;
+}
+
+#moretopstories .topthumbmore {
+margin: 0 5px 5px 0px;
+padding: 0;
+border: 1px solid black;
+}
+
+/* ---- COMMENTS ---- */
+#storysection #commentform p {
+font-size: 12px;
+}
+
+.story .comment {
+background: #c5d1eb;
+}
+
+.story #commentform {
+width: 628px;
+}
+
+/*Hiding comments until click*/
+
+.precomment {
+width: 635px;
+}
+
+.precomment h2{
+font-size: 14px;
+width: 270px;
+float:left;
+padding:0;
+}
+
+a.showLink, a.hideLink {
+    text-decoration: none;
+    font-size: 18px;
+text-transform: uppercase;
+}
+
+#comment-show {
+float:left;
+}
+
+a.showLink:hover, a.hideLink:hover {
+    border-bottom: 1px solid;
+}
+
+.hideLink {
+margin-left: -420px;
+}
+
+.viewmore {
+    display: none;
+clear:both;
+    border-top: 1px solid #666;
+}
+
+
+/*temporarily hiding*/
+#commentcount {
+display: none;
+}
+
+#comments-mp {
+clear:both;
+}
+/*--------Headline lists---------------*/
+#headlineholder .sectiondiv {
+margin: 0;
+padding: 0;
+height: 28px;
+}
+
+#headlineholder h1 {
+line-height:22px;
+font-size: 18px;
+color:#fff;
+color: #111111;
+text-transform: uppercase;
+font-weight:bold;
+margin: 0;
+}
+
+#headlineholder ul {
+background: white;
+margin: 0;
+padding: 6px 0 10px 28px;
+font-size: 12px;
+list-style-type: none;
+color: #666;
+}
+
+#headlineholder ul li {
+width: 100%;
+padding-bottom: 5px;
+}
+
+#headlineholder ul li a {
+font-size: 16px;
+line-height: 18px;
+}
+
+#headlineholder p {
+font-size: 12px;
+color: #666;
+margin: 0px;
+padding: 0px;
+}
+
+.headlines {
+overflow: hidden;
+}
+
+.columncenter .headlines {
+width: 455px;
+float: left;
+background-color: #fff;
+margin-bottom: 16px;
+height: 254px;
+overflow: hidden;
+}
+
+.columncenter .headlines ul {
+margin: 0px 30px;
+margin-top: 10px\9;
+padding: 0;
+color: #999;
+}
+
+.columncenter .headlines ul li {
+font-size: 12px;
+line-height: 18px;
+}
+
+.columncenter .headlines ul li.head1 {
+padding-top: 5px;
+}
+
+.headlines .sectiondiv {
+height: 28px;
+margin: 0;
+}
+
+.headlines .sectiondiv h1 {
+font-size: 20px;
+line-height:20px;
+margin: 0;
+border-bottom: 3px solid #d2d2d2;
+text-transform: uppercase;
+color: #333;
+font-weight: normal;
+padding-bottom: 2px;
+font-weight: bold;
+}
+
+
+.headlines .sectiondiv h1 a:link,
+.headlines .sectiondiv h1 a:visited,
+.headlines .sectiondiv h1 a:active {
+color: #111;
+}
+
+.parentep .headlines .headthumb {
+height: auto;
+width: auto;
+}
+
+/* ------ Faux Top More Headlines using Modules ------ */
+.columncenter .headlinetopstory,
+.columncenter .headlinemorestories,
+.columncenter .headlinemoreheadlines{
+height: auto;
+width: 100%;
+}
+
+.columncenter .headlinetopstory .topthumbmore{
+width: 320px;
+}
+
+.headlinetopstory .headtitle {
+font-size:22px;
+font-weight:bold;
+letter-spacing:0.04em;
+margin:0;
+line-height: 23px;
+}
+
+.columncenter .headlinetopstory ul,
+.columncenter .headlinemorestories ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+.columncenter .headlinemorestories ul li {
+clear: both;
+overflow: hidden;
+margin-bottom: 8px;
+}
+
+.columncenter .headlinemorestories ul li .headtitle {
+font-weight: bold;
+font-size: 13px;
+}
+
+.columncenter .headlinemorestories ul p {
+margin: 5px 5px 5px 0;
+font-size: 12px;
+}
+
+/*-----------------  BREAKING NEWS ------------ */
+#breaking {
+padding: 4px 8px 0 8px;
+margin: 0 0 4px 8px;
+background-color: #fff;
+height: 24px;
+}
+
+#breaking h1 {
+margin: 0;
+font-size:16px;
+float: left;
+padding-right: 8px;
+color: #fff;
+}
+
+#breaking h2 {
+margin: 0;
+font-size:16px;
+float: left;
+padding: 0 8px;
+color: #fff;
+font-style: italic;
+}
+
+#breaking a {
+color: #fff;
+}
+
+#breaking h5 {
+display: none;
+}
+
+#breaking p {
+font-size: 12px;
+line-height: 15px;
+color: #fff;
+padding: 4px 8px 4px 8px;
+margin: 0;
+display: none;
+}
+
+#breaking.weather p {
+display:block;
+}
+
+#breaking #breaking-related {
+clear: none;
+margin: -3px 0 0 0;
+list-style-type: none;
+float: right;
+width: 315px;
+font-size: 11px;
+color: #fff;
+padding: 0;
+}
+
+#breaking .related-link a{
+float:left;
+padding-right:5px;
+padding-left:5px;
+border-right:1px solid #FFFFFF;
+}
+
+/* -- News -- */
+#breaking.news {
+background: #a60306;
+height: 24px;
+padding: 12px;
+}
+
+#breaking.news h1 {
+font-weight: normal;
+}
+
+#breaking.news h2 {
+font-style: normal;
+}
+
+#breaking.news p {
+display: block;
+clear: both;
+}
+
+/* -- Weather -- */
+#breaking.weather {
+background: transparent;
+}
+
+/* -- Traffic -- */
+#breaking.traffic {
+background: #ccd5dc url() top left no-repeat;
+color: #000;
+}
+
+#breaking.traffic a,
+#breaking.traffic h1 {
+color: #000;
+}
+
+#breaking.traffic h2 {
+font-style: normal;
+}
+
+
+/* -- Live Streaming -- */
+#breaking.breaking-event-streaming {
+height: 20px;
+border: 0px solid #fff;
+padding: 0;
+margin: 0 0 8px;
+}
+
+#breaking.breaking-event-streaming p{
+display: inline;
+width: 100%;
+color: #454545;
+line-height: 18px;
+font-weight: bold;
+}
+
+#breaking.breaking-event-streaming h2{
+margin: 0 0 8px 0;
+padding: 0 ;
+}
+
+#breaking.breaking-event-streaming h2 a{
+color: #000;
+display: block;
+width: 160px;
+float: left;
+text-indent: -9999px;
+background: transparent;
+}
+
+#breaking.breaking-event-streaming .related,
+#breaking.breaking-event-streaming h1 {
+display: none;
+}
+
+/*--------- New Breaking Event --------*/
+
+/*------------ Landing Page Top Story -------------*/
+#topheadmod,
+#topstorydiv {
+float: left;
+padding: 0 8px;
+margin: 0 8px 8px 0;
+width: 395px;
+height:auto;
+overflow: hidden;
+}
+
+#topstory {
+background-color:#fff;
+padding: 0;
+float: left;
+height: auto;
+width: 395px;
+}
+
+#topheadmod .topthumb,
+#topheadmod .topthumbmore,
+#topstorydiv .topthumb {
+margin: 6px 7px 6px 0;
+padding: 0;
+float: left;
+border: 1px solid black;
+width: 395px;
+}
+
+#topheadmod .sectiondiv,
+#topstorydiv .sectiondiv {
+height:25px;
+border-bottom: 1px solid #c8c9cb;
+margin-bottom: 4px;
+}
+
+.skinnyheadline .sectiondiv h1,
+#weather #headlineweather .sectiondiv h1,
+#topheadmod .sectiondiv h1,
+#topstorydiv .sectiondiv h1 {
+font-size: 18px;
+margin: 0 0 8px 0;
+padding-bottom: 2px;
+color:#fff;
+font-weight:bold;
+line-height:22px;
+color: #111;
+text-transform: none;
+border-bottom: 0px solid #c8c9cb;
+}
+
+#topheadmod .headtitle:visited,
+#topheadmod .headtitle:hover,
+#topheadmod .headtitle:active,
+#topheadmod .headtitle:link,
+#topstory h1 a:link,
+#topstory h1 a:active,
+#topstory h1 a:hover,
+#topstory h1 a:visited {
+color: #2b386c;
+text-decoration: none;
+margin: 0;
+padding: 0;
+line-height: 26px;
+}
+
+#topheadmod .headtitle:hover,
+#topstory h1 a:hover{
+text-decoration: underline;
+}
+
+#topheadmod ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+#topheadmod ul li {
+padding-top: 0;
+}
+
+#topheadmod p,
+#topstory p,
+#topstorydiv p {
+font-size: 12px;
+line-height: 16px;
+margin: 0;
+padding: 0 0 5px 0px;
+color: #222;
+}
+
+/*  VIDEO PLAYER  */
+#videobox {
+margin: 0px;
+padding: 0;
+}
+
+#sports #sports-sportsdesktop #flashvidcontainer embed,
+#weathervideo object,
+#weathervideo embed,
+#topstorydiv #videobox object,
+#topstorydiv #videobox embed{
+width: 400px;
+height: 225px;
+}
+
+#sports #sports-sportsdesktop #flashcontainer,
+#videobox #flashcontainer {
+width: 400px;
+background: #000;
+text-align: center;
+}
+
+#topheadmod .headtitle,
+#textarea h1 {
+padding: 4px !important;
+margin: 4px 0 4px 0 !important;
+font-size: 24px;
+font-family: Arial, Verdana, Helvetica, sans-serif;font-weight:bold;
+background: #f0f1f3;
+display: block;
+line-height: 26px;
+clear: both;
+width: 392px;
+}
+
+#topstory .more,
+#topheadmod p .more{
+display: inline;
+color: #152b51;
+font-weight: bold;
+visibility: visible;
+}
+
+#topheadmod .videoicon {
+display: none;
+}
+
+#textarea h1 a:link,
+#topstory h1 a:active,
+#topstory h1 a:visited,
+#topstory h1 a:hover {
+color: #2B386C;
+text-decoration: none;
+margin: 0;
+padding: 0;
+}
+
+#textarea p {
+font-size: 12px;
+line-height: 15px;
+margin:0;
+padding:0;
+}
+
+#topstorydiv .newtag,
+#topheadmod .newtag {
+display: none;
+visibility: hidden;
+}
+
+.topstorymore {
+clear: both;
+min-height: 100px;
+}
+
+#weather #headlineweather,
+#sports #headlinesportslocal,
+#news #headlinenewslocal {
+height: auto;
+width: 400px;
+margin-bottom: 8px;
+}
+
+
+
+/* ------ TOP HEADLINES ------ */
+/*  Fixing IE 6 issue for min-height */
+* html .topstorymore {
+height: 100px;
+}
+
+.topthumbmore {
+float: left;
+width: 120px;
+margin: 0 5px 0 0;
+padding: 0 0 0px 0;
+}
+
+.topstorymore h2 {
+padding: 0 0 5px 0;
+margin: 0;
+font-size: 13px;
+}
+
+.topstorymore p {
+font-size: 12px;
+margin: 0;
+padding: 0;
+background-color:#FFF;
+}
+
+#index #topheadmod{
+margin: 0!important;
+padding: 0 9px 0 5px;
+}
+
+#index #topheadmod h1 a{
+color: #111111;
+}
+/* -------- HOME PAGE ----------- */
+#index #headlinesportslocal,
+#kcrg-ynwidget300,
+#index .featurenav {
+margin-bottom:20px;
+}
+
+#index #headline-module-gallery {
+margin-top: -40px;
+}
+
+#sports .columncenter #headlinesports {
+clear: both;
+width: 638px;
+margin: 0 0 20px 8px;
+padding: 0;
+height: auto;
+}
+
+#index .columncenter #news-localmore{
+clear: both;
+width: 638px;
+margin: 0 0 20px 8px;
+padding: 0;
+height: 350px;
+}
+
+#sports #headlinesports.headlines ul{
+padding: 0;
+list-style-type: none;
+float: left;
+}
+
+#index #news-localmore.headlines ul{
+margin: 0px;
+padding: 0px;
+}
+
+#index #news-localmore.headlines ul li {
+width: 290px;
+float: left;
+color: #000000;
+padding: 0;
+margin: 4px 0;
+}
+
+#index #news-localmore ul li.item2, #index #news-localmore  ul li.item4, #index #news-localmore ul li.item6, #index #news-localmore  ul li.item8, #index #news-localmore  ul li.item10 {
+float:right;
+padding-right: 10px;
+}
+
+#sports #headlinesports.headlines ul li{
+width: 300px;
+float: left;
+overflow: hidden;
+padding: 0;
+margin: 4px 0;
+}
+
+#sports .columncenter #headlinesports .more {
+display: block;
+visibility: visible;
+float: right;
+font-size: 11px;
+padding: 2px 8px;
+border: 1px solid #d2d2d2;
+background: #f0f0f0;
+color: #333;
+}
+
+#sports #headlinesports.headlines ul li{
+width: 300px;
+float: left;
+overflow: hidden;
+padding: 0;
+margin: 4px 0;
+}
+
+#index #news-localmore.headlines ul li a,
+#sports #headlinesports.headlines ul li a{
+font-size: 14px;
+font-weight: bold;
+}
+
+#sports #headlinesports .headlines ul li.head1 {
+padding-top: 5px;
+}
+
+#index #news-localmore .miscCode {
+float:right;
+font-size: 12px;
+font-weight: bold;
+margin: 5px 5px 5px 5px;
+}
+
+#index #news-localmore.headlines #timeContainer {
+display: inline;
+}
+
+#index #news-localmore.headlines #commentContainer {
+display:none;
+}
+
+
+/* --- BIM Weather Styles --- */
+
+#index #homeweatherbox {
+width: 230px;
+float: left;
+height: auto;
+}
+
+#index #homeweatherbox .wxcontent {
+border: 1px solid #c8c9cb;
+padding: 10px 5px;
+}
+
+#index #homeweatherbox .wxcontent img{
+border: none;
+}
+
+#index #homeweatherbox #radar-wrapper {
+margin-bottom: 13px;
+position: relative;
+}
+
+#index #homeweatherbox #radar-wrapper #first-alert-bottom-banner {
+position: absolute;
+bottom: 5px;
+left: 1px;
+}
+
+#index #homeweatherbox .sectiondiv h1 {
+font-size: 18px;
+line-height:22px;
+margin: 2px 0 2px;
+font-weight:bold;
+color: #111;
+}
+
+#index #homeweatherbox #homewxlinks {
+padding: 0;
+margin: 8px 0 0 0;
+clear: both;
+overflow: hidden
+}
+
+#index #homeweatherbox #homewxlinks .headtitle {
+font-size: 11px;
+font-weight: bold;
+margin-left: -3px;
+}
+
+#index #homeweatherbox #homewxlinks img {
+width: 92px;
+border: 0px solid #fff;
+margin-bottom: 2px;
+}
+
+#index #homeweatherbox #homewxlinks li {
+color: #d2d2d2;
+line-height: 10px;
+padding: 0px;
+margin: 0 0 5px 25px;
+}
+
+*:first-child+html #index #homeweatherbox #homewxlinks li {
+padding: 0 0 0 20px;
+}
+
+*:first-child+html #index #homeweatherbox #homewxlinks li.head1 {
+padding: 0 0 0 0px;
+}
+
+#index #homeweatherbox #homewxlinks li.head1 {
+list-style-type: none;
+margin: 0 0 10px 2px;
+width: 96px;
+float: left;
+}
+
+#index #homeweatherbox #homewxlinks li.head1 .headtitle {
+clear: both;
+margin-left: 0;
+display: block;
+}
+
+#index #homeweatherbox #homewxlinks li.head2 {
+margin-top: -2px;
+}
+
+.kcrg_wx_weatherbox {
+margin-top: 5px;
+margin-bottom: 15px;
+height: auto !important;
+}
+
+.kcrg_wx_weatherbox #kcrg_wx_titletext {
+border-left: 0px solid #fff;
+}
+
+.kcrg_wx_weatherbox #kcrg_wx_plannerheaderbar a {
+font-weight: bold;
+color: #222;
+}
+
+#weather .kcrg_wx_weatherbox #kcrg_wx_day7{
+border-right: 1px solid #d0d1d3
+}
+
+#index #homeweatherbox #todaysforecast h1{
+    border-bottom: 2px solid #D2D2D2;
+    color: #222222;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 2px;
+}
+
+.kcrg_wx_weatherbox .kcrg_wx_forecast_li {
+    width: 42px;
+}
+
+/* --------- HEADLINE W/IMAGE ----------*/
+.columncenter .headlinewimages{
+overflow: hidden;
+margin-bottom: 20px !important;
+height: auto;
+}
+
+.headlinewimages ul{
+margin: 0 !important;
+}
+
+.headlinewimages ul li{
+padding: 0 0 0 0px;
+margin: 4px 0 4px 18px;
+float: left;
+width: 230px;
+border-bottom: dotted #d2d2d2 1px;
+}
+
+.headlinewimages ul li .headtitle {
+font-size: 14px;
+font-weight: bold;
+clear: both;
+}
+
+.headlinewimages ul .head1{
+width: 195px;
+height: 260px;
+float: left;
+border-right: solid #d2d2d2 2px;
+padding: 0px 8px 0 0;
+margin: 0;
+border-bottom: none;
+}
+
+.headlinewimages ul .head1 .topthumbmore{
+width: 192px !important;
+height: auto !important;
+overflow: hidden;
+display: block;
+}
+
+.headlinewimages .videoicon {
+padding-left: 5px;
+}
+
+
+/* --------------- FEATURE NAVS ------------------ */
+#featurenav,
+.featurenav {
+clear: both;
+width: 160px;
+margin: 0 10px 0px 0;
+padding: 0 0 0 8px;
+background: #fff;
+height: auto;
+float: left;
+border-right: solid #d2d2d2 3px;
+}
+
+#featurenav .sectiondiv,
+.featurenav .sectiondiv {
+overflow: hidden;
+border-top: solid #d2d2d2 1px;
+}
+
+#featurenav .sectiondiv h1,
+.featurenav .sectiondiv h1 {
+font-size: 24px;
+line-height: 25px;
+padding: 0px 0 0 8px;
+margin: 0;
+color: #111;
+text-transform: lowercase;
+font-weight:bold;
+border-bottom: solid #d2d2d2 3px;
+}
+
+.featurenav ul {
+list-style-type: none;
+padding: 0;
+float: left;
+margin: 0;
+}
+
+.feature {
+width: 152px;
+height: 140px;
+text-align: center;
+background-color:#FFF;
+margin: 4px auto 0;
+position: relative;
+}
+
+.feature img {
+margin-top: 7px;
+}
+
+.feature h2 {
+font-size: 16px;
+line-height: 14px;
+margin: 0px;
+padding: 5px;
+display: block;
+background: #e4e5e7;
+position: absolute;
+bottom: 0;
+width: 140px;
+}
+
+.feature h2 a {
+color: #111;
+}
+
+.feature h3,
+.feature p {
+display: none;
+}
+
+.featurenav ul li {
+width: 152px;
+text-align: center;
+background-color:#FFF;
+margin: 4px auto 0;
+}
+
+.featurenav ul img {
+margin: 7px 0 4px 4px;
+width: 140px;
+}
+
+.featurenav .headtitle {
+font-size: 16px;
+line-height: 18px;
+margin: 0;
+padding: 4px;
+display: block;
+background: #e4e5e7;
+width: 140px;
+clear: both;
+font-weight: bold;
+color: #111;
+}
+
+.customLink {
+font-size: 12px;
+font-weight:bold;
+margin-top: 20px;
+display: block;
+text-align: right;
+}
+
+.featurenav .videoicon,
+.featurenav .newtag {
+display: none;
+}
+
+#index #headlinehomeconnect-with-us.featurenav{
+margin: 10px 10px 0 0;
+}
+
+/* -------- MAIN COLUMN YN Widget ------- */
+
+.columncenter .yn{
+width: 300px;
+float: left;
+margin-bottom: 20px;
+}
+
+
+/* ---- Search Widget ---- */
+.SearchWidget {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+color: #0F51AA;
+padding: 0;
+margin: 8px 0;
+font-weight:normal;
+background-color: white;
+height: 275px;
+width: 290px;
+border: 5px solid #f0f1f3;
+overflow: hidden;
+}
+
+.SearchWidget .sectiondiv {
+background: transparent;
+width: 300px;
+margin: 0;
+padding: 0;
+height: 50px;
+}
+
+.SearchWidget .sectiondiv h1 {
+display: none;
+}
+
+.SearchWidget .searchcontainer{
+display: block;
+margin: 0;
+padding: 0 0 0 8px;
+}
+
+.SearchWidget .localsearch {
+vertical-align: top;
+display: block;
+background:white;
+margin: 2px 0 0 4px;
+padding: 15px 0 0 0;
+width: 130px;
+float: left;
+}
+
+.SearchWidget .button {
+background:white;
+width:50px;
+height:42px;
+border:none;
+margin: 0px;
+padding: 0px;
+}
+.SearchWidget .textfield {
+margin: 0;
+padding: 0;
+width: 120px;
+}
+
+.SearchWidget .ldimage{
+text-align: center;
+margin: 0px;
+padding: 0px;
+}
+
+.SearchWidget .otherSearches{
+display: block;
+clear: both;
+margin: 0;
+padding: 2px 0 6px 12px;
+color: black;
+font-weight: bold;
+}
+
+.SearchWidget .otherSearchesLinks a{
+display: block;
+clear: both;
+float: left;
+margin: 2px 0 2px 12px;
+padding: 0px;
+}
+
+/* ----------------SECTION STYLING ----------*/
+
+/* --------- NEWS and SPORTS LANDING PAGE --------- */
+.columncenter .skinnyheadline {
+width: 213px !important;
+margin-left: 3px;
+height: auto;
+}
+
+.columncenter .skinnyheadline .sectiondiv {
+border-bottom: 1px solid #c8c9cb;
+height: 25px;
+}
+
+.columncenter .skinnyheadline .sectiondiv h1 {
+margin-bottom: 0;
+}
+
+.columncenter .skinnyheadline ul {
+padding: 0;
+margin: 0;
+list-style-type: none;
+}
+
+.columncenter .skinnyheadline ul li {
+border: 1px solid #c8c9cb;
+border-top: 0;
+padding: 4px 6px;
+font-weight: bold;
+}
+
+.columncenter .skinnyheadline ul li.head1 {
+padding-top: 0;
+}
+
+.columncenter .skinnyheadline .more {
+display: block;
+visibility: visible;
+float: right;
+font-size: 11px;
+padding: 2px 8px;
+border: 1px solid #d2d2d2;
+border-top: 0px solid #fff;
+background: #f0f0f0;
+color: #333;
+}
+
+/* ----------- 9.2 TV SCHEDULE HEADLINES BOX ---------- */
+
+#local9point2tv-schedule .columncenter .skinnyheadline {
+width: 310px !important;
+margin-left: 3px;
+height: auto;
+float:left;
+}
+
+#local9point2tv-schedule .columncenter .skinnyheadline .sectiondiv {
+border: none;
+background:none;
+}
+
+#local9point2tv-schedule .columncenter .skinnyheadline .sectiondiv h1 {
+font-size:14px;
+background-color: #CCCCCC;
+font-size: 14px;
+margin: 0;
+padding: 3px;
+line-height:1.2em;
+}
+
+#local9point2tv-schedule .columncenter .skinnyheadline ul {
+padding: 0 0 0 21px;
+margin: 5px 0 0;
+list-style-type:disc;
+}
+
+#local9point2tv-schedule .columncenter .skinnyheadline ul li {
+border: none;
+border-top: 0;
+padding: 4px 6px;
+font-weight: bold;
+border-bottom:1px dotted #bbb;
+}
+
+#local9point2tv-schedule .columncenter .skinnyheadline .more {
+display: block;
+visibility: visible;
+float: none;
+font-size: 11px;
+padding: 2px 8px;
+border: 1px solid #d2d2d2;
+background: #f0f0f0;
+color: #333;
+text-align:center;
+margin: 10px 92px;
+}
+
+/* ----------- NEWS LINKS ---------- */
+
+#linksweb {
+background-color: #FFF;
+width: 646px;
+margin: 0;
+padding: 0 0 24px 0;
+}
+
+
+#linksweb h2 a {
+margin: 0;
+padding: 0 0 8px 8px;
+}
+
+#linksweb h1 {
+border-bottom:3px solid #D2D2D2;
+color:#111111;
+font-size:15px;
+font-weight:bold;
+line-height:20px;
+margin:0;
+text-transform:uppercase;
+}
+
+#linksweb h2 {
+margin: 0 5px;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-weight: normal;
+color: #777;
+padding: 0;
+font-size: 14px;
+line-height: 20px;
+}
+
+#linksphone {
+display: none;
+visibility: hidden;
+}
+
+
+/* ---NEWS --- National and World News ---*/
+
+#headlineCBSUSNewsHeadlines, #headlineCBSWorldHeadlines {
+width:320px;
+height: auto;
+}
+
+#headlineCBSUSNewsHeadlines {
+margin-right: 4px;
+}
+
+#newsnational .feedflare {
+display:none;
+visibility:hidden;
+}
+
+#newsnational .columncenter .headtitle {
+
+margin:0;
+padding:0;
+font-weight: bold;
+}
+
+#newsnational .columncenter .headlines ul {
+list-style-type:none;
+margin: 8px 0 0 0;
+padding:0;
+}
+
+#newsnational .columncenter .headlines ul li {
+list-style-type:none;
+margin: 0 10px;
+padding: 0;
+}
+
+#newsnational .columncenter .headlines p {
+padding:0;
+margin:0;
+}
+
+/*------News Entertainment------*/
+#newsentertainment #headlinenewsentertainment {
+margin-right: 5px;
+}
+#newsentertainment #story {
+margin: 0 0 8px 0;
+}
+
+#newsentertainment #story .sectiondiv{
+display: none;
+}
+
+#headlinenewsentertainmententertainmentnews {
+margin: 0 0px 0 5px;
+}
+
+#newsentertainment .columncenter .headlines {
+width: 310px;
+margin: 16px 0 0 8px;
+padding: 0;
+}
+
+
+/*-----------SPORTS-FISH------------*/
+#sportsfish #story {
+margin-bottom:5px;
+}
+
+#sportsfish #introbody {
+height: 220px;
+margin: 15px 5px 0 10px;
+}
+
+#headlinesportsfishgallery {
+width: 100%;
+height:auto;
+}
+
+#headlinesportsfishgallery ul {
+margin:0 0 0 5px;
+padding:0;
+color:black;
+}
+
+#headlinesportsfishgallery ul li {
+clear:both;
+list-style-type:none;
+margin:0;
+height:100px;
+overflow:hidden;
+}
+
+#headlinesportsfishgallery .topthumbmore {
+float:left;
+margin:0;
+padding: 0 5px 5px 0;
+}
+
+#headlinesportsfishgallery .headtitle {
+font-size: 13px;
+font-weight:bold;
+margin:0;
+padding:0;
+}
+
+#headlinesportsfishgallery .videoicon {
+display:block;
+}
+
+#headlinesportsfishgallery .videoicon span{
+display:inline;
+visibility:visible;
+font-weight:bold;
+}
+
+#headlinesportsfishgallery p {
+margin:0 3px 5px 0;
+padding:0;
+}
+
+
+/* -------------About ------------------*/
+.parentabout .storyinfo,
+.parentabout #storytools{
+display:none;
+visibility:hidden;
+}
+
+.parentabout #story {
+width: 606px;
+margin: 0 0 8px 0 !important;
+}
+
+.parentabout #story p {
+background: transparent;
+}
+
+.parentabout #headlineholder .sectiondiv h1 {
+display:none;
+visibility:hidden;
+}
+
+.parentabout #story .sectiondiv h1 {
+border-bottom:3px solid #D2D2D2;
+color:#111111;
+font-size:15px;
+font-weight:bold;
+line-height:20px;
+margin:0;
+text-transform:uppercase;
+}
+
+.parentabout p {
+padding: 6px;
+background-color: #FFF;
+margin:0;
+}
+
+
+/* --- INSIDE  --- News Team --- */
+
+#newsnewsteam.story .video16x9 #storytools ,
+#weatherweatherteam.story .video16x9 #storytools ,
+#sportssportsteam.story .video16x9 #storytools {
+display: none;
+visibility: hidden;
+}
+
+
+/* ------ ABOUT ------ Jobs ------- */
+
+#aboutjobs .columncenter .headlines {
+height: 300px;
+margin: 0 0 8px 0;
+padding: 0 0 5px 0;
+overflow: hidden;
+width: 320px;
+}
+
+#aboutjobs #story {
+width: 646px;
+height: auto;
+padding: 0 0 10px 0;
+margin: 0;
+}
+
+#aboutjobs #story #introbody p {
+margin: 0;
+padding: 0;
+}
+
+
+/* ------- INSIDE KCRG -------- Contests --------*/
+.columncenter #surveysection .sectiondiv {
+width:100%;
+margin: 0 0 8px 0;
+padding: 0;
+}
+
+.columncenter #surveysection .sectiondiv h1 {
+border-bottom:3px solid #d2d2d2;
+color:#111111;
+font-size:15px;
+font-weight:bold;
+line-height:20px;
+margin:0;
+text-transform:uppercase;
+width: 592px;
+margin: 8px 0 0 8px;
+padding: 0 0 0 8px;
+}
+
+.columncenter #surveysection {
+background-color: #FFF;
+width: 100%;
+margin: 0 0 8px 0;
+font-size: 85%;
+}
+
+.columncenter #surveysection table {
+padding: 0;
+}
+
+
+/*------------ COMMUNITY --------------------------*/
+#events #story {
+background-color: #FFF;
+width: 100%;
+margin: 0 0 8px 0;
+padding: 0;
+}
+
+#events .sectiondiv {
+width:100%;
+margin: 0 0 -20px 0;
+padding: 0;
+}
+
+#events h1 {
+display: none;
+visibility: hidden;
+}
+
+#events .sectiondiv h1 {
+line-height:25px;
+height: 25px;
+font-size: 13px;
+color:#fff;
+text-transform: uppercase;
+font-weight:bold;
+padding: 4px 0 0 0px;
+text-align: center;
+margin: 0;
+display: block;
+visibility: visible;
+}
+
+#calendar #story #eventlistorder {
+font-size: 9px;
+margin-top: 15px;
+}
+
+#events #calmonthyear {
+height: 30px;
+vertical-align: bottom;
+font-size: 16px !important;
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+#events #caldays {
+background: #0d50a7 !important;
+}
+
+#events #eventlistorder {
+padding: 8px;
+}
+
+#events #eventlistorder h1 {
+color: #333;
+margin: 12px 0 0 0;
+padding: 0;
+font-size: 15px;
+display: block;
+visibility: visible;
+}
+
+#events #eventlistorder h2 {
+font-size: 13px;
+margin: 0;
+padding: 0 0 4px 0;
+}
+
+#ccform {
+background-color: white;
+margin: 0px;
+padding: 0px;
+}
+
+#ccform h1 {
+font-size: 13px;
+margin: 0px;
+padding: 0px;
+}
+
+#ccform h2 {
+font-size: 13px;
+margin: 0px;
+padding: 0px;
+}
+
+#ccform td {
+margin:0px 0;
+padding: 5px;
+}
+
+
+/* --------- Lifestyles Programs ---------- */
+#headlinelifestyles {
+margin: 0;
+padding: 0;
+width: 300px;
+background-color: #fff;
+margin: 8px 0;
+}
+
+#headlinelifestyles ul {
+width:300px;
+list-style-type:none;
+margin:0 0 10px 0;
+padding:0;
+}
+
+#headlinelifestyles ul li {
+float:left;
+width:150px;
+background-color:#FFF;
+padding: 0px 0;
+list-style-type:none;
+}
+
+#headlinelifestyles .topthumbmore {
+margin: 5px;
+padding: 0;
+float: left;
+}
+
+#headlinelifestyles .headtitle {
+display: none;
+}
+
+#headlinelifestyles .headlines p {
+margin: 0 !important;
+padding: 0 !important;
+font-size: 11px;
+line-height: 11px;
+}
+
+
+/* -------------- MOST POPULAR ---------------- */
+.columnright #mostpopular {
+width: 285px;
+float: left;
+background-color: #fff;
+margin-bottom: 8px;
+overflow: hidden;
+margin-top: 5px;
+border: solid #F0F1F3 2px;
+padding: 0 8px 0 0;
+}
+
+.columnright #mostpopular .sectiondiv {
+width: 300px;
+margin: 0;
+padding: 0;
+height: 28px;
+}
+
+.columnright #mostpopular .sectiondiv h1 {
+font-size: 16px;
+padding: 6px 0 0 8px;
+margin: 0;
+color: #111;
+font-weight:bold;
+height: 25px;
+width: 300px;
+border-bottom: solid #F0F1F3 1px;
+}
+
+.columnright #mostpopular .sectiondiv h1 span{
+color: #ca0002;
+}
+
+.columnright #mostpopular ul {
+width: 284px;
+height: auto;
+margin: 0;
+padding: 5px 8px 8px 8px;
+}
+
+.columnright #mostpopular ul li {
+font-size: 12px;
+margin: 0 0 0 24px;
+padding: 0;
+color: #fff;
+border-bottom: solid #F0F1F3 1px;
+padding: 4px 0;
+list-style-type: decimal;
+color: #ca0002;
+}
+
+.columnright #mostpopular ul li>a{
+font-size: 12px;
+font-weight: bold;
+}
+
+/* ------------ LIVESTREAM IMG ----------- */
+#headlinestreaminglink {
+margin: 8px 0 12px;
+overflow: hidden;
+}
+
+#headlinestreaminglink ul .headtitle,
+#headlinestreaminglink .sectiondiv {
+display: none;
+}
+
+#headlinestreaminglink ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+#headlinestreaminglink .topthumbmore {
+width: 300px;
+padding: 0;
+margin: 0;
+}
+
+/*---------WHATS ON--------------*/
+#whatson {
+clear: both;
+font-size: 11px;
+width: 300px;
+margin: 8px 0;
+padding: 0px;
+}
+
+#whatson .sectiondiv3 {
+height: 20px;
+padding: 0px;
+margin: 0px 0 8px 0 !important;
+width: auto;
+display: none;
+}
+
+#whatson .sectiondiv3 h1 {
+font-size: 13px;
+padding: 0px;
+margin: 0;
+color: #fff;
+text-transform: uppercase;
+text-align: center;
+font-weight:bold;
+height: 25px;
+line-height: 25px;
+width: auto;
+}
+
+#whatson .schedule {
+font-size: 10px;
+padding: 0 0 0 20px;
+text-decoration: underline;
+color: white;
+}
+
+#whatsonbox {
+background-color: #fff;
+margin: 0;
+}
+
+.whatsonrow2, .whatsonrow {
+margin-left:12px;
+}
+
+.whatsontime {
+float: left;
+width: 48px;
+height: 20px;
+line-height: 20px;
+padding: 0px;
+background: #ccc;
+border: 2px white solid;
+text-align: center;
+overflow: hidden;
+}
+
+.whatsontitle {
+border: 2px white solid;
+width: 206px;
+background: #eee;
+padding: 0px 0 0px 5px;
+height: 20px;
+text-align: left;
+line-height: 20px;
+float: right;
+text-transform:uppercase;
+overflow: hidden;
+}
+
+.fulllink {
+clear: left;
+margin: 8px 0 0 15px;
+}
+
+/* ------------- POLL ----------------- */
+#poll {
+width:300px;
+padding: 0;
+margin: 0 0 8px 0;
+background: #fff;
+clear: both;
+}
+
+#poll .sectiondiv3 {
+margin:0;
+padding:0;
+height:28px;
+}
+
+#poll h1 {
+text-indent: -9999px;
+margin: 0;
+padding: 0;
+height: 28px;
+font-size: 1px;
+}
+
+#poll h2 {
+margin: 10px 8px 0 8px;
+padding: 0;
+color: #333;
+font-size: 14px;
+}
+
+#poll ul {
+list-style-type: none;
+margin:0 0 0 20px;
+padding:0;
+font-size: 12px;
+}
+
+#poll ul li {
+list-style-type:none;
+margin:0;
+padding:0;
+font-size: 12px;
+}
+
+#poll .submit {
+margin: 10px 110px;
+}
+
+
+/*  POLL POPUP */
+#poppoll {
+background-color: #FFF;
+}
+
+/* --------------AP VIDEO --------------- */
+#apvideo {
+clear: left;
+float: left;
+margin-left: 15px;
+background-color: #DDDDDD !important;
+}
+
+#apvideo .sectiondiv {
+height: 28px;
+margin: 0;
+padding: 0;
+display: none;
+}
+
+#apvideo .sectiondiv h1 {
+text-indent: -9999px;
+width: 300px;
+height: 28px;
+margin: 0 0 0 0;
+padding: 0;
+font-size: 1px;
+}
+
+#apvideo {
+background-color: #FFF;
+width:300px;
+}
+
+#apvideo #flashcontent {
+border: 1px solid #CCC;
+margin:0;
+padding:0;
+}
+
+/*  TMZ  */
+#newsentertainment #tmzplayer {
+float: left;
+margin-right: 15px;
+}
+
+#index #tmzplayer {
+float: left;
+margin-left: 10px;
+}
+
+/*OPRAH MODULE*/
+#oprah{
+float: left;
+width: 300px;
+height: 340px;
+}
+
+
+/*---------Blogs Generic Center column Styles----------*/
+
+.parentshows .columncenter .sectiondiv h1,
+#sportswisportswknd .columncenter .sectiondiv h1 {
+text-indent: -9999px;
+width: 601px;
+height: 0px;
+font-size: 1px;
+}
+
+.parentshows .columncenter .blogs .sectiondiv h1,
+#sportswisportswknd .columncenter .blogs .sectiondiv h1{
+text-indent: -9999px;
+width: 601px;
+height: 63px;
+font-size: 1px;
+}
+
+.blogs {
+border: 1px solid #2761a1;
+width: 601px;
+background-color: #fff;
+margin: 0px;
+padding: 0px;
+}
+#weatherweatherextrascontentjoewinters .sectiondiv h1,
+#weatherweatherextrascontentacademy .sectiondiv h1,
+#newsentertainmentonthemark .sectiondiv h1,
+#newsentertainmentsanbornsblog .sectiondiv h1,
+#newsentertainmentashleysblog .sectiondiv h1,
+#newsentertainmentfossblog .sectiondiv h1,
+#weatherinsidetheweatherlabjoewinters .sectiondiv h1 {
+display: none;
+visibility: hidden;
+}
+
+.blogs ul {
+margin: -40px 10px 10px 10px;
+padding: 0;
+list-style-type: none;
+font-size: 12px;
+line-height: 14px;
+width: 575px;
+}
+
+
+.blogs ul li {
+margin: 10px 0 0 0;
+list-style-type: none;
+font-size: 12px;
+line-height: 16px;
+color: #333;
+width: 575px;
+}
+
+
+.blogs .topthumbmore {
+margin: 2px 25px 0 0;
+}
+
+.blogs .headtitle {
+font-size: 24px;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-weight:bold;
+line-height: 28px;
+margin-top: 50px;
+text-align: left;
+display: block;
+margin-bottom: 10px;
+border-bottom: 1px solid #ccc;
+width: 575px;
+}
+
+.blogs .storybody {
+border-bottom: 1px dashed #ccc;
+}
+
+.blogs .permalink {
+text-align: right;
+font-size: 12px;
+line-height: 16px;
+float: right;
+}
+
+.blogs .permalink a {
+border-right: 1px solid #aaa;
+padding-right: 10px;
+}
+
+.blogfooter {
+padding-top: 4px;
+}
+
+.blogfooter .permalink a {
+border: 0;
+padding-right: 0;
+}
+
+.blogfooter .commentcount {
+float: right;
+border-right: 1px solid #aaa;
+padding-right: 10px;
+margin-right: 10px;
+color: #666;
+}
+
+.blogs .story p span {
+margin-left: -10px;
+padding: 0px;
+font-size: 10px;
+}
+
+#blogaaronhepker #blogbotnav,
+#blogaaronhepker .blogfooter,
+#blogaaronhepker .byline,
+#blogaaronhepker .toptitle,
+#blogaaronhepker .sectiondiv {
+display: none;
+}
+
+/*------------Section Intro Content--------*/
+#story {
+background: white;
+margin: 0 0 0px 0;
+padding: 0 0 0px 0;
+font-size: 13px;
+}
+
+#story .sectiondiv {
+height: 28px;
+padding: 0px 8px;
+}
+
+#story h1 {
+font-size: 15px;
+line-height:20px;
+margin: 0;
+border-bottom: 3px solid #d2d2d2;
+text-transform: uppercase;
+font-weight:bold;
+color: #111;
+}
+
+#story #introbody {
+margin-left: 10px;
+margin-right: 10px;
+}
+
+#mothersday #story #introbody {
+margin-left: 10px;
+margin-right: 0px;
+}
+
+#care #story #introbody {
+color: #444;
+margin: 0px;
+padding: 0px;
+border-top: 0px;
+border-bottom: 0px;
+background: #fff;
+}
+
+#sportspanthers #story .sectiondiv {
+display: none;
+}
+
+#sportspanthers #story #introbody {
+margin: 0;
+}
+
+#story p,
+#story table {
+margin: 0;
+padding: 0;
+}
+
+
+/*------------STORY PAGES-------------------*/
+#gallerybox {
+float: left;
+width: 100px;
+height: 24px;
+padding: 0px 0 0 35px;
+margin: 10px 0px 30px 18px;
+font-size: 14px;
+font-weight: bold;
+line-height: 0px;
+background: transparent url() top left no-repeat;
+}
+
+#gallerybox a:link, #gallerybox a:active, #gallerybox a:visited, #gallerybox a:hover {
+color: #333;
+}
+
+.videoiconhi a:link,
+.videoiconhi a:active,
+.videoiconhi a:visited,
+.videoiconhi a:hover {
+color: #333;
+}
+
+.caption {
+font-size: 11px;
+line-height: 13px;
+color: #666;
+margin: 0px;
+padding: 3px;
+}
+
+#index #related {
+display: none;
+visibility: hidden;
+}
+
+#related h3 {
+font-size: 13px;
+line-height: 17px;
+margin-left: 10px;
+color: #333333;
+}
+
+#related {
+font-size: 12px;
+line-height: 17px;
+margin: 0px;
+padding: 0px;
+}
+
+#related ul {
+margin: 0px 0 10px 0;
+padding: 0px 10px 0 30px;
+}
+
+#related a:link, #related a:active, #related a:visited, #related a:hover {
+color: #333;
+}
+
+.storyinfo p {
+display: inline;
+padding-right: 10px;
+margin-left: 10px;
+font-size: 10px;
+line-height: 17px;
+}
+
+#storyrelatedlink {
+font-size: 13px;
+line-height: 17px;
+color: #666;
+}
+
+#storyrelatedphone {
+font-size: 13px;
+line-height: 17px;
+color: #666;
+}
+
+#relatedmedia .videoicon {
+display: none;
+visibility: hidden;
+}
+
+#storysection .title {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+color: #222;
+}
+
+.story .columncenter  {
+padding: 0;
+}
+
+.story #storysection {
+padding: 2px 0 8px 8px;
+width: 638px;
+position: relative;
+top:16px;
+}
+
+#storysection .storyimgcont .caption {
+width: 454px;
+padding: 4px 8px;
+}
+
+.story .video16x9 #imware {
+border: 0px solid #fff;
+width: 145px;
+margin: 0 0 90px 10px;
+}
+
+.story .video16x9 #imware .sectiondiv {
+display: none;
+}
+
+#main .video16x9 .author,
+#main .video16x9 .storyinfo {
+width: 155px;
+overflow: hidden;
+position: absolute;
+right: 0;
+}
+
+#main .video16x9 .storyinfo {
+margin-top: 200px;
+}
+
+#main .video16x9 .author {
+margin-top: 180px;
+font-size: 12px;
+display: none;
+}
+
+.story #mpcontext-comments #mpsectional {
+height: auto;
+display: none;
+}
+
+.story #mpcontext-comments {
+clear: both;
+float: none;
+height: auto;
+width: auto;
+}
+
+.story #mpcontext-comments #contextualad {
+clear: both;
+float: none;
+}
+
+/* ---------------- FOOTER ---------------- */
+#footer {
+color: #333;
+width: 960px;
+padding: 0 0 10px;
+background: #fff;
+font-size: 12px;
+text-align: center;
+overflow: hidden;
+position: relative;
+}
+
+#footer .email,
+#footer .company {
+padding: 0;
+float: left;
+display: block;
+width: auto;
+}
+
+#footer .address {
+position:absolute;
+right:5px;
+margin-top:30px;
+}
+
+#footer .company {
+font-weight: bold;
+background: transparent;
+padding-right: 15px;
+}
+
+#footer .company a {
+color: #333;
+}
+
+#footer .company a:hover {
+text-decoration: none;
+}
+
+#footer .copydoc {
+float: right;
+padding: 0 8px;
+}
+
+#footer #bimpower {
+clear: both;
+float: right;
+padding: 0 8px;
+font-size: 10px;
+}
+
+#footer #affiliate,
+#footer .copyright {
+display: none;
+visibility: hidden;
+}
+
+/* -------- ADS ---------------- */
+.columnright .callout {
+width: 300px;
+margin: 8px 0;
+padding: 0;
+}
+
+.columnright #ad_02.callout {
+padding-bottom: 8px;
+}
+
+.columnright #natadad300x250 {
+width: 300px;
+height: 250px;
+clear: both;
+margin: 0 0 8px;
+}
+
+.columnright  #contextualad {
+width: 300px;
+overflow: hidden;
+}
+
+.story .columncenter #contextualad , .story .columncenter #contextualad iframe {
+width: 468px;
+height: 64px;
+margin: 0 auto;
+}
+
+#leaderboard1, #leaderboard2, #LeaderboardTop{
+text-align: center;
+width: 960px;
+margin:  0;
+padding: 4px 0 4px 0;
+}
+
+#leaderboard2 {
+margin: 20px auto;
+width: 728px;
+padding: 0 10px;
+border: #1f5394 solid 1px;
+}
+
+#banner {
+display: none;
+visibility: hidden;
+}
+
+#natadad468x60storybot {
+}
+
+#index #ad_11 {
+margin-top: 5px;
+}
+
+#ad_12 {
+width: 125px;
+height: 100px;
+overflow: hidden;
+float: right;
+margin: 10px;
+}
+
+#topbanner {
+margin-top: 25px;
+}
+
+#index #topbanner {
+margin-top: 5px;
+}
+
+
+/* ------------- VIDEO ICONS -------------*/
+/* HEADLINE VIDEO ICON STYLES */
+
+.headlines .videoicon,
+#headlines .videoicon,
+#related .videoicon {
+display: inline;
+}
+
+.headlines .videoicon span,
+#headlines .videoicon span,
+#related .videoicon span {
+display: none;
+visibility: visible;
+}
+
+/* ----TOP VIDEOS VIDEO ICON STYLES ----*/
+#headlinehomevideo .videoicon {
+visibility:visible;
+display:block !important;
+}
+
+#headlinehomevideo .videoicon span {
+visibility: visible;
+display:inline;
+}
+
+/* --------------- ON DEMAND --------------- */
+#headlinehomeondemand {
+margin: 8px 0;
+padding: 0;
+height: 285px;
+}
+
+#headlinehomeondemand .sectiondiv,
+.story #headlinehomeondemand .sectiondiv {
+height: 28px;
+}
+
+#headlinehomeondemand ul {
+width:300px;
+list-style-type:none;
+margin:0 0 10px 0;
+padding:0;
+}
+
+#headlinehomeondemand ul li {
+float:left;
+width:150px;
+background-color:#FFF;
+padding: 8px 0;
+list-style-type:none;
+}
+
+#headlinehomeondemand .topthumbmore {
+margin: 5px;
+padding: 0;
+float: left;
+width: 38px;
+height: 38px;
+}
+
+#headlinehomeondemand.headlines .headtitle {
+display: block;
+padding: 0;
+margin: 0;
+font-size: 11px;
+font-weight: bold;
+height: 15px;
+}
+
+#headlinehomeondemand.headlines p {
+margin: 0 !important;
+padding: 0 !important;
+font-size: 11px;
+line-height: 11px;
+}
+
+#homeondemand #storytools {
+display: none;
+visibility: hidden;
+}
+
+#homeondemand ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+#homeondemand .columncenter img {
+margin: 0 5px 5px 0;
+}
+
+#enews #story {
+padding: 8px;
+margin: 0;
+font-size: 14px;
+line-height: 18px;
+color: #333;
+}
+
+#enews #story h2 {
+font-size: 16px;
+}
+
+#homeondemandvideo .columncenter .sectiondiv {
+background: white;
+width: 626px;
+height: 30px;
+font-family: Arial, Verdana, Helvetica, sans-serif;color: #333;
+padding: 8px;
+margin: 1px 0 0 0;
+border: 1px solid #ccc;
+border-bottom: 0;
+}
+
+#homeondemandvideo .columncenter .sectiondiv h1 {
+margin: 0;
+padding: 0;
+}
+
+#homeondemandvideo .columncenter ul {
+list-style-type: none;
+margin: 0;
+padding: 8px 8px 16px 8px;
+background: white;
+border: 1px solid #ccc;
+border-top: 0;
+}
+
+#homeondemandvideo .columncenter ul li {
+clear: both;
+font-size: 13px;
+}
+
+#homeondemandvideo .columncenter ul li a {
+font-weight: bold;
+font-size: 14px;
+}
+
+#homeondemandvideo .columncenter ul li .videoicon a {
+font-weight: normal;
+font-size: 12px;
+}
+
+#homeondemandvideo .columncenter ul li .topthumbmore {
+border: 1px solid black;
+padding: 0;
+margin: 0 5px 5px 0
+}
+
+#homeondemandinnertube #storytools {
+display: none;
+visibility: hidden;
+}
+
+#homeondemandinnertube .columnright {
+display: none;
+visibility: hidden;
+}
+
+#homeondemandinnertube #storysection {
+width: 950px;
+background: white;
+}
+
+#homeondemandinnertube #storysection iframe {
+width: 720px;
+padding: 0 0 0 110px;
+}
+
+/* ------------- WEATHER ------------------*/
+#weather #headlineweather {
+margin: 5px 0 8px 8px;
+}
+
+#weather #headlineweather .sectiondiv {
+border-bottom: 1px solid #d2d2d2;
+height: auto;
+}
+
+#weather #headlineweather .sectiondiv h1 {
+color: #111;
+font-size: 18px;
+font-weight: bold;
+line-height: 20px;
+margin: 0;
+border: 0px solid #fff;
+}
+
+#weathervideo,
+#extendedbox {
+width: 408px;
+float: left;
+margin: 0 0 10px 8px;
+overflow: hidden;
+height: auto;
+}
+
+#extendedbox .sectiondiv,
+#weathervideo .sectiondiv {
+display: none;
+}
+
+#extendedbox p {
+margin: 0 0 14px 0;
+}
+
+#weathercurrents {
+width: 220px;
+float: right;
+text-align: center;
+}
+
+#weathercurrents img {
+border: none;
+width: 220px;
+}
+
+#weathercurrents a {
+font-size: 12px;
+font-weight: bold;
+font-style: italic;
+padding: 4px 0;
+}
+
+#weathercurrents .sectiondiv {
+margin: 5px 0 8px;
+border-bottom:1px solid #d2d2d2;
+text-align: left;
+}
+
+#weathercurrents .sectiondiv h1 {
+color:#111111;
+font-size:18px;
+font-weight:bold;
+line-height:20px;
+margin:0;
+text-transform: none;
+padding-bottom: 2px;
+}
+
+#kcrg_citycam,
+#headlineweathercitycams,
+#headlineWeatherBlog,
+#headlineweatherbloglink {
+width: 224px;
+height: 230px;
+position: relative;
+}
+
+#kcrg_citycam img,
+#headlineweatherbloglink .topthumbmore {
+width: 192px;
+margin: 0 8px 8px 0;
+border: 0px solid #fff;
+}
+
+#kcrg_citycam .headtitle,
+#headlineweatherbloglink .headtitle {
+clear: both;
+font-size: 14px;
+font-weight: bold;
+display: block;
+}
+
+#headlineweathercitycams .sectiondiv,
+#headlineWeatherBlog .sectiondiv {
+border-bottom: 3px solid #d2d2d2;
+height: 22px;
+}
+
+#headlineweathercitycams .sectiondiv h1,
+#headlineWeatherBlog .sectiondiv h1 {
+display: none;
+}
+
+#headlineweathercitycams ul,
+#kcrg_citycam ul,
+#headlineWeatherBlog ul,
+#headlineweatherbloglink ul{
+padding: 0;
+margin: 0;
+}
+
+#headlineweathercitycams ul li,
+#headlineWeatherBlog ul li {
+border-bottom:1px dotted #D2D2D2;
+float:left;
+margin:4px 0 4px 13px;
+padding: 4px 0 8px 0;
+width: 100%;
+}
+
+#headlineweathercitycams ul a,
+#headlineWeatherBlog ul a {
+font-weight: bold;
+font-size: 14px;
+}
+
+#kcrg_citycam ul li {
+padding-top: 5px;
+}
+
+#kcrg_citycam img {
+margin-bottom: 2px;
+}
+
+#headlineweathercitycams .more {
+display: block;
+visibility: visible;
+float: right;
+font-size: 11px;
+padding: 2px 8px;
+border: 1px solid #d2d2d2;
+background: #f0f0f0;
+color: #333;
+position: absolute;
+bottom: 0;
+right: 0;
+}
+
+#weathercitycams .columncenter {
+padding: 8px 0px 5px 0px;
+width: 646px;
+}
+
+#weathercitycams #storysection {
+width: 646px;
+padding-left: 0px;
+margin-left: 0px;
+}
+
+#weathercitycams #storysection img {
+width: 305px;
+}
+
+#weathercitycams .cc_widget_sidebar img {
+width: 46px;
+height: 34px;
+}
+
+#weather #weatherftp{
+width: 465px;
+float: right;
+}
+
+.parentweather #weatherftp {
+width: 100%;
+padding: 0;
+margin: 0;
+background: #fff;
+margin-top: 8px;
+}
+
+.parentweather  #weatherftp .sectiondiv {
+margin: 0 8px;
+}
+
+.parentweather  #weatherftp .sectiondiv h1 {
+border-bottom:3px solid #D2D2D2;
+color:#333333;
+font-size:18px;
+font-weight:normal;
+line-height:20px;
+margin:0;
+padding-bottom:2px;
+text-transform:uppercase;
+}
+
+.parentweather  #weatherftp img {
+width: 144px;
+}
+
+.parentweather  #weatherftp table {
+padding: 8px;
+text-align: center;
+}
+
+.parentweather  #weatherftp table p {
+margin: 0;
+padding: 4px 0 20px 0;
+}
+
+#headlineweatherweathernav {
+width: 646px;
+margin-top: 0px;
+height: 150px;
+}
+
+#headlineweatherweathernav ul {
+list-style-type: none;
+width: 100%;
+margin: 8px 0 0 10px;
+}
+
+#headlineweatherweathernav ul li {
+width: 107px;
+display: block;
+float: left;
+margin: 0;
+}
+
+#headlineweatherweathernav ul li.head1 {
+padding: 0px;
+}
+
+#headlineweatherweathernav ul li .topthumbmore {
+width: 85px;
+margin: 0;
+padding: 0px;
+}
+
+#headlineweatherweathernav .headtitle {
+display: none;
+visibility: hidden;
+}
+
+#weather #headlineweatherweatherextrascontent {
+margin-right: 5px;
+}
+
+#weather #headlineweatherweatherextrascontent,
+#weather #headlineWEATHERHEADLINES  {
+height: 370px;
+}
+
+#weather .columncenter #headlineWEATHERHEADLINES {
+width: 646px;
+height: auto;
+}
+
+#weather .customLink {
+display: none;
+}
+
+#weather #wx_countymap {
+height: auto;
+float: right;
+}
+
+#weather #wx_countymap h1{
+text-transform: none;
+}
+
+#weather #playlistTitle {
+border-bottom:1px solid #CCC;
+font-family:'Arial Black', gadget, sans-serif;
+font-size:18px;
+padding-bottom:5px;
+text-shadow:1px 1px #CCC;
+margin-bottom:5px;
+}
+
+#weather .bimVideoPlaylist .bimvidImages {
+display:inline-block;
+background: transparent;
+width:100% !important;
+height:100% !important;
+background-size:100% 100%;
+}
+
+#weather .bimvidImages img {
+visibility:hidden;
+}
+
+
+/*---------Weather Currents--------------*/
+
+.columncenter .temp,
+.columncenter .conditions,
+.columncenter .humidity,
+.columncenter .wind,
+.columncenter .dewpoint,
+.columncenter .barometer,
+.columncenter .heatindex,
+.columncenter .windchill,
+.columncenter .time {
+margin-left: 5px !important;
+}
+
+.columncenter .icon {
+float: right;
+margin-right: 10px;
+padding-top: 5px;
+}
+
+.columncenter .temp {
+margin-top: 8px;
+}
+
+#kcid, #kiow, #kalo, #kdbq {
+width: 320px;
+float: left;
+background-color: #fff;
+margin-bottom: 8px;
+height: 220px;
+overflow: hidden;
+font-size: 12px;
+color: #666;
+}
+
+#kcid, #kalo {
+margin-right: 5px;
+}
+
+.city {
+width: 320px;
+height: 34px;
+font-size: 13px;
+line-height: 18px;
+letter-spacing: 1px;
+padding: 6px 0 4px 0px;
+margin: 0;
+text-align: center;
+text-transform: uppercase;
+font-weight:bold;
+border-bottom: 3px solid #d2d2d2;
+}
+
+
+/*-------- Weather Loop and Satellite pages ------------------*/
+
+#weathersatellite .columncenter h1,
+#weatherradarloop .columncenter h1 {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+width: 646px;
+margin: 0 0 0px 0;
+padding: 8px 0 0 0;
+position: relative;
+left: -5px;
+line-height: 20px;
+font-size: 13px;
+color: #fff;
+text-transform: uppercase;
+font-weight: bold;
+text-align: center;
+margin: 0;
+}
+
+/*-------Sports Prep Forecast-------------*/
+
+#external {
+background-color: #fff;
+padding: 0 0 5px 0;
+}
+
+#external .sectiondiv  {
+margin: 0 0 8px 0;
+padding: 8px 0 0 0;
+width: 100%;
+}
+
+#external .sectiondiv h1 {
+border-bottom:3px solid #D2D2D2;
+color:#111111;
+font-size:15px;
+font-weight:bold;
+line-height:20px;
+margin:0;
+text-transform:uppercase;
+}
+
+.externallinks {
+font-size: 10px;
+margin: 0 0 0 8px;
+padding: 0px 0 0 0;
+line-height: 12px;
+font-weight: normal;
+}
+
+/*-------- SEARCH RESULTS ---------- */
+#searchresults .sectiondiv {
+width: 646px;
+margin: 0 0 8px 0;
+padding: 0;
+}
+
+#searchresults h1 {
+border-bottom:3px solid #D2D2D2;
+color:#111111;
+font-size:15px;
+font-weight:bold;
+line-height:20px;
+padding: 0 0 0 8px;
+text-transform:uppercase;
+}
+
+#searchresults {
+background-color: #FFF;
+width: 630px;
+margin: 0 0 8px 0;
+padding: 0 8px;
+}
+
+#searchresults .searchform {
+position: relative;
+margin: 0 0 8px;
+padding: 0 0 8px;
+top: 0;
+left: 0;
+border-bottom: 3px solid #d2d2d2;
+}
+
+#searchresults .thumb {
+margin: 0 5px 5px 0px;
+padding: 0;
+border: 1px solid black;
+}
+
+#searchresults ul {
+list-style-type:none;
+width: 560px;
+margin: 0 0 0 30px;
+padding:0;
+}
+
+#searchresults ul li {
+font-size:85%;
+padding: 10px;
+height:70px;
+}
+
+#searchresults ul li a {
+float:left;
+}
+
+#searchresults ol {
+width: 560px;
+margin: 0 0 0 30px;
+padding:0;
+}
+
+#searchresults ol li {
+font-size: 85%;
+padding: 10px;
+}
+
+#searchresults .more {
+margin: 0;
+padding: 0;
+}
+
+#searchresults ol p {
+margin:0;
+padding:0;
+}
+
+#searchresults .thumb {
+padding: 0;
+margin: 0 5px 5px 0;
+width: 90px;
+height: auto;
+border: 1px solid black;
+}
+
+#searchresults .searchbox {
+width:200px;
+}
+
+#searchresults .searchbox .searchbox {
+background: url();
+}
+
+/*----------Error Page-----------------*/
+#error #maintable {
+background: #fff;
+}
+
+#error .columncenter .searchform,
+#error .columncenter .searchbox {
+width: 300px;
+}
+
+#error .columncenter {
+font-size: 12px;
+padding: 20px 30px;
+width: 586px;
+}
+
+#error #natadad300x250 {
+display: none;
+}
+
+/*-----Story Excludes------*/
+#weatherpoll #storytools,
+#newsentertainmentashleysblog #storytools,
+#weatherregional #storytools,
+#features #storytools,
+#features .storyinfo,
+#goldticket #storytools,
+#goldticket .storyinfo,
+#programs #storytools,
+#blog #storytools,
+#blog .storyinfo,
+#greetings #storytools,
+#weathersevere #storytools,
+#weathersevere .storyinfo,
+#weather7day #storytools,
+#weatherweatherextrascontent .storyinfo,
+#weatherweatherextrascontent  #mpcontext,
+#weatherweatherextrascontent #storytools,
+#weathersundaysnapshot #storytools,
+#weatherradarloop #storytools,
+#weathersatellite #storytools,
+#weatherweatherextrascontent #storytools,
+#weatherinsidetheweatherlabjoewinters #storytools,
+#halloween #storytools,
+#digitaltvwhatyouneedtoknow #storytools,
+#digitaltv #storytools,
+#logos #storytools,
+#cancellations #storytools,
+#caresummerwritingcontestwinners #storytools,
+#careaforeducation #storytools,
+#sportsfish #storytools,
+#sportsncaabracket #story .sectiondiv ,
+#newsentertainmentsanbornsblog #storytools,
+#care9whocare #storytools,
+#weatherhawkeyes #storytools,
+#weatherweatherextras #storytools,
+#digitaltvlocal9point2 #storytools,
+#sportsscores #storytools,
+#collegefootball #storytools,
+.parentcontactus #storytools,
+#tmz .columnright,
+#tmz #storytools,
+#thefinalseason #storytools,
+#thefinalseason .storyinfo,
+#thefinalseason #ynicon,
+#newsentertainmentfossonthemark .storyinfo,
+#newsentertainmentfossonthemark #storytools,
+#newsentertainmentfossblog .storyinfo,
+#newsentertainmentfossblog #storytools,
+#newsspecialreportmedalofhonor #divsection   {
+display: none;
+visibility: hidden;
+}
+
+#tmz #storysection {
+background:none;
+}
+
+#contactus #storysection {
+float: left;
+background-color: #ffffff;
+width: 630px;
+}
+
+#holiday #storysection{
+height: 7500px;
+}
+
+#ynwidget300 {
+background: transparent url(http://media.younewstv.com/designimages/yn_widget_e2e3e6.gif) top center no-repeat !important;
+margin-top:5px;
+}
+
+
+.parentep #ynwidget300 {
+background: transparent url(http://media.younewstv.com/designimages/widget_300_bkg.gif) top left no-repeat !important;
+width: 300px;
+}
+
+
+/*-------Entertainment Headlines------*/
+
+#Small300x330 {
+float:left;
+width:320px;
+height:340px;
+margin: 0 0 0px 0px;
+padding: 0;
+overflow: hidden;
+}
+#headlineNewMovieReviews {
+float:left;
+width:320px;
+height:250px;
+margin: 0 0 0px 0px;
+padding: 0;
+overflow: hidden;
+}
+ #headlineNewThisWeekinTheaters {
+float:left;
+width:320px;
+height:250px;
+margin: 0 0 5px 5px;
+padding: 0;
+overflow: hidden;
+}
+
+
+#headlineNewThisWeekonDVD .sectiondiv h1,
+ #headlineNewThisWeekinTheaters .sectiondiv h1,
+ #headlineNewMovieReviews  .sectiondiv h1,
+ #headlineTopFiveBoxOffice .sectiondiv h1{
+letter-spacing: 1px;
+}
+
+#headlineNewThisWeekonDVD .headlines ul,
+ #headlineNewThisWeekinTheaters .headlines ul,
+ #headlineNewMovieReviews  .headlines ul,
+ #headlineTopFiveBoxOffice .headlines ul{
+margin: 0;
+padding: 0px 30px;
+}
+
+#headlineNewThisWeekonDVD .headlines ul li.head1,
+ #headlineNewThisWeekinTheaters .headlines ul li.head1,
+ #headlineNewMovieReviews  .headlines ul li.head1,
+ #headlineTopFiveBoxOffice .headlines ul li.head1 {
+padding-top: 5px;
+}
+
+#headlineNewThisWeekonDVD ul,
+ #headlineNewThisWeekinTheaters ul,
+#headlineNewMovieReviews ul,
+#headlineTopFiveBoxOffice ul {
+margin: 0;
+padding: 0;
+list-style-type: disc;
+width: 220px;
+}
+
+
+#headlineNewThisWeekonDVD li,
+ #headlineNewThisWeekinTheaters li,
+#headlineNewMovieReviews li,
+#headlineTopFiveBoxOffice li {
+padding: 0 0 3px 0;
+margin: 0 0 0 18px;
+font-size: 11px;
+}
+
+#headlineNewThisWeekonDVD li .headtitle,
+ #headlineNewThisWeekinTheaters li .headtitle,
+#headlineNewMovieReviews li .headtitle,
+#headlineTopFiveBoxOffice li .headtitle {
+font-size: 11px;
+
+}
+
+#headlineNewThisWeekonDVD li p,
+ #headlineNewThisWeekinTheaters li p,
+ #headlineNewMovieReviews li p,
+#headlineTopFiveBoxOffice li p {
+margin: 0;
+padding: 0;
+font-size: 11px;
+}
+
+#headlineNewThisWeekonDVD li .topthumbmore,
+ #headlineNewThisWeekinTheaters li .topthumbmore,
+ #headlineNewMovieReviews  li .topthumbmore,
+#headlineTopFiveBoxOffice li .topthumbmore {
+display: none;
+}
+
+#headlineNewThisWeekonDVD li p,
+ #headlineNewThisWeekinTheaters li p,
+ #headlineNewMovieReviews li p,
+#headlineTopFiveBoxOffice li p {
+display: none;
+}
+
+
+#headlinetopfiveboxoffice li.head1,
+ #headlineNewThisWeekinTheaters li.head1,
+ #headlineNewMovieReviews li.head1,
+#headlineTopFiveBoxOffice li.head1 {
+display: block;
+margin: 5px;
+}
+
+#headlineNewThisWeekonDVD li.head1 .topthumbmore,
+ #headlineNewThisWeekinTheaters li.head1 .topthumbmore,
+ #headlineNewMovieReviews .topthumbmore,
+#headlineTopFiveBoxOffice li.head1 .topthumbmore {
+display: inline;
+}
+
+#headlineNewThisWeekonDVD li.head1 p,
+ #headlineNewThisWeekinTheaters li.head1 p,
+ #headlineNewMovieReviews li.head1 p,
+#headlineTopFiveBoxOffice li.head1 p {
+display: inline;
+}
+
+#headlineNewThisWeekonDVD li.head1,
+ #headlineNewThisWeekinTheaters li.head1,
+ #headlineNewMovieReviews li.head1,
+#headlineTopFiveBoxOffice li.head1 {
+border-bottom: 1px solid;
+margin-bottom: 5px;
+}
+
+#headlineNewThisWeekonDVD li.head1 a,
+ #headlineNewThisWeekinTheaters li.head1 a,
+ #headlineNewMovieReviews li.head1 a,
+#headlineTopFiveBoxOffice li.head1 a {
+font-weight: bold;
+}
+
+#headlineNewThisWeekonDVD img,
+ #headlineNewThisWeekinTheaters img,
+ #headlineNewMovieReviews img,
+#headlineTopFiveBoxOffice img {
+width: 100px; height: 63px;
+margin: 5px 5px 5px 5px ;
+}
+
+#headlineNewThisWeekonDVD li.head1 .headtitle,
+ #headlineNewThisWeekinTheaters li.head1 .headtitle,
+ #headlineNewMovieReviews li.head1 .headtitle,
+#headlineTopFiveBoxOffice li.head1 .headtitle {
+
+font-size: 12px;
+}
+/*-------PPFLOGOS SECTION------*/
+#weatherppflogos .columnright,
+#weatherppflogos .storyinfo,
+#weatherppflogos .author,
+#weatherppflogos #ynicon,
+#weatherppflogos #storysection h1 {
+display: none;
+visibility: hidden;
+}
+#weatherppflogos #storysection h1 {
+display: none;
+visibility: hidden;
+}
+
+#weatherppflogos #storysection {
+width: 950px;
+}
+
+#weather .storyinfo {
+display:none;
+visibility:hidden;
+}
+/*-------TWO AND A HALF MEN SECTION------*/
+
+#twoandahalfmen .columnright {
+display:none;
+visibility:hidden;
+}
+
+.parentheartfelt #storysection table {
+float: none !important;
+clear: both;
+}
+
+/*  CAUCUS */
+
+#caucus #moretopstories .topstorymore {
+height: 120px;
+}
+
+#caucus #moretopstories .topthumbmore {
+border: 0px;
+}
+
+/* CITY VOTER */
+
+#cityvoter .currentconditions,
+#cityvoter .temp,
+#cityvoter .wind,
+#cityvoter .windchill,
+#cityvoter #moretopstories .sectiondiv {
+display:none;
+}
+
+#cityvoterweddings .currentconditions,
+#cityvoterweddings .temp,
+#cityvoterweddings .wind,
+#cityvoterweddings .windchill,
+#cityvoterweddings #topstorydiv .sectiondiv {
+display:none;
+}
+
+#alisttv9 .currentconditions,
+#alisttv9 .temp,
+#alisttv9 .wind,
+#alisttv9 .windchill,
+#alisttv9 #moretopstories .sectiondiv {
+display:none;
+}
+
+body.parentbuyit,
+body.parentblank,
+body.parentgazette {
+position:absolute;
+top:0;
+left:0;
+padding: 0 !important;
+margin: 0 !important;
+background-color: #fff !important;
+}
+
+* html .parentgazette .move {
+margin: 0 !important;
+}
+
+* html .parentblank .move {
+margin: 0 !important;
+}
+
+* html .parentbuyit .move {
+margin: 0 !important;
+}
+
+.parentblank #header {
+width: 990px;
+}
+
+.parentblank .headerpromo {
+width: 631px;
+}
+
+.parentblank #forecast #tempgrp {
+font-size: 32px;
+line-height: 20px;
+float: right;
+text-align: right;
+color: #fff;
+padding: 1px 70px 0 0;
+width: 50px;
+font-weight: bold;
+}
+
+.parentblank #forecast .temp {
+width: 60px;
+height: 25px;
+line-height: 25px;
+text-align: center;
+padding-left: 0px;
+}
+
+/*END CITY VOTER*/
+
+/*----Classifieds-----*/
+#classifieds {
+width: 980px;
+}
+
+#classifieds .columnright{
+display:none;
+}
+
+#cancellations .columncenter #story  {
+height: 4500px;
+}
+
+
+/*----------BIM Content Feed Styles----------------*/
+
+#newsentertainmententertainmentnews .sectiondiv,
+#newshealth .sectiondiv {
+width: 100%;
+margin: 0 0 0 0;
+padding: 0;
+}
+
+#newsentertainmententertainmentnews h1 {
+line-height:25px;
+height: 25px;
+font-size: 13px;
+color:#fff;
+text-transform: uppercase;
+font-weight:bold;
+padding: 4px 0 0 0px;
+text-align: center;
+margin: 0;
+}
+
+#newsentertainment .headlinewithimage {
+width: 318px;
+margin: 0 5px 0 0;
+font-size: 11px;
+}
+
+.BIMcontentfeed .sectiondiv,
+#newsbusiness .columncenter .sectiondiv,
+#newstechnology .columncenter .sectiondiv{
+display: none;
+visibility: hidden;
+}
+
+.BIMcontentfeed {
+font-size:12px;
+height:100% !important;
+margin:0 !important;
+padding:8px 0 0 0 !important;
+width: 646px !important;
+background-color: #fff;
+
+}
+
+.BIMcontentfeed .headtitle {
+font-weight: bold;
+font-size: 13px;
+}
+
+.BIMcontentfeed ul {
+list-style-type:none;
+margin: 0;
+padding: 0;
+}
+
+.BIMcontentfeed ul li {
+margin: 0;
+padding: 0;
+clear:both;
+display:block;
+float:none;
+min-height: 100px;
+}
+
+* html .BIMcontentfeed ul li {
+height: 100px;
+}
+
+.BIMcontentfeed .topthumbmore {
+margin: 0;
+padding: 0 5px 5px 8px;
+width: 120px;
+float:left;
+}
+
+.BIMcontentfeed ul li .videoicon {
+display:block;
+visibility:visible;
+font-size:12px !important;
+font-weight: normal;
+}
+
+.BIMcontentfeed ul li p {
+margin: 0;
+padding: 4px 10px 4px 0;
+font-size: 12px;
+}
+
+.disclaim {
+font-size: 10px;
+}
+
+#operationbackpack #storysection h1 {
+font-size: 16px;
+}
+
+
+/*----------FLOOD WATCH----------------*/
+
+#floodwatch #headlinefloodwatchcoverage,
+#floodwatch #headlinefloodwatchhowtogethelp,
+#floodwatch #headlinefloodwatchroadclosures,
+#floodwatch #headlinefloodwatchshelterinfo {
+margin-right: 5px;
+}
+
+.parentfloodwatch #story #introbody {
+margin: 0px 0px 16px 0px;
+padding: 12px;
+border-top: 2px solid #5780D6;
+border-bottom: 2px solid #5780D6;
+background: #ecf2ff;
+}
+
+#floodwatch #headlinecancellations {
+width: 646px;
+height: auto;
+}
+
+#floodwatch .columncenter .sectiondiv {
+text-decoration: underline;
+color: #FFF;
+}
+
+/*----------OUR TOWN----------------*/
+
+#ourtown .columncenter #headlineourtownmvlisbon {
+float: left;
+width: 646px;
+height: 165px;
+margin: 0 0 8px 0;
+padding: 0;
+overflow: hidden;
+}
+
+.parentourtown #story #introbody {
+margin: 0px 0px 16px 0px;
+background: #FFF;
+border-top: 0px solid #5780D6;
+border-bottom: 0px solid #5780D6;
+padding: 0px;
+}
+
+#ourtown #headlineourtownmvlisbon.headlines {
+width: 646px ;
+float: left;
+background-color: #fff;
+margin-bottom: 8px;
+height: auto;
+overflow: hidden;
+}
+#ourtown #headlineourtownmvlisbon.headlines .more {
+display: none;
+}
+
+#ourtown #headlineourtownmvlisbon.headlines .topthumbmore {
+width: 90px;
+height: 67px;
+padding: 0px;
+border: 1px solid #000;
+}
+
+#ourtown #headlineourtownmvlisbon.headlines ul {
+margin: 0px;
+padding: 0px;
+height: auto;
+}
+
+#ourtown #headlineourtownmvlisbon.headlines ul li {
+margin: 5px 0 0 10px;
+padding: 0px;
+min-height: 90px;
+display: block;
+clear: both;
+}
+
+* html #ourtown #headlineourtownmvlisbon.headlines ul li {
+min-height: 0px;
+height: 90px;
+}
+
+#ourtown #headlineourtownmvlisbon.headlines ul li .headtitle {
+font-size: 14px;
+font-weight: bold;
+}
+
+#ourtown #headlineourtownmvlisbon.headlines ul li p {
+margin: 0px;
+padding: 0px;
+color: #000000;
+}
+
+#ourtown #headlineourtownmvlisbon.sectiondiv {
+background: url(http://media.winknews.com/designimages/wink_646_divider.gif) top left no-repeat;
+height:28px;
+}
+
+
+/*----------FLOOD VIDEO HEADLINES----------------*/
+
+#floodwatchvideo12june08 .columncenter #headlinevideo12june08 {
+float: left;
+width: 646px;
+height: auto;
+margin: 0 0 8px 0;
+padding: 0;
+overflow: hidden;
+}
+
+/*----------RAGBRAI BLOG ---------------*/
+#ragbraiblog .columnright,
+#ragbraiblog .storybox .title{
+display: none;
+}
+
+
+#ragbrai #story #introbody {
+color: #444;
+margin: 0px;
+padding: 0px;
+border-top: 0px;
+border-bottom: 0px;
+background: #fff;
+}
+
+/*----------NEWS LINKS HEADLINES----------------*/
+
+#newslinks .columncenter #headlinenewslinks,
+#newslinks .columncenter #headlinenewslinks2 {
+float: left;
+width: 646px;
+height: auto;
+margin: 0 0 8px 0;
+padding: 0;
+overflow: hidden;
+}
+
+#newslinks .headlines .sectiondiv {
+padding: 0 8px;
+}
+
+.subpagelinks ul .head1
+{
+  border-right:none!important;
+
+}
+
+.subpagelinks .sectiondiv h1
+{
+  border-bottom: 3px solid #d2d2d2!important;
+  font-size:20px!important;
+  font-weight:bold!important;
+  color: #333!important;
+  text-shadow:none!important;
+  font-family: Arial, Verdana, Helvetica, sans-serif!important;
+}
+/*----------MOTHERS DAY PAGE---------------*/
+
+#mothersday .columncenter #headlineMothersDayEvents {
+float: left;
+
+width: 646px;
+height: auto;
+margin: 0 0 8px 0;
+padding: 0;
+overflow: hidden;
+}
+
+/*----------STATE FAIR----------------*/
+#statefair  #storysection{
+overflow: hidden;
+}
+
+#sportsfridaynightlights #story #introbody,
+#sportsathleteoftheweek #story #introbody {
+color: #444;
+margin: 0px;
+padding: 0px;
+border-top: 0px;
+border-bottom: 0px;
+background: #fff;
+}
+
+#digitaltvqanda .columnright,
+#digitaltvqanda #storysection .title {
+display: none;
+}
+
+
+/*---------------- IFRAMED BLOGS ------------------*/
+#blogjoewinters .columnright,
+#blogfarmerjosh .columnright,
+#blogjoewinters #storysection .title,
+#blogfarmerjosh #storysection .title,
+#blogbridalbootcamp .columnright,
+#blogbridalbootcamp #storysection .title,
+#blogjohnphelan .columnright,
+#blogjohnphelan #storysection .title,
+#blogbeckylutgengardner .columnright,
+#blogbeckylutgengardner #storysection .title,
+#blogshannonbooth .columnright,
+#blogshannonbooth #storysection .title,
+#blogmikewagner .columnright,
+#blogmikewagner #storysection .title,
+#blogthenine .columnright,
+#blogthenine #storysection .title,
+#blogchrisearl .columnright,
+#blogchrisearl #storysection .title,
+#blogmarkgeary .columnright,
+#blogmarkgeary #storysection .title,
+#blogscottsaville #storysection .title,
+#blogashleyhinson .columnright,
+#blogashleyhinson #storysection .title,
+#blogjustinfoss .columnright,
+#blogjustinfoss #storysection .title,
+#blogroadtrip .columnright,
+#blogroadtrip #storysection .title,
+#blognicoleagee .columnright,
+#blognicoleagee #storysection .title,
+#blogweatherwatercooler .columnright,
+#blogweatherwatercooler #storysection .title {
+display: none;
+}
+
+/*---------------- STREAMING ------------------*/
+
+#streaming #storysection .title, #streamingspecial #divsection,  #local9point2live-stream #storysection .title {
+display: none;
+}
+
+#k_surge_twitter{
+clear:both;
+padding-top:10px;
+}
+
+#streaming2 #videobox{
+padding-left:50px;
+}
+
+#streaming .columncenter .sectiondiv,
+#streaming2 .columncenter .sectiondiv {
+display:none;
+visibility:hidden;
+}
+
+#local9point2live-stream .columncenter .sectiondiv {
+display:none;
+visibility:hidden;
+}
+
+#streaming #topstory, #local9point2live-stream #topstory {
+text-align:center;
+width: 650px;
+margin-bottom: 20px;
+}
+
+#streaming .columncenter #topstory .sectiondiv,
+#local9point2live-stream .columncenter #topstory .sectiondiv,
+#streaming2 .columncenter #topstory .sectiondiv {
+width:640px;
+height: 52px;
+margin: 0 0 10px 25px;
+display:block;
+visibility:visible;
+text-indent:-9999px;
+background: transparent;
+}
+
+#streaming .columncenter #topstory .sectiondiv h1,
+#local9point2live-stream .columncenter #topstory .sectiondiv h1,
+#streaming2 .columncenter #topstory .sectiondiv h1 {
+text-align:center;
+margin:0;
+padding:0;
+}
+
+#streamingspecial #story, #local9point2live-stream #story {
+text-align: center;
+}
+
+#blogjoewinters #storysection .title {
+display: none;
+}
+
+
+/* -------- INTENSE DEBATE -------- */
+#idc-container-parent {
+width: 430px;
+float:left;
+}
+
+/* -------- REPORT STORMS -------- */
+#weatherreportstorms .columnright,
+#weatherreportstorms .title {
+display: none;
+}
+
+#sportsmarchbasketball .title {
+display: none;
+}
+
+
+/* -------- FARMER JOSH -------- */
+
+#featuresfarmerjosh #moretopstories {
+width: 646px;
+}
+
+#featuresfarmerjosh #moretopstories .sectiondiv {
+background: #55aa13;
+}
+
+
+#featuresfarmerjoshforecast .columncenter .title {
+display: none;
+}
+
+
+#CBOT  {
+width: 320px;
+float: left;
+margin-right: 5px;
+}
+
+/* -------- ENTERTAINMENT -------- */
+
+#newsentertainmentgames #storytools,
+#newsentertainmentgames .storyinfo,
+#newsentertainmentgames .columncenter .title {
+display: none;
+}
+
+
+/* -------- PROGRAMS -------- */
+
+#programs .columnright {
+display: none;
+}
+
+
+/* -------- VEISHEA-------- */
+
+#featuresveishea .columncenter .title {
+display: none;
+}
+
+/*-------------BLOG -------------*/
+#blog .headlines {
+width: 210px;
+height: 180px;
+}
+#blog .headlines {
+margin-left:2px;
+}
+
+#blog .headlines .sectiondiv {
+background: transparent;
+}
+
+#blog .headlines .sectiondiv h1{
+font-size: 12px;
+text-transform: none;
+}
+
+/* ---- HIDE SUBNAV ---- */
+
+
+#blogfarmerjosh #subnav,
+#blogchrisearl #subnav,
+#blogmarkgeary #subnav,
+#blogscottsaville #subnav,
+#blogashleyhinson #subnav,
+#blogjustinfoss #subnav,
+#blogthenine #subnav,
+#blogmikewagner #subnav,
+#blogshannonbooth #subnav,
+#blogbeckylutgengardner #subnav,
+#blogbridalbootcamp #subnav,
+#blogjohnphelan #subnav {
+display: none;
+}
+
+#blog #subnav {
+height: 0;
+}
+/* ---- PROGRAMS SUBSECTIONS ---- */
+
+#programs180 #ad_01,
+#programsleaderboard1 #leaderboard1,
+#programsleaderboard2 #leaderboard2
+ {
+text-align: left !important;
+}
+
+#programsleaderboard2 #leaderboard2,
+#programsleaderboard1 #leaderboard1 {
+width:728px !important;
+height:90px !important;
+}
+
+#programs180 #ad_01 {
+width: 180px !important;
+height: 90px !important;
+}
+
+#programsleaderboard2  #main,
+#programs180 #main,
+#programsleaderboard1  #main{
+margin:-8px 0 0 -10px !important;
+text-align: left;
+
+}
+#programs180 #subnav,
+#programs180 #nav,
+#programs180 #header,
+#programs180 #leaderboard1,
+#programs180 #footer,
+#programs180 #ticker,
+#programs180 #ad_leaderboard2,
+#programs180 #contextualad,
+#programs180 #ad_05,
+#programs180 #whatson,
+#programs180 #ad_04,
+#programs180 #ad_03,
+#programs180 #mostpopular,
+#programs180 #headlinelifestyles,
+#programs180 #ad_02,
+#programs180 #headlinehomeondemand,
+#programs180 #natadad300x250,
+#programs180 #ynwidget300,
+#programs180 #internalsearch,
+#programs180 .columncenter,
+#programsleaderboard1 #subnav,
+#programsleaderboard1 #nav,
+#programsleaderboard1 #header,
+#programsleaderboard1 #ad_leaderboard2,
+#programsleaderboard1 #footer,
+#programsleaderboard1 .columncenter,
+#programsleaderboard1 #ticker,
+#programsleaderboard2 #subnav,
+#programsleaderboard2 #nav,
+#programsleaderboard2 #header,
+#programsleaderboard2 #ad_leaderboard1,
+#programsleaderboard2 #leaderboard1,
+#programsleaderboard2 .columncenter,
+#programsleaderboard2 #footer,
+#programsleaderboard2 #ticker{
+display: none;
+}
+/* ---- WII ---- */
+.parentwii .storybox .title,
+.parentwii #subnav,
+.parentwii #nav,
+.parentwii #header,
+.parentwii #footer,
+.parentwii #ticker,
+.parentwii #AdFusionBSW,
+.parentwii .columnright,
+.parentwii #footer,
+.parentwii #ticker,
+.parentwii #natadad160x600rightout {
+display: none;
+}
+
+.parentwii #leaderboard1 {
+text-align: left!important;
+}
+
+/* ---- TORNADO ---- */
+
+#tornado .columnright {
+display: none;
+}
+#tornado #story .sectiondiv {
+background-image: none !important;
+background-color: #00309b !important;
+width: auto;
+}
+
+#tornado #headlinetornadonow,
+#tornado #headlinetornadothen {
+margin-right: 5px;
+height: 500px;
+}
+#tornado #introbody{
+margin: 0px!important;
+}
+
+.countdown {
+margin: 10px 5px 5px 10px;
+}
+
+/*----------SUMMER FUN---------------*/
+#summerfun .columncenter #headlineSummerFunEvents {
+float: left;
+width: 646px;
+height: auto;
+margin: 0 0 8px 0;
+padding: 0;
+overflow: hidden;
+}
+
+
+/*----------FALL FUN---------------*/
+#featuresfall .columncenter #headlineFallFunEvents {
+float: left;
+width: 646px;
+height: auto;
+margin: 0 0 8px 0;
+padding: 0;
+overflow: hidden;
+}
+
+#featuresfall #headlineyounews ul li {
+float: left;
+list-style: none;
+width: 310px;
+height: 130px;
+margin: 0;
+padding: 0;
+}
+
+#featuresfall #headlineyounews ul{
+height: 260px;
+padding: 10px 0 0 0;
+margin: 0 10px 0 15px;
+}
+
+#featuresfall #headlineyounews .miscCode{
+clear: both;
+font-size: 12px;
+padding: 0 0 10px 480px;
+}
+
+#seasonalfall-fun #story #divsection.sectiondiv{
+display:none;
+visibility:hidden;
+}
+
+#seasonalfall-fun .sectiondiv h1 {
+background-color: #CCCCCC;
+font-size: 14px;
+margin: 0;
+padding: 3px;
+width:300px;
+height:24px;
+line-height:20px;
+padding-bottom:0px;
+text-transform:uppercase;
+}
+
+#seasonalfall-fun #headlineCalendarofEvents,
+#seasonalfall-fun #headlineseasonalfall-funhaunted-houses{
+float:left;
+width:300px;
+height:300px;
+font-size:12px;
+clear:both;
+}
+
+#seasonalfall-fun #headlineyounews,
+#seasonalfall-fun #tt_times{
+float:right;
+width:300px;
+font-size:12px;
+}
+
+#seasonalfall-fun #tt_times ul li{
+margin: 0 0 0 15px;
+}
+
+/*----------YOUNEWS HEADLINES---------------*/
+
+#featuresfall .columncenter #headlineyounews {
+float: left;
+width: 646px;
+height: auto;
+margin: 0 0 8px 0;
+padding: 0;
+overflow: hidden;
+}
+
+
+/*----------FATHERS DAY---------------*/
+#fathersday .columncenter #headlineFathersDayStory {
+float: left;
+width: 646px;
+height: auto;
+margin: 0 0 8px 0;
+padding: 0;
+overflow: hidden;
+}
+
+
+/*----------INTERACTIVE RADAR---------------*/
+#weatherinteractiveradar #storysection .title {
+display: none;
+}
+
+
+#weatherinteractiveradar #storysection,
+#weatherinteractiveradar .columncenter {
+width: 835px;
+}
+
+#weatherinteractiveradarfuturecast #storysection,
+#weatherinteractiveradarfuturecast .columncenter,
+#weatherinteractiveradarnational #storysection,
+#weatherinteractiveradarnational .columncenter,
+#weatherinteractiveradarregional #storysection,
+#weatherinteractiveradarregional .columncenter,
+#weatherinteractiveradarwaterloo #storysection,
+#weatherinteractiveradarwaterloo .columncenter,
+#weatherinteractiveradarwashington #storysection,
+#weatherinteractiveradarwashington .columncenter,
+#weatherinteractiveradariowa-city #storysection,
+#weatherinteractiveradariowa-city .columncenter,
+#weatherinteractiveradardebuque #storysection,
+#weatherinteractiveradardebuque .columncenter,
+#weatherinteractiveradardecorah #storysection,
+#weatherinteractiveradardecorah .columncenter,
+#weatherinteractiveradarcedar-rapids #storysection,
+#weatherinteractiveradarcedar-rapids .columncenter,
+#weatherinteractiveradarlocal #storysection,
+#weatherinteractiveradarlocal .columncenter{
+width: 660px;
+}
+
+#weatherinteractiveradarfuturecast .columnright,
+#weatherinteractiveradarnational .columnright,
+#weatherinteractiveradarregional .columnright,
+#weatherinteractiveradarwaterloo .columnright,
+#weatherinteractiveradarwashington .columnright,
+#weatherinteractiveradariowa-city .columnright,
+#weatherinteractiveradardebuque .columnright,
+#weatherinteractiveradardecorah .columnright,
+#weatherinteractiveradarcedar-rapids .columnright,
+#weatherinteractiveradarlocal .columnright,
+#weatherinteractiveradar .columnright{
+width: 160px;
+}
+
+/*----------BALLPARKS---------------*/
+
+#sportsballparksteams .storyinfo,
+#sportsballparksteams #storytools {
+display: none;
+}
+/*----------ROADTRIP---------------*/
+#headlinefeaturesroadtripguidefoodndrink,
+#headlinefeaturesroadtripguidestays,
+#headlinefeaturesroadtripguideideas {
+margin-right: 3px;
+}
+
+/*---------VOTER GUIDE-------------*/
+.parentvoterguide #storytools,
+.parentvoterguide .title,
+.parentvoterguide .storyinfo {
+display: none;
+}
+
+.parentvoterguide #storysection {
+margin:  0;
+padding: 0;
+}
+
+/* ------------ Dubuque ------------ */
+#newsdubuque .columncenter .sectiondiv {
+display: none;
+}
+
+#newsdubuque #moretopstories {
+margin-top: 20px;
+}
+
+/*------Gold Ticket----*/
+
+.parentgoldticket h1.title {
+display: none;
+}
+
+#goldticket #story  {
+width: 646px;
+margin: 0 0 10px 0
+}
+
+#goldticket #story img {
+padding: 0;
+margin: 0 0 0 -10px;
+}
+
+
+/*---------HOLIDAY  & VALENTINES DAY SECTION-------------*/
+#holiday #headlineHolidayEvents{
+height: 330px;
+margin: 0 6px 0 0;
+}
+
+#valentines #headlineyounews,
+#holiday #headlineyounews{
+height: 330px;
+}
+
+#valentines .columncenter #headlineyounews .head1,
+#holiday .columncenter #headlineyounews .head1{
+line-height:14px;
+padding:5px 0 8px;
+}
+
+#valentines .columncenter #headlineyounews .head2 img,
+#valentines .columncenter #headlineyounews .head3 img,
+#valentines .columncenter #headlineyounews .head4 img,
+#valentines .columncenter #headlineyounews .head5 img,
+#holiday .columncenter #headlineyounews .head2 img,
+#holiday .columncenter #headlineyounews .head3 img,
+#holiday .columncenter #headlineyounews .head4 img,
+#holiday .columncenter #headlineyounews .head5 img{
+display: none;
+visibility: hidden;
+}
+
+#valentines .columncenter #headlinevalentines,
+#holiday .columncenter #headlineholiday {
+width: 646px;
+height: auto;
+clear:both;
+margin:0 0 8px;
+padding:0;
+}
+
+#headlineholiday .link{
+list-style-type: none;
+float:left;
+margin:0 0 8px;
+text-align:left;
+font-size: 13px;
+width: 600px;
+}
+
+#headlineholiday .itemvid{
+list-style-type: none;
+float:left;
+margin:0 0 8px;
+text-align:left;
+font-size: 13px;
+width: 600px;
+}
+
+#headlineholiday .story{
+list-style-type: none;
+float:left;
+margin:0 0 8px;
+text-align:left;
+font-size: 13px;
+width: 600px;
+}
+
+#headlineholiday .storywhtmleditor{
+float:left;
+margin:0 0 8px;
+text-align:left;
+font-size: 13px;
+width: 600px;
+}
+
+#headlineholiday li{
+float: left;
+margin-top: 7px;
+clear:left;
+}
+
+#holiday #story{
+height: auto;
+}
+
+#valentines #headlineyounews li img,
+#holiday #headlineyounews li .topthumbmore{
+margin:3px 5px 5px 0;
+padding:0;
+width:80px;
+}
+
+#headlineholiday p{
+text-align: justify;
+background-color:#FFFFFF;
+font-size:12px;
+margin:0;
+padding:0;
+color:black
+}
+
+#headlineValentinesDayEvents{
+height: 330px;;
+margin-right: 5px;
+}
+
+/*---------KCRG ADD-------------*/
+#wxcontainer{
+width:300px;
+height:180px;
+border:0;
+overflow: scroll;
+margin:auto;
+}
+#wxcontainer iframe {
+width:600px;
+height:500px;
+margin-left:-192px;
+margin-top:-15px;
+border:0 solid;
+}
+
+
+/*---------CRIME-------------*/
+#crime #headlinecrime{
+width: 638px;
+height: auto;
+margin-left: 8px;
+}
+
+
+/*---------ON TRIAL-------------*/
+#newsbeckertrial .columncenter #story #divsection,
+#newsbeckertrialthecase #divsection,
+#newsbeckertrialtimeline #divsection,
+#newsbeckertrialtrial #divsection,
+#newsbeckertrialmultimedia #divsection
+{
+display: none;
+visibility: hidden;
+}
+
+/*-----------Show You Care-------------*/
+
+.careheadlines,
+.caresectionintro {
+float: left;
+width: 646px;
+margin: 8px 0 0 0 !important;
+padding: 0;
+height: auto;
+background-color: #fff;
+overflow: hidden;
+}
+
+.careheadlines .sectiondiv h1,
+.caresectionintro .sectiondiv h1 {
+border-bottom:3px solid #d2d2d2;
+color:#111111;
+font-size:15px;
+font-weight:bold;
+line-height:20px;
+margin:0;
+text-transform:uppercase;
+margin: 0 0 0 8px;
+padding: 0 0 0 8px;
+}
+
+.careheadlines .sectiondiv h1 a,
+.caresectionintro .sectiondiv h1 a{
+color:#111111;
+font-weight:bold;
+}
+
+.careheadlines ul {
+list-style-type: none;
+margin: 0 0 0 25px;
+padding: 0px;
+color: #000;
+}
+
+.caresectionintro ul {
+list-style-type: none;
+margin: 0px;
+padding: 8px;
+}
+
+.caresectionintro ul li,
+.careheadlines ul li {
+clear: both;
+margin: 8px 0;
+padding: 0px;
+font-size: 14px;
+line-height: 19px;
+height: auto;
+overflow: hidden;
+}
+
+.caresectionintro ul li p,
+.careheadlines ul li p{
+margin: 0;
+}
+
+.careheadlines .topthumbmore {
+width: 120px;
+}
+
+.careheadlines .headtitle,
+.careheadlines a {
+font-weight: normal;
+line-height: 12px;
+font-size: 12px;
+color: #134374;
+font-weight:bold;
+}
+
+.careheadlines .videoicon {
+display: inline;
+}
+
+.careheadlines .videoicon span,
+.caresectionintro .headtitle {
+display: none;
+}
+
+/*-----Golden klutz-----*/
+#headlinesportsgoldenklutz{
+width: 646px;
+margin: 10px 0 0 0;
+height: auto;
+}
+
+#headlinesportsgoldenklutz ul{
+list-style-type: none;
+margin: 8px 0;
+padding: 0 8px;
+}
+
+/*---KEVIN BLOG---*/
+#blogkevin .columnright{
+display: none;
+visibility: hidden;
+}
+
+#blogkevin .storybox .title{
+display: none;
+visibility: hidden;
+}
+
+/* -------- SPORTS JS SCOREBOARD -------- */
+#kcrg_scoreboard {
+clear: both;
+overflow: hidden;
+margin-bottom: 8px;
+border-bottom: 1px solid #DDDDDD;
+}
+
+#kcrg_scoreboard.ui_widget_control {
+border: none !important;
+}
+
+#kcrg_scoreboard #smg_tabs {
+overflow: visible !important;
+border: none !important;
+}
+
+/*------Setting width for IE-----*/
+#index #ticker table{
+width: 960px;
+clear: both;
+}
+
+/*----------Golden Klutz----------*/
+#headlinesportsgoldenklutz ul li{
+clear: both;
+float: left;
+margin: 0;
+padding: 8px 0 5px 0;
+height: auto;
+}
+
+/*-----Features Module on Left Side-----*/
+.featurenav .headtitle {
+background:#E4E5E7 none repeat scroll 0 0;
+clear:both;
+color:#111111;
+display:block;
+font-size:16px;
+font-weight:bold;
+line-height:21px;
+margin-left:4px;
+padding:0;
+width:140px;
+}
+
+.story .video16x9 #storytools {
+width: auto;
+float: right;
+}
+
+/*-------Gallery Headlines Module--------*/
+#headline-module-gallery{
+height: 280px;
+}
+
+#headline-module-gallery h1{
+border-bottom:3px solid #D2D2D2;
+color:#333333;
+font-size:20px;
+font-weight:bold;
+line-height:30px;
+margin:0;
+padding:0;
+text-transform:uppercase;
+width: 500px;
+}
+
+#headline-module-gallery h1 a {
+color: #111;
+}
+
+#headline-module-gallery ul li .headthumb{
+float:left;
+margin:0 5px 0 0;
+padding:8px 8px 0 0;
+display:block;
+overflow:hidden;
+}
+
+#headline-module-gallery ul li .entry-title{
+clear:both;
+font-size:14px;
+font-weight:bold;
+}
+
+#headline-module-gallery ul .item1 {
+border-bottom:medium none;
+float:left;
+height:260px;
+margin:0;
+padding:5px 8px 0 0;
+width:195px;
+}
+
+#headline-module-gallery ul .item2,
+#headline-module-gallery ul .item3,
+#headline-module-gallery ul .item4{
+border-left: 2px solid #D2D2D2;
+padding: 0 0 0 15px;
+margin: 0px;
+display: block;
+border-bottom: 0px dotted #D2D2D2;
+}
+
+#headline-module-gallery ul .item2 .entry-title,
+#headline-module-gallery ul .item3 .entry-title,
+#headline-module-gallery ul .item4 .entry-title{
+display: list-item;
+border-bottom: 1px dotted #D2D2D2;
+margin: 4px 0 4px 3px;
+}
+
+
+
+#headline-module-gallery ul .item2{
+margin: 38px 0 0 0;
+}
+
+
+/*----Tornado Section----*/
+#newsspecialreportparkersburg-tornado .columnright{
+display: none;
+visibility: hidden;
+}
+
+/*------Local Directory Widget-----*/
+.columnright #Local_Dir{
+height: auto;
+}
+
+/*-----Hour by Hour Weather Map-----*/
+#wx_countymap{
+width: 455px;
+}
+
+
+/* -------- Home Promo Module ----------- */
+#snap-judgement-promo {
+overflow: hidden;
+width: 638px;
+position: absolute;
+margin: 0 0 0 8px;
+top: 230px;
+}
+
+#snap-judgement-promo img {
+width: 638px;
+}
+
+/*---- Captions styles ----*/
+#storysection .storyimgcont .caption {
+padding:4px 8px;
+width:454px!important;
+}
+
+/*------ Related Content in IE7 Fix -------*/
+*:first-child+html .story #related{
+float: none!important;
+}
+
+/* -------- Sports ---------- */
+#sports #sports-sportsdesktop {
+margin: 0 8px 8px;
+height: 240px;
+width: 620px;
+}
+
+#sports #sports-sportsdesktop h1,
+#sports #sports-sportsdesktop .summary{
+position: relative;
+left: 410px;
+top: -160px;
+width: 200px;
+line-height: 22px;
+}
+
+#sports #sports-sportsdesktop .idcomment{
+display: none;
+}
+
+#sports #sports-sportsdesktop #topstorydiv{
+width: 620px !important;
+}
+#sports #sports-sportsdesktop #topstory{
+width: 400px !important;
+}
+#sports .sports-desk-logo{
+height:100px;
+left:420px;
+position:relative;
+top:-250px;
+width:220px;
+}
+
+#sports .sports-desk-logo ul{
+list-style-type: none;
+margin:0 0 0 25px;
+padding: 0;
+font-size: 11px;
+font-weight: bold;
+color: #333;
+}
+
+#sports .sports-related-links ul{
+list-style-type: none;
+padding: 0;
+margin-top: -5px;
+margin-left: 20px;
+float: left;
+clear:both;
+}
+
+#sports .sports-related-links ul{
+margin-top: 0px\9;
+margin-bottom: 10px\9;
+}
+
+/**:first-child+html #sports .sports-related-links ul{
+margin-top: -110px;
+}*/
+
+
+
+#sports .sports-related-links ul li{
+display:inline;
+margin: 0;
+padding: 0;
+}
+
+#sports .sports-related-links ul li a{
+color:#152B51;
+font-weight:bold;
+font-size: 12px;
+}
+
+#sports #sports-desk-title h1{
+border-bottom:1px solid #C8C9CB;
+color:#111111;
+font-size:18px;
+font-weight:bold;
+line-height:22px;
+margin:0 0 8px 5px;
+padding-bottom:2px;
+text-transform:none;
+}
+
+*:first-child+html #sports-sportsdesktop #flashcontent object{
+height: 240px;
+width: 400px;
+}
+
+*:first-child+html #sports #sports-sportsdesktop h1{
+position: relative;
+left: 410px;
+top: -180px;
+width: 200px;
+line-height: 24px!important;
+font-size: 18px!important;
+}
+
+#sports-sportsdesktop #flashcontent object{
+height: 240px\9;
+width: 400px\9;
+}
+
+#sports #sports-sportsdesktop h1,
+#sports #sports-sportsdesktop .summary{
+position: relative\9;
+left: 410px\9;
+top: -200px\9;
+width: 200px\9;
+line-height: 22px\9;
+}
+
+#sports .brough-to-you li a{
+color: #000;
+}
+
+#sportsdesk-sponsor {
+height: auto;
+width: 400px;
+float: left;
+position: relative;
+overflow: visible;
+}
+
+#sportsdesk-sponsor p {
+font-size: 12px;
+}
+
+#sportsdesk-sponsor h3 {
+font-size: 24px;
+line-height: 26px;
+margin: 0;
+}
+
+#sportsdesk-sponsor #sportsdesk-popup {
+position: absolute;
+top: 0;
+left: 10px;
+padding: 10px;
+border: 1px solid #000;
+background: #fff;
+width: 455px;
+z-index: 800;
+-webkit-box-shadow:  5px 5px 10px 1px rgba(0, 0, 0, .5);
+box-shadow:  5px 5px 10px 1px rgba(0, 0, 0, .5);
+}
+
+#sportsdesk-popup #headlinesportssportsdesk {
+height:auto;
+}
+
+#sportssportsdesk #sportsdesk-popup .headlines {
+height: auto;
+margin: 0;
+}
+
+#sportssportsdesk #sportsdesk-popup ul {
+list-style-type: none;
+padding: 0 0 0 8px;
+margin: 0;
+color: #222;
+}
+
+#sportssportsdesk #sportsdesk-popup ul li {
+clear: both;
+overflow: hidden;
+margin-bottom: 4px;
+}
+
+#close-slideout-video {
+float: right;
+font-size: 12px;
+margin-top: -10px;
+}
+
+#sportssportsdesk .sports-desk-logo {
+position: relative;
+width:220px;
+height: 100px;
+float: right;
+*float:left;/*Newely added*/
+margin-top: -253px;
+*top:0px!important;
+}
+
+#sportssportsdeskabout .sports-desk-logo ul,
+#sportssportsdesk .sports-desk-logo ul{
+list-style-type: none;
+margin:0 0 0 25px;
+padding: 0;
+font-size: 11px;
+font-weight: bold;
+}
+
+#sportssportsdeskabout .sports-desk-logo ul a,
+#sportssportsdesk .sports-desk-logo ul a{
+color: #000;
+}
+
+*:first-child+html #sportssportsdesk .sports-desk-logo{
+position: relative;
+top: -1284px;
+left: 415px;
+width:220px;
+height: 100px;
+}
+
+#sportssportsdeskabout #introbody p{
+width: 380px;
+float: left;
+padding-right: 10px;
+}
+
+#sportssportsdesk #headlinesportssportsdesk3 .headtitle {
+font-weight: bold;
+}
+
+/*-------- Index Sports Desk Logo --------*/
+#index .sports-desk-logo{
+float:left;
+position:relative;
+top:100px;
+width:220px;
+right: -220px;
+}
+
+#index .sports-desk-logo ul{
+list-style-type: none;
+margin:0 0 0 25px;
+padding: 0;
+font-size: 11px;
+font-weight: bold;
+}
+
+#index .sports-desk-logo ul a {
+color: #000;
+}
+
+#index #headlinesportssportsdesk {
+float:left;
+height:50px;
+left:230px;
+position:relative;
+top:155px;
+width:230px;
+padding-top: 10px;
+}
+
+*:first-child+html #index #headlinesportssportsdesk{
+float:left;
+height:50px;
+left:230px;
+position:relative;
+top:160px;
+width:230px;
+}
+
+#index #headlinesportssportsdesk .sectiondiv{
+display: none;
+visibility: hidden;
+}
+
+#index #headlinesportssportsdesk ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+#index #headlinesportslocal{
+margin-top:-125px;
+}
+
+*:first-child+html #index #headlinesportslocal{
+margin-top:-85px;
+}
+
+#sports #headlinesportslocal .more {
+display:none;
+visibility:hidden;
+}
+
+#sports #headlinesportslocal .miscCode {
+background:none repeat scroll 0 0 #F0F0F0;
+border-color: #FFFFFF #D2D2D2 #D2D2D2;
+border-right: 1px solid #D2D2D2;
+border-style:solid;
+border-width: 0 1px 1px;
+color:#333333;
+display:block;
+float:right;
+font-size:11px;
+padding:2px 8px;
+}
+
+#sports #headlinesportslocal .miscCode a {
+color:#333333;
+}
+
+/*------- NEW Interactive Radar Styles --------*/
+.interactive-radar-map{
+width: 775px;
+height: 725px;
+margin:0;
+padding: 10px 0 10px 10px;
+}
+
+.interactive-radar-map .pinpoint-logo {
+   width: 177px;
+   float: left;
+   margin-bottom: 15px;
+}
+
+.interactive-radar-map .more-pinpoint{
+float: right;
+font-size: 13px;
+margin-right: 160px;
+}
+
+.interactive-radar-map .more-pinpoint h2{
+color: #333333;
+font-size: 13px;
+float: left;
+margin: 0 10px 0;
+}
+
+.interactive-radar-map .more-pinpoint img{
+padding: 0 5px 0 0;
+margin-bottom: -2px;
+}
+
+.interactive-radar-map .radar-links{
+clear: both;
+}
+
+.interactive-radar-map .local-view{
+clear: both;
+line-height: 30px;
+height: 30px;
+}
+
+.interactive-radar-map .local-view-wrapper{
+background-color: #F4F4F4;
+height: 30px;
+width: 510px;
+float: left;
+}
+
+.interactive-radar-map #more-tools {
+    float: right;
+    width: 110px;
+    margin-top: 5px;
+}
+
+.interactive-radar-map .local-view h3{
+color: #333333;
+font-size: 14px;
+width: 100px;
+float: left;
+margin: 0;
+padding: 0 0 0 6px;
+font-weight: normal;
+}
+
+.interactive-radar-map .radar-links h3{
+color: #333333;
+font-size: 14px;
+width: 100px;
+float: left;
+margin: 0;
+padding: 0 0 0 6px;
+font-weight: normal;
+}
+
+.interactive-radar-map .radar-links ul li.separator {
+    font-weight: normal;
+    margin: 0 2px 0 7px;
+}
+
+.interactive-radar-map .radar-links ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 500px;
+float: left;
+color:#333333;
+font-weight: bold;
+}
+
+.interactive-radar-map .local-view ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 400px;
+float: left;
+color:#333333;
+font-size: 12px;
+}
+
+.interactive-radar-map .alerts-text{
+display: inline;
+font-size: 12px;
+float: right;
+margin: 0;
+}
+
+.interactive-radar-map p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.interactive-radar-map p.interactive-about-map-subhead {
+    margin-bottom: 9px;
+}
+
+.interactive-radar-map .local-view ul li {
+   padding: 0 1px;
+}
+
+.interactive-radar-map .local-view ul li,
+.interactive-radar-map .radar-links ul li{
+display: inline;
+font-size: 12px;
+}
+
+#radar-map{
+clear: both;
+padding: 10px 0 0 0;
+}
+
+#radar-map iframe{
+height: 470px;
+width: 780px;
+border: 1px solid #CCCCCC;
+}
+
+#midwest-interactive-radar .radar-links ul li.midwest a, #futurecast-interactive-radar .radar-links ul li.futurecast a,
+#national-interactive-radar .radar-links ul li.national a, #alerts-interactive-radar .radar-links ul li.alerts a,
+#local-interactive-radar .radar-links ul li.local a  {
+    color: #000;
+    text-decoration: none;
+}
+
+#waterloo-interactive-radar .local-view ul li.waterloo a,
+#washington-interactive-radar .local-view ul li.washington a,
+#iowaCity-interactive-radar .local-view ul li.iowa-city a,
+#dubuque-interactive-radar .local-view ul li.dubuque a,
+#decorah-interactive-radar .local-view ul li.decorah a,
+#cedarRapids-interactive-radar .local-view ul li.cedar-rapids a{
+color: #000;
+text-decoration: none;
+}
+
+#waterloo-interactive-radar .radar-links ul li.local a,
+#washington-interactive-radar .radar-links ul li.local a,
+#iowaCity-interactive-radar .radar-links ul li.local a,
+#dubuque-interactive-radar .radar-links ul li.local a,
+#decorah-interactive-radar .radar-links ul li.local a,
+#cedarRapids-interactive-radar .radar-links ul li.local a {
+    color: #000;
+    text-decoration: none;
+}
+
+.interactive-radar-map #interactive-map-footer{
+float: left;
+width: 780px;
+margin: 20px 0 0;
+padding: 0;
+}
+
+.interactive-radar-map .interactive-about-map{
+width: 418px;
+float: left;
+margin: 0;
+padding: 0 42px 0 0;
+}
+
+.interactive-radar-map .interactive-related-map{
+width: 300px;
+float: left;
+margin: 0;
+padding: 0;
+}
+
+.interactive-radar-map .interactive-related-map h4,
+.interactive-radar-map .interactive-about-map h4{
+border-bottom: 4px #e7e7e7 solid;
+font-size: 12px;
+margin: 0 0 20px;
+padding-bottom: 7px;
+}
+
+.interactive-radar-map .interactive-related-map ul{
+list-style-type: none;
+font-size: 14px;
+margin-top: -10px;
+padding: 0;
+}
+
+.interactive-radar-map .interactive-about-map p{
+padding: 0;
+}
+
+.interactive-radar-map .interactive-related-map ul li{
+line-height: 20px;
+}
+
+.alerts-text img{
+padding-left: 5px;
+margin-bottom: -1px;
+}
+
+#interactive-wxc-ad { margin-top: 25px; float:left; padding: 0 0 0 10px; width:644px;}
+#interactive-wxc-ad hr { height: 1px; width: 20px; color: #d2d2d2; background-color: #d2d2d2; margin-bottom: 25px;}
+/*------- END NEW INTERACTIVE RADAR STYLES -------*/
+
+/*------- BEGIN MOTHER'S DAY STYLES -------*/
+
+#mothersday #story .sectiondiv {
+	display:none;
+}
+
+/*------- END MOTHER'S DAY STYLES -------*/
+
+
+/* --------- Live Alert Styles ----------- */
+#alertscontainer {
+padding-top: 0;
+}
+
+#index #alertscontainer {
+padding-top: 1px;
+}
+
+.liveAlert {
+	width:100%;
+	height:45px;
+	border-bottom:3px solid #333333;
+	margin-top: 4px;
+	margin: 10px 0 5px;
+}
+.red {
+	background-color:#770D01;
+}
+.blue {
+	background-color:#05405E;
+}
+.green {
+	background-color:#008000;
+}
+.liveAlert h3 {
+	font-family:Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	font-size:21px;
+	color:#fff;
+	margin:0px;
+	padding:0px;
+	line-height:48px;
+	margin-left:10px;
+}
+.liveAlert span {
+	text-transform:uppercase;
+}
+.liveAlert a {
+	font-size:18px;
+	color:#fff;
+	font-weight:normal;
+	text-transform:lowercase;
+}
+.liveAlert a:visited {
+	color:#fff;
+}
+.liveAlert a.hideMe {
+	font-size:10px;
+	float:right;
+	text-decoration:none;
+	padding:3px 5px;
+	text-transform:lowercase;
+}
+
+
+
+
+
+/* --------- Custom YN Widget ----------- */
+#kcrg-ynwidget300 {
+width: 455px;
+float: right;
+overflow: hidden;
+font-size: 11px;
+}
+
+#kcrg-ynwidget300 .sectiondiv {
+margin: 0;
+}
+
+#kcrg-ynwidget300 .sectiondiv h1 {
+font-size: 18px;
+line-height:20px;
+margin: 0 0 3px 0;
+border-bottom: 3px solid #D2D2D2;
+color: #333;
+padding-bottom: 3px;
+font-weight: normal;
+}
+
+#kcrg-ynwidget300 .sectiondiv h1 span{
+font-size: 20px;
+font-weight: bold;
+}
+
+#kcrg-ynwidget300 .sectiondiv h1 a{
+color: #111111;
+}
+
+#kcrg-ynwidget300 ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+#kcrg-ynwidget300 h3,
+#kcrg-ynwidget300 .author,
+#kcrg-ynwidget300 p,
+#kcrg-ynwidget300 h5 {
+margin: 0;
+padding: 0;
+}
+
+#kcrg-ynwidget300 .photo-link{
+display: block;
+background: #222;
+}
+
+/* large story on left */
+#kcrg-ynwidget300 .younews_big {
+padding: 8px 8px 0 0;
+margin: 0;
+float: left;
+width: 160px;
+height: 190px;
+border-right: solid #d2d2d2 2px;
+}
+
+
+#kcrg-ynwidget300 ul li .entry-title,
+#kcrg-ynwidget300 .younews_big .entry-title {
+font-size: 14px;
+font-weight: bold;
+clear: both;
+margin: 0;
+}
+
+#kcrg-ynwidget300 .yn-submit  {
+float: left;
+background: transparent;
+width: 245px;
+padding: 0 0 0 35px;
+height: 32px;
+font-size: 12px;
+margin: 8px 0 0 4px;
+line-height: 32px;
+}
+
+/* image and text scroller */
+#kcrg-ynwidget300 #scroll-mask {
+float: left;
+width: 275px;
+padding: 8px 0 0 6px;
+height: 90px;
+overflow: hidden;
+}
+
+#kcrg-ynwidget300 #scroll-mask #younews {
+width: 275px !important;
+}
+
+#kcrg-ynwidget300 #scroll-mask #younews.sliderText {
+width: 247px !important;
+}
+
+#kcrg-ynwidget300 #scroll-mask .sliderImages .photo-link {
+border: 2px solid #fff;
+}
+
+#kcrg-ynwidget300 #scroll-mask .sliderText li {
+width: 247px !important;
+color: #777;
+}
+
+#kcrg-ynwidget300 .sliderText li a {
+font-size: 11px;
+color: #990000;
+}
+
+#ynPrevious {
+float: left;
+margin-right: 5px;
+}
+
+#ynNext {
+float: right;
+}
+
+/* additional info */
+#yn-bottom {
+float: left;
+width: 269px;
+font-size: 11px;
+padding: 0 0 0 8px;
+height: 118px;
+}
+
+#yn-bottom .sponsor {
+float: left;
+}
+
+#yn-bottom .sponsor h3,
+#yn-bottom .sponsor h3 a {
+color: #990000;
+}
+
+#yn-bottom .sponsor p,
+#yn-bottom .sponsor p a {
+color: #777;
+}
+
+#yn-bottom #yn_logo {
+float: right;
+margin-top: 10px;
+}
+#headline9point2 {width: 636px; padding: 10px; height: auto;}
+#headline9point2 ul {margin: 0px;}
+#headline9point2 ul li {list-style:none; padding:5px; width: 308px;}
+#headline9point2 ul li.head1, #headline9point2 ul li.head3, #headline9point2 ul li.head5 {float: left; clear:both;}
+#headline9point2 ul li.head2, #headline9point2 ul li.head4, #headline9point2 ul li.head6 {float: right;}
+
+
+/* ------------- wx now ----------- */
+#wxnow .columncenter .headlines {
+width: 310px;
+margin-top: 20px;
+height: auto;
+}
+
+#wxnow .columncenter .right {
+float: right;
+}
+
+#wxnow .columncenter .headlines .sectiondiv {
+height: auto;
+padding: 0;
+margin: 0;
+}
+
+#wxnow .columncenter .headlines .sectiondiv h1 {
+background-color: #CCCCCC;
+font-size: 14px;
+margin: 0;
+padding: 3px 3px 0;
+text-transform: none;
+line-height: 15px;
+}
+
+#wxnow .columncenter .headlines ul li {
+padding: 5px 0;
+border-bottom: 1px dotted #ccc;
+}
+
+#wxnow-twitter {
+clear: both;
+float: left;
+margin: 10px 20px 0 0;
+}
+
+#wxnow-fb {
+float: left;
+margin-top: 10px;
+}
+
+#wxnow #headlineWeatherWaterCooler {
+clear: both;
+}
+
+#wxnow #story .sectiondiv {
+display: none;
+}
+
+/* ------------- 911 ANNIVERSARY ----------- */
+#rememberingrebuilding,
+#iremember,
+#Sept11ThatDay,
+#yourvoice {
+width: 310px;
+margin-top: 20px;
+font-size: 12px;
+line-height: 1.2em;
+}
+
+#rememberingrebuilding,
+#Sept11ThatDay{
+height:160px;
+}
+
+#Sept11ThatDay,
+#yourvoice{
+float:right;
+}
+
+#rememberingrebuilding,
+#iremember{
+float:left;
+}
+
+#rememberingrebuilding .sectiondiv h1,
+#iremember .sectiondiv h1,
+#Sept11ThatDay .sectiondiv h1,
+#yourvoice .sectiondiv h1{
+background-color: #CCCCCC;
+font-size: 14px;
+margin: 0;
+padding: 3px;
+}
+
+#headline911anniversarybottom .sectiondiv,
+#headline911anniversarybottom a{
+display:none;
+visibility:hidden;
+}
+
+#headline911anniversarybottom{
+width:660px;
+height:400px;
+}
+
+#headline911anniversarybottom ul li{
+list-style-type:none;
+margin-left:-10px;
+}
+
+/* ------------- Holiday Section ----------- */
+#holiday .headlines h1,
+#holiday .kcrg-holiday-image-module{
+width:310px;
+float:left;
+}
+
+#holiday .headlines h1{
+background-color:#D7D7D7;
+text-align:center;
+padding-top:5px;
+float:left;
+margin:5px;
+}
+
+#holiday .headlines{
+width:310px;
+float:left;
+}
+
+#holiday .kcrg-holiday-image-module img{
+width:305px;
+float:left;
+margin:5px;
+}
+
+
+/* ------------- St. Patrick's Day ----------- */
+#stpatricksday .sectiondiv{
+display:none;
+}
+
+/* ---- KCRG story widget advertisement ---- */
+#kcrg-cust-widget {
+padding:10px;
+}
+
+/* ---- Evansdale Disappearance ----*/
+#evansdaledisappearance #story #divsection {
+display:none;
+}
+
+#evansdaledisappearance.story #kcrg-disappearance-flash-intro {
+display:none;
+}
+
+/* ----Right column radar ---- */
+.columnright .radar-wrapper{
+position:relative;
+margin-bottom:15px;
+}
+
+.columnright .radar-pinpoint-image {
+position:absolute;
+left:15px;
+top:48px;
+}
+
+.columnright .radar-title {
+font-size:23px;
+font-weight:bold;
+color:#333333;
+text-shadow:1px 1px #CCCCCC;
+text-transform:uppercase;
+float:left;
+margin-top:16px;
+}
+
+.columnright .radar-title a {
+text-decoration:none;
+color:#333333;
+}
+
+.columnright .weather-ad {
+float:right;
+}
+
+.columnright #ad_11 {
+width:185px;
+}
+
+.columnright .radar-wrapper a img {
+border:0 none;
+}
+
+/*----- Right Rail Hourly Forecast -----*/
+.columnright .hourly-container {
+width:300px;
+margin-bottom:15px;
+}
+
+.columnright .hourly-title {
+color:#333333;
+font-size:23px;
+font-weight:bold;
+text-shadow:1px 1px #CCCCCC;
+padding:10px 0;
+text-transform:uppercase;
+}
+
+#index .hourly-wrapper .hourly-title { text-transform:uppercase!important; }
+
+.columnright .hourly-title a {
+text-decoration:none;
+color:#333333;
+}
+
+.columnright .hourly-widget-container {
+float:left;
+text-align:center;
+width:50px;
+}
+
+.columnright .hour {
+background-color:#2A2A2A;
+color:#BBDEFC;
+font-size:12px;
+font-weight:bold;
+padding:10px 0;
+}
+
+.columnright .middle-wrapper.item-0 {
+margin-left:0;
+}
+
+.columnright .middle-wrapper {
+background-color:#ADC7E8;
+margin-left:2px;
+margin-top:3px;
+padding-bottom:5px;
+}
+
+.columnright .icon {
+padding-top:10px;
+}
+
+.columnright .temp {
+color:#3E93D3;
+font-size:18px;
+font-weight:bold;
+}
+
+.columnright .feels-container.item-0 {
+margin-left:0;
+}
+
+.columnright .feels-container {
+background-color:#3E93D3;
+color:#FFF;
+margin-left:2px;
+}
+
+.columnright .feels-text {
+font-size:9px;
+text-transform:uppercase;
+}
+
+.columnright .feels-value {
+font-size:13px;
+}
+
+/* ------ Top 9 ------ */
+.columncenter .topnine {
+width:605px;
+height:auto;
+margin-top:0px;
+}
+
+.topnine .sectiondiv {
+font-size:23px;
+margin-left:20px;
+text-transform:uppercase;
+margin-bottom:25px;
+}
+
+.topnine .sectiondiv h6 {
+color:#333333;
+font-size:23px;
+padding:10px 0 8px 14px;
+text-shadow:1px 1px #CCCCCC;
+margin:0;
+}
+
+.topnine .item1 .entry-title {
+font-size:20px;
+margin:0;
+padding-bottom:16px;
+margin-top:10px;
+width:563px;
+padding-left:5px;
+}
+
+.topnine .article-summary {
+border-bottom:1px solid #C6C6C6;
+color:#333333;
+padding-bottom:10px;
+padding-left:5px;
+}
+
+.topnine .item2 .entry-title, .topnine .item3 .entry-title, .topnine .item4 .entry-title, .topnine .item5 .entry-title, .topnine .item6 .entry-title, .topnine .item7 .entry-title, .topnine .item8 .entry-title, .topnine .item9 .entry-title {
+font-size:17px;
+margin:0;
+}
+
+.topnine .item2 .entry-title a, .topnine .item3 .entry-title a, .topnine .item4 .entry-title a, .topnine .item5 .entry-title a, .topnine .item6 .entry-title a, .topnine .item7 .entry-title a, .topnine .item8 .entry-title a, .topnine .item9 .entry-title a {
+color:#383838;
+}
+
+.topnine .item2, .topnine .item3, .topnine .item4, .topnine .item5, .topnine .item6, .topnine .item7, .topnine .item8, .topnine .item9 {
+margin-top:20px;
+box-shadow:0 0 10px #777777;
+-moz-box-shadow:0 0 10px #777777;
+-webkit-box-shadow:0 0 10px #777777;
+border:1px solid #CCCCCC;
+}
+
+.topnine .entry-title a:link, .topnine .entry-title a:visited {
+color:#333;
+font-weight:bold;
+text-decoration:none;
+}
+
+.topnine .entry-title a:hover {
+color:#000;
+font-weight:bold;
+text-decoration:none;
+}
+
+.topnine ul:after {
+content:".";
+display:block;
+height:0;
+clear:both;
+visibility:hidden;
+}
+
+.topnine ul {
+list-style:none;
+margin:0;
+margin-bottom:10px !important;
+}
+
+.topnine ul.related {
+list-style:none;
+margin:0;
+padding-top:16px;
+}
+
+.topnine .related-label {
+color:#666;
+float:left;
+font-size:14px;
+text-transform:lowercase;
+padding-left:5px;
+padding-bottom:10px;
+}
+
+.topnine .related-story {
+float:left;
+padding-left:20px;
+}
+
+.topnine .related-story a:link, .topnine .related-story a:visited {
+color:#347EC2;
+font-size:14px;
+text-decoration:none;
+}
+
+.topnine .related-story a:hover {
+text-decoration:underline;
+}
+
+.topnine .item2 .storyimgdiv, .topnine .item3 .storyimgdiv, .topnine .item4 .storyimgdiv, .topnine .item5 .storyimgdiv, .topnine .item6 .storyimgdiv, .topnine .item7 .storyimgdiv, .topnine .item8 .storyimgdiv, .topnine .item9 .storyimgdiv {
+position:relative;
+float: left;
+}
+
+.storyimgdiv td.top_nine_main_story_image {background: #333;}
+
+.topnine .item2 .photo-link, .topnine .item3 .photo-link, .topnine .item4 .photo-link, .topnine .item5 .photo-link, .topnine .item6 .photo-link, .topnine .item7 .photo-link, .topnine .item8 .photo-link, .topnine .item9 .photo-link {
+position: absolute;
+top:0;
+left: 0;
+}
+
+.topnine .item2.hasvideo .photo-link, .topnine .item3.hasvideo .photo-link, .topnine .item4.hasvideo .photo-link, .topnine .item5.hasvideo .photo-link, .topnine .item6.hasvideo .photo-link, .topnine .item7.hasvideo .photo-link, .topnine .item8.hasvideo .photo-link, .topnine .item9.hasvideo .photo-link {
+background: transparent url(http://images.bimedia.net/images/kcrg-video-overlay-med.png) center center no-repeat;
+}
+
+.topnine .item2 .entry-title, .topnine .item3 .entry-title, .topnine .item4 .entry-title, .topnine .item5 .entry-title, .topnine .item6 .entry-title, .topnine .item7 .entry-title, .topnine .item8 .entry-title, .topnine .item9 .entry-title {
+float:left;
+padding:16px 16px 0;
+width:374px;
+}
+
+.topnine li.hentry:after {
+content:".";
+display:block;
+height:0;
+clear:both;
+visibility:hidden;
+}
+
+.topnine li.hentry {
+width:568px;
+box-shadow:0 0 10px #777777;
+-moz-box-shadow:0 0 10px #777777;
+-webkit-box-shadow:0 0 10px #777777;
+border:1px solid #CCCCCC;
+}
+
+.topnine .item1 .photo {
+width:568px;
+}
+
+.topnine .item1 .numcount {
+display:none;
+}
+
+.topnine .numcount {
+border-right:1px solid #606060;
+color:#66666;
+float:left;
+font-size:32px;
+font-weight:bold;
+padding:25px 0;
+text-align:center;
+width:40px;
+}
+
+.topnine .more-link {
+text-align:right;
+padding-right:10px;
+font-weight:bold;
+font-size:14px;
+color:#437FA1;
+}
+
+.topnine .more-link a {
+text-decoration:none;
+}
+
+.topnine .more-link a:hover {
+text-decoration:underline;
+}
+
+#index .topnine #related {
+display:block;
+visibility:visible;
+margin-top:10px;
+}
+
+.topnine #related a {
+color:#347EC2;
+}
+
+.topnine a img {
+border:0 none;
+}
+
+.topnine #bimvidplayer0.bimvidMain {
+width:568px !important;
+}
+
+/* ------ Weather Hourly Module ------ */
+.hourly-wrapper {padding-bottom:40px; float:left; padding-left:6px;}
+.hourly-title {font-size:20px; padding-bottom:10px; text-shadow:1px 1px #CCC; font-weight:bold; text-transform:uppercase; color:#111111;}
+#wxcHourlyForecast .hourly-container {float:left; width:63px; text-align:center;}
+#wxcHourlyForecast .hour {font-size:12px; background-color:#2A2A2A; color:#BBDEFC; padding:10px 0; font-weight:bold;}
+#wxcHourlyForecast .middle-wrapper {background-color:#ADC7E8; margin-left:2px; margin-top:3px; padding-bottom:5px;}
+#wxcHourlyForecast .middle-wrapper.item-0 {margin-left:0;}
+#wxcHourlyForecast .icon {padding-top:10px;}
+#wxcHourlyForecast .temp {font-weight:bold; font-size:18px; color:#3E93D3;}
+#wxcHourlyForecast .feels-container {background-color:#3E93D3; color:#FFF; margin-left:2px;}
+#wxcHourlyForecast .feels-container.item-0 {margin-left:0;}
+#wxcHourlyForecast .feels-text {font-size:9px; text-transform:uppercase;}
+#wxcHourlyForecast .feels-value {font-size:13px;}
+
+/* ------ Weather Extended Module ------ */
+.daily-wrapper {padding-bottom:40px; float:left; padding-left:6px; width:448px;}
+.daily-title {font-size:20px; padding-bottom:10px; text-shadow:1px 1px #CCC; font-weight:bold; text-transform:uppercase; color:#111111;}
+#wxcDailyForecast .forecastDay {float:left; width:63px; text-align:center;}
+#wxcDailyForecast .day {font-size:10px; background-color:#2A2A2A; color:#BBDEFC; padding:10px 0; font-weight:bold;}
+#wxcDailyForecast .middle-wrapper {background-color:#ADC7E8; margin-left:1px; margin-top:2px; padding-bottom:5px;}
+#wxcDailyForecast .middle-wrapper.item-14 {margin-left:0;}
+#wxcDailyForecast .icon {padding-top:10px;}
+#wxcDailyForecast .hiTemp {font-weight:bold; font-size:13px; color:#3E93D3;}
+#wxcDailyForecast .hiTemp .highText {color:#597092;}
+#wxcDailyForecast .lowTemp {font-weight:bold; font-size:12px; color:#3E93D3;}
+#wxcDailyForecast .lowTemp .lowText {color:#597092;}
+#wxcDailyForecast .pop {font-size:9px; background-color:#3E93D3; height:30px; color:#FFF; margin-left:1px;}
+#wxcDailyForecast .pop.item-15 {margin-left:0;}
+#wxcDailyForecast .pop .value {padding-top:7.5px;}
+
+
+/* -------Cyclone Widget -------- */
+#sportscyclones #story #divsection.sectiondiv {
+display:none;
+}
+#sportscyclones #story {
+margin-bottom:20px;
+}
+
+/*--------John Campbell----------*/
+#johncampbell #divsection{
+display:none;
+}
+
+/* ---------Header Dish Update------------ */
+#stationtabs ul #tab12 { margin: 3px 0 0 0 !important; }
+
+/* ----------Homepage chicklet change-----------------*/
+#index #headlinenewslocal.headlines { width:605px; float:left; margin:0 10px 0 0; padding:0 0 0 8px; }
+#index #headlinenewslocal.headlines .sectiondiv h1 { border-bottom:1px solid #CCCCCC; color:#000000; font-family:'Arial Black',gadget,sans-serif; font-size:18px; text-shadow:1px 1px #CCCCCC; font-weight:normal; }
+#index #headlinenewslocal.headlines ul .head1 { width:280px; border-right:1px solid #CCCCCC; }
+#index #headlinenewslocal.headlines ul .head1 .topthumbmore { width:280px!important; }
+#index #headlinenewslocal.headlines ul li { width:295px; }
+
+#index #kcrg-ynwidget300 { width:605px; float:left; margin:0 10px 0 0; padding:0 0 0 8px; }
+#index #kcrg-ynwidget300 .sectiondiv h1 { border-bottom:1px solid #CCCCCC; color:#000000; font-family:'Arial Black',gadget,sans-serif; font-size:18px; text-shadow:1px 1px #CCCCCC; font-weight:normal; }
+#index #kcrg-ynwidget300 .sectiondiv h1 span { font-size:18px; font-weight:normal; }
+#index #kcrg-ynwidget300 ul .head1 { width:280px; border-right:1px solid #CCCCCC; }
+#index #kcrg-ynwidget300 #scroll-mask { width:294px; }
+#index #kcrg-ynwidget300 #scroll-mask #younews.sliderImages { width:296px!important; }
+#index #kcrg-ynwidget300 .younews_big { width:280px; border-right:1px solid #CCCCCC; }
+#index #kcrg-ynwidget300 .yn-submit { width:262px; }
+#index #yn-bottom { height:70px; }
+
+#index #headlinesportslocal.headlines { width:605px; float:left; margin:-95px 10px 0 0; padding:0 0 0 8px; }
+#index #headlinesportslocal.headlines .sectiondiv h1 { border-bottom:1px solid #CCCCCC; color:#000000; font-family:'Arial Black',gadget,sans-serif; font-size:18px; text-shadow:1px 1px #CCCCCC; font-weight:normal; }
+#index #headlinesportslocal.headlines ul .head1 { width:280px; border-right:1px solid #CCCCCC; }
+#index #headlinesportslocal.headlines ul .head1 .topthumbmore { width:280px!important; }
+#index #headlinesportslocal.headlines ul li { width:295px; }
+
+#index .sports-desk-logo { right:-344px; top:132px; }
+
+#index #headlinenewscrime.headlines { width:605px; float:left; margin:0 10px 0 0; padding:0 0 0 8px; }
+#index #headlinenewscrime.headlines .sectiondiv h1 { border-bottom:1px solid #CCCCCC; color:#000000; font-family:'Arial Black',gadget,sans-serif; font-size:18px; text-shadow:1px 1px #CCCCCC; font-weight:normal; }
+#index #headlinenewscrime.headlines ul .head1 { width:280px; border-right:1px solid #CCCCCC; }
+#index #headlinenewscrime.headlines ul .head1 .topthumbmore { width:280px!important; }
+#index #headlinenewscrime.headlines ul li { width:295px; }
+
+#index #headline-module-gallery { height:258px; }
+#index #headline-module-gallery.headlines { width:605px; padding:0 0 0 8px; margin:0 10px 0 0; float:left; }
+#index #headline-module-gallery.headlines h1.sectiondiv { border-bottom:1px solid #CCCCCC; color:#000000; font-family:'Arial Black',gadget,sans-serif; font-size:18px; text-shadow:1px 1px #CCCCCC; font-weight:normal; width:605px; }
+#index #headline-module-gallery.headlines .item1 { width:280px; }
+#index #headline-module-gallery.headlines ul .item1 .headthumb { width:280px!important; heigth:auto!important;}
+#index #headline-module-gallery.headlines ul li { width:298px; }
+#index #headline-module-gallery.headlines ul .item2, #index #headline-module-gallery.headlines ul .item3, #index #headline-module-gallery.headlines ul .item4 { border-left:1px solid #CCCCCC; }
+
+#index .columncenter .headlines ul li { list-style-type:none; }
+
+
+
+.news_container{float:left;width:605px !important;margin-top:0px!important;}
+.news_container-alt{float:left;width:303px !important;margin-top:0px!important;}
+.news_container-alt ul .head1{border:0!important;width:303px!important;padding:5px 0 0 0!important;}
+.news_container-alt .more-link{font-size:14px;font-weight:bold;padding-right:10px;text-align:right;float: left; color: #000;}
+.news_container-alt .link-container{text-align:right;}
+/* Commented because of news page .headlines {margin:-95px 10px 0 0;}*/
+.headlines { width:605px; float:left; padding:0 0 0 8px; }
+.headlines .sectiondiv h1 { border-bottom:1px solid #CCCCCC; color:#000000; font-family:'Arial Black',gadget,sans-serif; font-size:18px; text-shadow:1px 1px #CCCCCC; font-weight:normal; }
+/*.headlines ul .head1 { width:280px; border-right:1px solid #CCCCCC; }*/
+.headlines ul .head1 .topthumbmore { width:280px!important; }
+.headlines ul li { width:295px; }
+
+
+/* ------ Sports Page Chicklet Change ------ */
+
+#sports .new-feature-nav {
+    background: none repeat scroll 0 0 #FFFFFF;
+    clear: both;
+    float: left;
+    height: auto;
+    margin: 0 10px 0 0;
+    padding: 0 0 0 8px;
+    width: 605px;
+}
+#sports .new-feature-nav .sectiondiv h1 {
+    border-bottom: 1px solid #CCCCCC;
+    color: #000000;
+    font-family: 'Arial Black',gadget,sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px #CCCCCC;
+    text-transform: none;
+}
+#sports .new-feature-nav ul {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#sports .new-feature-nav ul li {
+    float: left;
+    height: 130px;
+    margin: 4px 16px 10px 33px;
+    text-align: center;
+    width: 152px;
+}
+#sports .new-feature-nav .headtitle {
+    clear: both;
+    color: #111111;
+    display: block;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 120px;
+}
+
+#sports #kcrg-ynwidget300 { width:605px; float:left; margin:0 10px 0 0; padding:0 0 0 8px; }
+#sports #kcrg-ynwidget300 .sectiondiv h1 { border-bottom:1px solid #CCCCCC; color:#000000; font-family:'Arial Black',gadget,sans-serif; font-size:18px; text-shadow:1px 1px #CCCCCC; font-weight:normal; }
+#sports #kcrg-ynwidget300 .sectiondiv h1 span { font-size:18px; font-weight:normal; }
+#sports #kcrg-ynwidget300 ul .head1 { width:280px; border-right:1px solid #CCCCCC; }
+#sports #kcrg-ynwidget300 #scroll-mask { width:294px; }
+#sports #kcrg-ynwidget300 #scroll-mask #younews.sliderImages { width:296px!important; }
+#sports #kcrg-ynwidget300 .younews_big { width:280px; border-right:1px solid #CCCCCC; }
+#sports #kcrg-ynwidget300 .yn-submit { width:262px; }
+#sports #yn-bottom { height:70px; }
+
+#sports #headlineHighSchoolSports.headlines { width:605px; float:left; margin:10px 10px 0 0; padding:0 0 0 8px; }
+#sports #headlineHighSchoolSports.headlines .sectiondiv h1 { border-bottom:1px solid #CCCCCC; color:#000000; font-family:'Arial Black',gadget,sans-serif; font-size:18px; text-shadow:1px 1px #CCCCCC; font-weight:normal; }
+#sports #headlineHighSchoolSports.headlines ul .head1 { width:280px; border-right:1px solid #CCCCCC; }
+#sports #headlineHighSchoolSports.headlines ul .head1 .topthumbmore { width:280px!important; }
+#sports #headlineHighSchoolSports.headlines ul li { width:295px; }
+
+#sports #headlinesportshawkeyes.headlines { width:605px; float:left; margin:0 10px 0 0; padding:0 0 0 8px; }
+#sports #headlinesportshawkeyes.headlines .sectiondiv h1 { border-bottom:1px solid #CCCCCC; color:#000000; font-family:'Arial Black',gadget,sans-serif; font-size:18px; text-shadow:1px 1px #CCCCCC; font-weight:normal; }
+#sports #headlinesportshawkeyes.headlines ul .head1 { width:280px; border-right:1px solid #CCCCCC; }
+#sports #headlinesportshawkeyes.headlines ul .head1 .topthumbmore { width:280px!important; }
+#sports #headlinesportshawkeyes.headlines ul li { width:295px; }
+
+#sports #headlinesportscyclones.headlines { width:605px; float:left; margin:0 10px 0 0; padding:0 0 0 8px; }
+#sports #headlinesportscyclones.headlines .sectiondiv h1 { border-bottom:1px solid #CCCCCC; color:#000000; font-family:'Arial Black',gadget,sans-serif; font-size:18px; text-shadow:1px 1px #CCCCCC; font-weight:normal; }
+#sports #headlinesportscyclones.headlines ul .head1 { width:280px; border-right:1px solid #CCCCCC; }
+#sports #headlinesportscyclones.headlines ul .head1 .topthumbmore { width:280px!important; }
+#sports #headlinesportscyclones.headlines ul li { width:295px; }
+
+#sports #headline-module-gallery { height:auto; }
+#sports #headline-module-gallery.headlines { width:605px; padding:0 0 0 8px; margin:0 10px 0 0; float:left; }
+#sports #headline-module-gallery.headlines h1.sectiondiv { border-bottom:1px solid #CCCCCC; color:#000000; font-family:'Arial Black',gadget,sans-serif; font-size:18px; text-shadow:1px 1px #CCCCCC; font-weight:normal; width:605px; }
+#sports #headline-module-gallery.headlines .item1 { width:280px; }
+#sports #headline-module-gallery.headlines ul .item1 .headthumb { width:280px!important; height:auto!important; }
+#sports #headline-module-gallery.headlines ul li { width:298px; }
+#sports #headline-module-gallery.headlines ul .item2, #sports #headline-module-gallery.headlines ul .item3, #sports #headline-module-gallery.headlines ul .item4, #sports #headline-module-gallery.headlines ul .item5 { border-left:1px solid #CCCCCC; }
+#sports #headline-module-gallery ul .item2, #sports #headline-module-gallery ul .item3, #sports #headline-module-gallery ul .item4, #sports #headline-module-gallery ul .item5 {
+    border-bottom: 0 dotted #D2D2D2;
+    border-left: 2px solid #CCCCCC;
+    display: block;
+    padding: 0 0 0 15px;
+}
+
+#sports .columncenter .headlines ul li { list-style-type:none; }
+
+/* ------ News Page Chicklet Change ------ */
+
+#news .new-feature-nav {
+    background: none repeat scroll 0 0 #FFFFFF;
+    clear: both;
+    float: left;
+    height: auto;
+    margin: 0 10px 0 0;
+    padding: 0 0 0 8px;
+    width: 605px;
+}
+#news .new-feature-nav .sectiondiv h1 {
+    border-bottom: 1px solid #CCCCCC;
+    color: #000000;
+    font-family: 'Arial Black',gadget,sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px #CCCCCC;
+    text-transform: none;
+}
+#news .new-feature-nav ul {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#news .new-feature-nav ul li {
+    float: left;
+    height: 130px;
+    margin: 4px 16px 10px 33px;
+    text-align: center;
+    width: 152px;
+}
+#news .new-feature-nav .headtitle {
+    clear: both;
+    color: #111111;
+    display: block;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 120px;
+}
+
+#news #kcrg-ynwidget300 { width:605px; float:left; margin:0 10px 0 0; padding:0 0 0 8px; }
+#news #kcrg-ynwidget300 .sectiondiv h1 { border-bottom:1px solid #CCCCCC; color:#000000; font-family:'Arial Black',gadget,sans-serif; font-size:18px; text-shadow:1px 1px #CCCCCC; font-weight:normal; }
+#news #kcrg-ynwidget300 .sectiondiv h1 span { font-size:18px; font-weight:normal; }
+#news #kcrg-ynwidget300 ul .head1 { width:280px; border-right:1px solid #CCCCCC; }
+#news #kcrg-ynwidget300 #scroll-mask { width:294px; }
+#news #kcrg-ynwidget300 #scroll-mask #younews.sliderImages { width:296px!important; }
+#news #kcrg-ynwidget300 .younews_big { width:280px; border-right:1px solid #CCCCCC; }
+#news #kcrg-ynwidget300 .yn-submit { width:262px; }
+#news #yn-bottom { height:70px; }
+
+#news #headlinenewspolitics.headlines { width:605px; float:left; margin:10px 10px 0 0; padding:0 0 0 8px; }
+#news #headlinenewspolitics.headlines .sectiondiv h1 { border-bottom:1px solid #CCCCCC; color:#000000; font-family:'Arial Black',gadget,sans-serif; font-size:18px; text-shadow:1px 1px #CCCCCC; font-weight:normal; }
+#news #headlinenewspolitics.headlines ul .head1 { width:280px; border-right:1px solid #CCCCCC; }
+#news #headlinenewspolitics.headlines ul .head1 .topthumbmore { width:280px!important; }
+#news #headlinenewspolitics.headlines ul li { width:295px; }
+
+#news #headlineAroundTheNation.headlines { width:605px; float:left; margin:10px 10px 0 0; padding:0 0 0 8px; }
+#news #headlineAroundTheNation.headlines .sectiondiv h1 { border-bottom:1px solid #CCCCCC; color:#000000; font-family:'Arial Black',gadget,sans-serif; font-size:18px; text-shadow:1px 1px #CCCCCC; font-weight:normal; }
+#news #headlineAroundTheNation.headlines ul .head1 { width:280px; border-right:1px solid #CCCCCC; }
+#news #headlineAroundTheNation.headlines ul .head1 .topthumbmore { width:280px!important; }
+#news #headlineAroundTheNation.headlines ul li { width:295px; }
+
+#news #headlinenewscrime.headlines { width:605px; float:left; margin:10px 10px 0 0; padding:0 0 0 8px; }
+#news #headlinenewscrime.headlines .sectiondiv h1 { border-bottom:1px solid #CCCCCC; color:#000000; font-family:'Arial Black',gadget,sans-serif; font-size:18px; text-shadow:1px 1px #CCCCCC; font-weight:normal; }
+#news #headlinenewscrime.headlines ul .head1 { width:280px; border-right:1px solid #CCCCCC; }
+#news #headlinenewscrime.headlines ul .head1 .topthumbmore { width:280px!important; }
+#news #headlinenewscrime.headlines ul li { width:295px; }
+
+#news #topheadmod { width:605px; }
+#news #topheadmod .sectiondiv { height:28px; margin-bottom:20px; text-transform:uppercase; border:0; }
+#news #topheadmod .sectiondiv h1 { color:#333; font-size:23px; margin:0; padding:10px 0 8px 20px; text-shadow: 1px 1px #CCC; }
+#news .columncenter #headlinenewslocaltop { width:605px; }
+#news #topheadmod .topthumb { width:568px; margin:0; border:0; }
+#news #topheadmod ul { margin:0 0 0 20px; }
+#news .columncenter #topheadmod .headlines ul li { font-size:12pxl; line-height:18px; }
+#news #topheadmod li.head1 { border:1px solid #CCC; box-shadow:0 0 10px #777; width:568px; }
+#news #topheadmod .headtitle { font-size:20px; margin:10px 0 0; padding-bottom:16px; padding-left:5px; width:563px; }
+#news #topheadmod .head1 a:link, #news #topheadmod .head1 a:visited { color:#333; font-weight:bold; text-decoration:none; }
+#news #topheadmod .head1 a:hover { color:#000; font-weight:bold; text-decoration:none; }
+#news #topheadmod .head1 p { border-bottom:1px solid #C6C6C6; color:#333; padding-bottom:10px; padding-left:5px; padding-right:5px; }
+#news #topheadmod .headtitle { background: none; }
+#news #topheadmod .head1 p a:link, #news #topheadmod .head1 p a:visited { color:#437FA1; text-decoration:none; }
+#news #topheadmod .head1 p a:hover { color:#437FA1; text-decoration:underline; }
+
+#news #headlinenewslocal { width:586px; margin-left:20px; }
+#news #headlinenewslocal.skinnyheadline { width:586px!important; }
+#news #headlinenewslocal .sectiondiv { display:none; }
+#news #headlinenewslocal ul { list-style-type:disc; list-style-position:outside; margin-left:0; padding-left:20px; }
+#news #headlinenewslocal li { border:none; width:260px; float:left; height:40px;}
+#news #headlinenewslocal .more { border:none; font-size:12px; padding: 10px 8px 5px 8px; background:none; color:#437FA1; font-weight:bold; }
+#news .columncenter .headlines ul li.head1 { padding-top:4px; }
+#news #headlinenewslocal .head2, #news #headlinenewslocal .head4, #news #headlinenewslocal .head6, #news #headlinenewslocal .head8, #news #headlinenewslocal .head10 { float:right; }
+
+#index .new-feature-nav .sectiondiv h1 { text-transform:uppercase!important; }
+
+#DEFAULT_ADAPTV_FRAME {
+margin-top:260px;
+}
+
+/*---------9.2 Sponsor Styles---------------*/
+.parent9point2 .sponsor-wrapper { float:left; margin-bottom:20px; width:638px; }
+.parent9point2 .sponsor-video { float:left; width:638px; overflow:hidden; }
+.parent9point2 .sponsor-link { float:left; padding:10px 0 0 10px; }
+
+/*----- 16x9 VIDEO STORY TOOLS -----*/
+
+#storysection.video16x9 #storytools .playOverlay {
+margin: 0 !important;
+}
+
+#storysection.video16x9 #storytools #videobox,
+#storysection.video16x9 #storytools .storyimgcont,
+#storysection.video16x9 #storytools .leadstoryimg {
+height: auto;
+clear: both;
+}
+
+#storysection.video16x9 #storytools .caption {
+width: 600px !important;
+}
+
+#storysection.video16x9 #storytools #imware {
+width: 600px;
+margin: 0;
+padding: 2px;
+border: 1px solid #CCC;
+float: left;
+}
+
+#storysection.video16x9 #storytools #imware ul {
+margin: 0;
+padding: 0;
+}
+
+#storysection.video16x9 #storytools #imware ul li {
+display: inline;
+width: auto;
+margin: 0 8px 0 0;
+}
+
+#storysection.video16x9 #storytools .storyinfo {
+position: relative;
+margin: 0;
+width: 600px;
+}
+
+
+#weathertornadoes #pmad-rt3,
+#newssirens #pmad-rt3,
+#newssirenscoverage #pmad-rt3,
+#newssirensfuture #pmad-rt3,
+#newssirenshistoric #pmad-rt3,
+#sirenmap #pmad-rt3,
+#roadtorecovery #pmad-rt3,
+#roadtorecoveryarchive #pmad-rt3,
+#roadtorecoverymap #pmad-rt3,
+#roadtorecoveryphotogallery #pmad-rt3,
+#roadtorecoverytimeline #pmad-rt3,
+#roadtorecoveryvideo #pmad-rt3,
+#roadtorecoveryvictims #pmad-rt3{
+display:none;
+}
+
+#road-to-recovery-banner {
+margin-top:20px;
+}
+
+#sirenmap #kcrg-cust-widget{
+display:none;
+}
+
+/*-------Flood Watch 2013---------*/
+#floodwatch2013 #pmad-rt3,
+#floodwatch2013prepare #pmad-rt3,
+#floodwatch2013photogallery #pmad-rt3,
+#floodwatch2013riverlevels #pmad-rt3,
+#floodwatch2013roadclosures #pmad-rt3,
+#floodwatch2013shelters #pmad-rt3,
+#floodwatch2013updates #pmad-rt3,
+#floodwatch2013video #pmad-rt3{
+display:none;
+}
+
+#headlinehomeconnect-with-us .head3 .topthumbmore { width:90px; }
+#headlinehomeconnect-with-us .head3 .headtitle { width:90px; }
+#headlinehomeconnect-with-us .head3 .newtag { display:none; }
+
+
+.headlines ul .imglink{
+border-bottom: dotted #d2d2d2 1px;
+height: 19px;
+margin-left: 18px;
+}
+.headlines ul .width{
+width: 100%;
+}
+.heightimp{
+height:auto!important;
+}
+
+
+/*  STAFF LISTING  */
+.staffgroupheader{
+	font-family: Verdana;
+	text-transform: capitalize;
+}
+
+.removeBorder{border:none!important;
+}
+.width_120{
+width:120px!important;
+}
+.topthumbmore1{
+float: left;
+width: 120px;
+margin: 0 5px 0 0;
+padding: 0 0 0px 0;
+}
+ul.width_215{
+width:215px;
+}
+ul.width_215 li{
+width:199px!important;
+}
+
+/*  MEDIA WELL  */
+#media-well-container { float:left;  width: 100%; border-top-left-radius:4px; border-top-right-radius:4px; margin-bottom: 20px;}
+#art_photo_0 {text-align:center;}
+#art_photo_of {font-size: 1em; padding-top: 3px}
+#art_photo_count {font-size: 1em; padding-top: 3px}
+#art_photo_int {font-size: 1em; padding-top: 3px}
+
+.tabs-style-1 ul { padding-left: 30px; padding-top:10px;}
+.tabs-style-1 ul li {float:left; list-style:none; border-top:1px solid #ccc; border-left:1px solid #ccc; border-right:1px solid #ccc; margin-right:5px; margin-bottom: 0px!important}
+
+/*.ui-tabs-panel {min-width: 250px;}*/
+ui-state-default ui-corner-top active {position:relative; top:1px; z-index:5}
+/*#tabs li {float:left; list-style:none; border-top:1px solid #ccc; border-left:1px solid #ccc; border-right:1px solid #ccc; margin-right:5px; border-top-left-radius:3px; border-top-right-radius:3px; -moz-box-shadow: 0 -2px 2px #dadada; -webkit-box-shadow: 0 -2px 2px #dadada; box-shadow: 0 -2px 2px #dadada;}*/
+.tabs-style-1 ul li a {font-family:georgia; font-size:13px; font-weight:bold; color:#000000; padding:7px 14px 6px 12px; display:block; background:#FFFFFF; border-top-left-radius:3px; border-top-right-radius:3px; text-decoration:none; background: -moz-linear-gradient(top, #ebebeb, white 10%); background: -webkit-gradient(linear, 0 0, 0 10%, from(#ebebeb), to(white)); border-top: 1px solid white; text-shadow:-1px -1px 0 #fff; outline:none; }
+.tabs-style-1 ul li a.inactive{padding-top:5px; padding-bottom:5px; color:#666666; background: -moz-linear-gradient(top, #dedede, white 75%); background: -webkit-gradient(linear, 0 0, 0 75%, from(#dedede), to(white)); border-top: 1px solid white;}
+.tabs-style-1 ul li a:hover, #tabs li a.inactive:hover {border-top: 1px solid #dedede; color:#000000;}
+.container{border-top: 0px solid #CCC; clear:both; float:left; padding:10px 0px; width:96.75%; background-color:#fff; text-align:left;}
+#media-well-container .container { text-align: center; }
+.photo-caption {margin-top: 4px;}
+.photo-caption {font-size: 13px;!important; font-family:'Neue Helvetica',Arial,sans-serif!important; line-height:100%;margin-top: 0px!important; color: #666666; font-weight: normal;}
+#lead-story .photo-credit {font-weight: bold; font-family:'Neue Helvetica',Arial,sans-serif!important; font-size: 13px;!important; line-height: 100%; color: #666666;}
+
+/*********MEDIA WELL**********/
+#content-stats-tabs {float:left;margin-top:10px; width:300px;}
+#content-stats-tabs ul {padding:0 0 3px 0;height:30px;border-bottom:0px #ccc solid;}
+#content-stats-tabs ul li a {font-size:10px; font-family:georgia!important}
+#content-stats-tabs .right-rail-text {font-family:georgia!important;padding:10px 0;}
+
+/*********MOST MOST MODULE**********/
+#tabs-1, .ui-tabs-panel {border: solid 1px #CCC; float:left; padding: 10px;}
+#tabs-2, .ui-tabs-panel {border: solid 1px #CCC; float:left; padding: 10px;}
+#tabs-3, .ui-tabs-panel {border: solid 1px #CCC; float:left; padding: 10px;}
+
+/* #Article Photoview
+================================================== */
+.art_photo_controls {margin: 0 auto; margin-top: 2px; overflow: hidden; width: 100%; float:left;}
+.art_photo_controls div {float: left;}
+.art_photo_controls img {border: none; margin-left: 3px; margin-right: 3px; float: left;}
+#lead-story .photo-credit {font-family:georgia!important; margin-top: 4px;width: 100%!important;}
+
+/*-------Winter Weather---------*/
+
+#weatherwinter-roads .sectiondiv h1,
+#weatherwinter-wxnow .sectiondiv h1,
+#weatherwinter-cams .sectiondiv h1 {
+display:none
+}
+
+#weatherwinter-roads h2 {
+font-size:18px;
+}
+
+#kcrg_svrwxradar,
+#kcrg_svrwxcitycam {
+width:300px;
+margin-bottom:26px;
+float:left;
+}
+
+#kcrg_svrwxradar a ,
+#kcrg_svrwxcitycam a {
+ font-size:12px;
+}
+
+.kcrg_sw_box,
+#kcrg_svrwxradar a img,
+#kcrg_svrwxcitycam a img {
+margin:0 5px;
+}
+
+.hr  {
+display:none;
+}
+
+/*-------Weather Team---------*/
+.reporter-wrapper {width:614px; padding-bottom:20px;}
+.reporter-image {float:left; width:106px;}
+.reporter-details {float:left; width:490px; padding-left:10px;}
+.reporter-title {color: #333333; font-family: Verdana; font-size: 14px; font-weight: bold; line-height: 18px; padding-bottom:5px;}
+.reporter-summary {padding-bottom:5px;}
+.email-text, .twitter-text, .facebook-text {font-family: Verdana; font-size: x-small; padding: 2px 5px; position: absolute;}
+.reporter-more {font-size:x-small; font-family: Verdana;}
+.reporter-facebook {padding-top:2px;}
+
+/*---------Sports Desk--------*/
+#sports .columncenter #sportsvideo {width:605px; background-color:#FFF; float:left; margin-bottom:16px; overflow:hidden;}
+#sports .columncenter #sportsvideo ul {margin:0 38px; padding:0; list-style:none outside none; margin-bottom:10px !important;}
+#sports .columncenter #sportsvideo ul li {list-style-type:none; font-size:12px; line-height:18px; width:568px;}
+#sports .columncenter #sportsvideo .links {font-weight:bold;}
+
+/*---------9.2 Bottom Styles--------*/
+.petition-network-wrapper {margin:0 5px;width:640px;}
+.petition-network-wrapper h1 {color:#333; font-size:23px; margin:0; padding:10px 0 8px; text-shadow:1px 1px #CCC;}
+.petition {width:320px; float:left;}
+.digital-antenna {width:300px; padding-left:20px; float:left;}
+.dish-wrapper {margin:10px 0;}
+.digital-text {margin-top:5px;}
+
+/*---------Show You Care Styles--------*/
+#syc_wrapper {
+background-color: #fff;
+border: 0em;
+font-family: 'Lato', sans-serif;
+font-size: 16px;
+margin: 0em;
+padding: 0em;
+}
+#syc_wrapper table.header {
+border-collapse: collapse;
+margin-top: 10px;
+width: 646px;
+}
+#syc_wrapper table.navigation {
+border-collapse: collapse;
+margin-top: 0em;
+width: 646px;
+}
+#syc_wrapper table.sponsors {
+border-collapse: collapse;
+margin-top: 0em;
+width: 646px;
+}
+#syc_wrapper table.content {
+border-collapse: collapse;
+margin-top: 0em;
+width: 646px;
+}
+#syc_wrapper table.subnavigation {
+border-collapse: collapse;
+margin-top: 0em;
+width: 646px;
+}
+#syc_wrapper tr.graytop {
+background-color: #e6e6e6;
+height: 43px;
+padding: 1px;
+width: 646px;
+}
+#syc_wrapper tr.bluemiddle {
+background-color: #216cb2;
+height: 80px;
+padding: 1px;
+width: 646px;
+}
+#syc_wrapper tr.graysliver {
+background-color: #e6e6e6;
+height: 16px;
+width: 646px;
+}
+#syc_wrapper tr.navigationelements {
+background-color: #e6e6e6;
+height: 100px;
+padding-top: 10px;
+width: 646px;
+}
+#syc_wrapper img.navigation {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+#syc_wrapper img.brand {
+display: block;
+margin-left: 80px;
+margin-right: -10px;
+padding-top: 20px;
+}
+#syc_wrapper img.sponsors {
+display: block;
+float: left;
+margin-left: 2px;
+}
+#syc_wrapper tr.navigationtext {
+background-color: #e6e6e6;
+height: 30px;
+width: 646px;
+}
+#syc_wrapper tr.sponsors {
+background-color: #f5f5f5;
+height: 125px;
+width: 646px;
+}
+#syc_wrapper tr.description {
+background-color: #f5f5f5;
+height: 100px;
+width: 646px;
+}
+#syc_wrapper tr.subnav {
+background-color: #e6e6e6;
+height: 125px;
+padding-top: 10px;
+width: 646px;
+}
+#syc_wrapper tr.lightcell {
+background-color: #f5f5f5;
+height: 27px;
+width: 646px;
+}
+#syc_wrapper tr.darkcell {
+background-color: #e6e6e6;
+height: 27px;
+width: 646px;
+}
+#syc_wrapper {
+height: 100%;
+margin: 0em auto;
+width: 646px;
+}
+#syc_wrapper #logo {
+clear: none;
+display: inline;
+float: left;
+height: 154px;
+margin-left: 14px;
+margin-top: -3px;
+position: absolute;
+width: 153px;
+}
+#syc_wrapper p.headline {
+color: #216cb2;
+float: left;
+font-family: 'Lato', sans-serif;
+font-size: 18px;
+font-weight: 100;
+margin-left: 175px;
+margin-top: 24px;
+width: 415px;
+}
+#syc_wrapper p.news1 {
+color: #fff;
+float: left;
+font-family: 'Lato', sans-serif;
+font-size: 13px;
+font-weight: 100;
+line-height: 18px;
+margin-left: 175px;
+margin-top: 0em;
+}
+#syc_wrapper p.news1 {
+color: #fff;
+float: left;
+font-family: 'Lato', sans-serif;
+font-size: 13px;
+font-weight: 100;
+line-height: 18px;
+margin-left: 175px;
+margin-top: 0em;
+}
+#syc_wrapper .bluemiddle p.news1 {
+line-height: 13px;
+margin-bottom: 0px;
+}
+#syc_wrapper p.navigationtext {
+color: #216cb2;
+font-family: 'Lato', sans-serif;
+font-size: 12px;
+font-weight: 100;
+line-height: 10px;
+margin-top: 10px;
+text-align: center;
+}
+#syc_wrapper p.information {
+color: #37353a;
+font-family: 'Lato', sans-serif;
+font-size: 14px;
+font-weight: 100;
+line-height: 19px;
+margin-left: 20px;
+margin-top: 10px;
+}
+#syc_wrapper p.title {
+color: #216cb2;
+font-family: 'Lato', sans-serif;
+font-size: 18px;
+font-weight: 300;
+line-height: 10px;
+margin-top: 10px;
+text-align: center;
+}
+#syc_wrapper p.description {
+color: #37353a;
+font-family: 'Lato', sans-serif;
+font-size: 14px;
+font-weight: 100;
+line-height: 19px;
+margin-top: 10px;
+padding-left: 24px;
+padding-right: 24px;
+text-align: left;
+}
+#syc_wrapper a:link {
+color: #216cb2;
+text-decoration: none;
+}
+#syc_wrapper a:visited {
+color: #216cb2;
+text-decoration: none;
+}
+#syc_wrapper a:hover {
+color: #37353a;
+text-decoration: none;
+}
+#syc_wrapper a:active {
+color: #216cb2;
+text-decoration: none;
+}
+a img {border:none;}
+#a_plus_rules_content {
+display:none;
+padding-top: 20px;
+}
+#a_plus_rules_content h1 {
+font-family: Arial, Verdana, Helvetica, sans-serif;
+border-bottom: 3px solid #D2D2D2;
+color: #111;
+font-size: 15px;
+font-weight: bold;
+line-height: 20px;
+margin: 0;
+text-transform: uppercase;
+margin: 0 0 0 8px;
+padding: 0 0 0 8px;
+}
+
+/*-------9.2 Headlines---------*/
+
+.lead_story_005 {
+    float:left;
+    width:329px;
+}
+
+.stories_004 {
+    width:315px;
+    float:left;
+}
+
+.lead_story_005_two_columns {
+    width:650px;
+    padding-left:5px;
+}
+
+.lead_story_005_two_columns h2 {
+  color: #333333;
+  font-size: 23px;
+  margin: 0;
+  padding: 10px 0 0 5px;
+  text-shadow: 1px 1px #CCCCCC;
+}
+
+/*-------A+ Education Winners---------*/
+.education-winners {
+    float:left;
+    padding-bottom:10px;
+    width:660px;
+}
+
+/*-------Special Template---------*/
+.special-top-wrapper {
+    width:640px;
+    padding-left:10px;
+}
+
+.special-top-content-wrapper {
+    width:640px;
+}
+
+.special-top-content-left.main-picture {
+    float:left;
+    width:305px;
+    padding-right:5px;
+}
+
+.special-top-content-left p {
+    margin:0;
+}
+
+.special-top-content-right.main-paragraph {
+    float:left;
+    width:330px;
+}
+
+.special-top-content-left.no-main-picture {
+    width:640px;
+}
+
+.special-top-content-right.no-main-paragraph {
+    width:640px;
+}
+
+.special-media-content-well{
+    padding-left:10px;
+}
+
+.special-nav-wrapper{
+    padding-left:10px;
+}
+
+.special-nav-wrapper ul#tabs {
+    list-style-type: none;
+    margin: 30px 0 0 0;
+    padding: 0 0 0.3em 0;
+
+}
+
+.special-nav-wrapper ul#tabs li {
+    display: inline;
+}
+
+.special-nav-wrapper ul#tabs li a {
+    border-top-left-radius:14px;
+    border-top-right-radius:14px;
+    color: #42454a;
+    background-color: #dedbde;
+    border: 1px solid #c9c3ba;
+    border-bottom: none;
+    padding: 0.3em;
+    text-decoration: none;
+    font-size:20px;
+}
+
+.special-nav-wrapper ul#tabs li a:hover {
+    background-color: #f1f0ee;
+}
+
+.special-nav-wrapper ul#tabs li a.selected {
+    color: #000;
+    background-color: #f1f0ee;
+    font-weight: bold;
+    padding: 0.3em 0.3em 0.38em 0.3em;
+}
+
+div.tabContent {
+    border: 1px solid #c9c3ba;
+    padding: 0.5em;
+    background-color: #f1f0ee;
+}
+
+div.tabContent.hide {
+    display: none;
+}
+
+#special-articles ul {
+    list-style:none;
+}
+
+#special-articles ul li {
+    float:left;
+    width:630px;
+    padding-bottom: 20px;
+}
+
+/*-------Our Town Styles---------*/
+#our-town{
+    margin-top:20px;
+}
+
+#our-town #our-town-nav{
+    border-top:solid 4px #218ecd;
+    border-bottom:solid 2px gray;
+    margin-bottom:15px;
+
+}
+
+#our-town a{
+    float:left;
+}
+
+
+
+#our-town #head-space{
+    width:960px;
+    margin: 0 8px 8px 0;
+}
+
+#our-town #main-video{
+    width:640px;
+    height:360px;
+    margin: 5px;
+    margin-bottom: 30px;
+    float:right;
+
+
+}
+
+#our-town #text-box{
+    margin:5px;
+
+
+}
+
+
+#our-town #list-headline{
+    font-family: georgia;
+    font-size:20px;
+    font-color:black;
+    border-bottom: solid 2px gray;
+    margin-bottom:40px;
+}
+
+
+#our-town .town-headline{
+    font-family: georgia !important;
+    font-size:18px;
+    margin-right:6px;
+    margin-left:6px;
+    margin-top:8px;
+    margin-bottom:8px;
+}
+
+#our-town .air-date{
+    font-size:13px;
+    color:gray;
+}
+
+.newsletter-content {
+    padding-left:10px;
+}
+
+.social-title {
+    color:#000;
+    text-family:'Arial Black',gadget,sans-serif;
+    font-size:18px;
+    text-shadow:1px 1px #ccc;
+}
+
+.posttile {
+    font-size:16px;
+}
+
+.forecast-title h1 {
+    color:#000;
+    font-family:"Arial Black",gadget,sans-serif;
+    font-size:18px;
+    font-weight:normal;
+    padding-bottom:10px;
+    text-shadow:1px 1px #CCC;
+    text-transform:none;
+    padding-top:10px;
+    padding-left:10px;
+}

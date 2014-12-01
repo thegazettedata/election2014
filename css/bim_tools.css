@@ -1,0 +1,293 @@
+/*  Share Tools Styles   */
+
+.story #imware .tool-comment a {
+background: transparent url(http://images.bimedia.net/designimages/icon_comment_12x12.png) center left no-repeat;
+}
+
+.story #imware .tool-email a {
+background: transparent url(http://images.bimedia.net/designimages/bim_imware_email.gif) center left no-repeat;
+}
+
+.story #imware .tool-print a {
+background: transparent url(http://images.bimedia.net/designimages/bim_imware_print.gif) center left no-repeat;
+}
+
+.story #imware .tool-yn a {
+background: transparent url(http://images.bimedia.net/designimages/yn_icon.gif) center left no-repeat;
+}
+
+.gallery #content #content-one #gallery-tools2 .storytools #shareModalWindow li.tool-digg,
+.story #imware .tool-digg a {
+background: transparent url(http://images.bimedia.net/designimages/bimtools_digg_16.png) center left no-repeat;
+width: auto;
+}
+
+.gallery #content #content-one #gallery-tools2 .storytools #shareModalWindow li.tool-delicious,
+.story #imware .tool-delicious a {
+background: transparent url(http://images.bimedia.net/designimages/bimtools_delicious_16.png) center left no-repeat;
+}
+
+.gallery #content #content-one #gallery-tools2 .storytools #shareModalWindow li.tool-facebook,
+.story #imware .tool-facebook a {
+background: transparent url() center left no-repeat;
+padding: 0;
+text-indent: 0;
+}
+
+.story #imware #share-tool a.modalOpen {
+padding-left: 20px;
+position: relative;
+z-index: 6;
+background: transparent url(http://images.bimedia.net/designimages/bim_share_tool.png) center left no-repeat;
+}
+
+.gallery #content #content-one #gallery-tools2 .storytools #share-tool {
+width: 70px;
+background-color: #fff;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+opacity: 0.85;
+height: 21px;
+margin-top: 2px;
+}
+
+.gallery #content #content-one #gallery-tools2 .storytools a.modalOpen {
+position: relative;
+z-index: 6;
+background: transparent url(http://images.bimedia.net/designimages/bim_share_tool.png) center left no-repeat !important;
+color: #333;
+display: block;
+text-indent: 0;
+text-transform: uppercase;
+font-weight: bold;
+line-height: 22px;
+width: auto;
+opacity: 0.85;
+padding-left: 20px;
+margin-left: 2px; 
+letter-spacing: -0.01em;
+}
+
+.gallery #content #content-one #gallery-tools2 .storytools #shareModalWindow li.tool-newsvine,
+.story #imware .tool-newsvine a {
+background: transparent url(http://images.bimedia.net/designimages/bimtols_newsvine_16.png) center left no-repeat;
+}
+
+.gallery #content #content-one #gallery-tools2 .storytools #shareModalWindow li.tool-fark,
+.story #imware .tool-fark a {
+background: transparent url(http://images.bimedia.net/designimages/bimtools_fark_16.png) center left no-repeat;
+}
+
+.gallery #content #content-one #gallery-tools2 .storytools #shareModalWindow li.tool-myspace,
+.story #imware .tool-myspace a {
+background: transparent url(http://images.bimedia.net/designimages/bimtools_myspace_16.png) center left no-repeat;
+}
+
+.gallery #content #content-one #gallery-tools2 .storytools li.tool-myspace {
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+background: #282828 url(http://images.bimedia.net/designimages/bimtools_myspace_16.png) center center no-repeat;
+}
+
+.gallery #content #content-one #gallery-tools2 .storytools #shareModalWindow li.tool-reddit,
+.story #imware .tool-reddit a {
+background: transparent url(http://images.bimedia.net/designimages/bimtools_reddit_16.png) center left no-repeat;
+}
+
+.gallery #content #content-one #gallery-tools2 .storytools #shareModalWindow li.tool-stumbleupon,
+.story #imware .tool-stumbleupon a {
+background: transparent url(http://images.bimedia.net/designimages/bimtools_stumbleupon_16.png) center left no-repeat;
+}
+
+.gallery #content #content-one #gallery-tools2 .storytools #shareModalWindow li.tool-googlebuzz,
+.story #imware .tool-googlebuzz a {
+background: transparent url(http://images.bimedia.net/designimages/bimtools_google_16.png) center left no-repeat;
+}
+
+.gallery #content #content-one #gallery-tools2 .storytools #shareModalWindow li.tool-linkedin,
+.story #imware .tool-linkedin a {
+background: transparent url(http://images.bimedia.net/designimages/bimtools_linkedin_16.png) center left no-repeat;
+}
+
+.gallery #content #content-one #gallery-tools2 .storytools li.tool-facebook-recommend {
+background: transparent;
+}
+
+.gallery #content #content-one #gallery-tools2 .storytools li.tool-facebook-recommend iframe {
+float: left;
+}
+
+.gallery #content #content-one #gallery-tools2 .storytools li.tool-gplus-small {
+width: 50px;
+background: transparent;
+text-indent: 0;
+}
+
+.gallery #content #content-one #gallery-tools2 .storytools li.tool-gplus-small div {
+position: absolute;
+padding: 5px 0 0 !important;
+}
+
+/* -- IE 7 --*/
+*:first-child+html.gallery #content #content-one #gallery-tools2 .storytools li.tool-gplus-small div {
+position: relative;
+}
+
+.gallery #content #content-one #gallery-tools2 .storytools #shareModalWindow,
+.story #imware ul li #shareModalWindow {
+position: absolute;
+z-index: 2;
+width: 100px;
+font-size: 11px;
+font-weight: normal;
+line-height: 30px;
+background: #fff;
+padding: 4px 0px 4px 23px;
+list-style-type: none;
+margin:-28px 0 0 -7px;
+opacity: .89;
+border: 3px solid #e9e9e9;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 4px;
+}
+
+.gallery #content #content-one #gallery-tools2 .storytools #shareModalWindow h5,
+.story #imware ul li #shareModalWindow h5 {
+visibility: hidden;
+margin: 0;
+padding: 0;
+line-height: 18px;
+}
+
+.story #imware ul li #shareModalWindow .shareClose {
+width: 10px;
+height: 10px;
+float: right;
+margin: -22px 0px 0 0;
+}
+
+.gallery #content #content-one #gallery-tools2 .storytools #shareModalWindow .shareClose {
+width: 10px;
+height: 10px;
+float: right;
+text-indent: 0;
+}
+
+.gallery #content #content-one #gallery-tools2 .storytools #shareModalWindow .shareClose a,
+.story #imware ul li #shareModalWindow .shareClose a {
+color: #f93636;
+font-size: 16px;
+display: block;
+line-height: 14px;
+padding: 0;
+font-size: 8px;
+}
+
+.gallery #content #content-one #gallery-tools2 .storytools #shareModalWindow li,
+.story #imware ul li #shareModalWindow li {
+float: none;
+height: 22px;
+margin-bottom: 2px;
+margin-right: 0;
+line-height: 16px;
+width: auto;
+clear: both;
+text-decoration: none;
+text-transform: none;
+background-color: transparent;
+}
+
+.gallery #content #content-one #gallery-tools2 .storytools #shareModalWindow li a,
+.story #imware ul li #shareModalWindow li a { 
+color: #000;
+line-height: 22px;
+text-indent: 0;
+opacity: 0.85;
+padding-left: 20px;
+width: auto;
+}
+
+/*  JQM WINDOW STYLES  */
+
+.jqmWindow {
+display: none;
+position: fixed;
+top: 27%;
+left: 50%;
+width: 500px;
+padding: 0;
+border: 0;
+background-color: #eeeeee;
+
+.jqmOverlay {
+background-color: #000
+}
+
+.jqmClose {
+clear: right;
+float: right;
+cursor: pointer;
+background: #000 url(http://images.bimedia.net/designimages/bimtools_close_angle.png) top left no-repeat;
+height: 23px;
+line-height: 18px;
+padding: 0 8px 0 18px;
+margin: 0;
+text-decoration: none;
+}
+
+.jqmClose a {
+text-decoration: none !important;
+color: #fff !important;
+font-size: 13px;
+}
+
+iframe {
+border: none;
+}
+
+#jqmTitle {
+height: 30px;
+width: 100%;
+padding: 0;
+background: transparent url(http://images.bimedia.net/designimages/bimtools_box_bkg.png) center center repeat-x;
+border-top: 8px solid #000 !important;
+border-left: 8px solid #000 !important;
+border-right: 8px solid #000 !important;
+}
+
+#jqmTitleText {
+font-size: 14px;
+line-height: 30px;
+margin: 0 !important;
+padding: 0 0 0 10px !important;
+color: #fff !important;
+font-family: Times, Times New Roman, serif;
+font-style: italic;
+clear: none !important;
+}
+
+#jqmContent {
+width: 100%;
+height: 100%;
+display: block;
+clear: both;
+margin: 0;
+padding: 10px 0;
+background: #fff;
+border-bottom: 8px solid #000 !important;
+border-left: 8px solid #000 !important;
+border-right: 8px solid #000 !important;
+}
+
+/* -- IE6 Compatibility -- */
+* iframe.jqm {position:absolute;top:0;left:0;z-index:-1;
+width: expression(this.parentNode.offsetWidth+'px');
+height: expression(this.parentNode.offsetHeight+'px');
+}
+
+* html .jqmWindow {
+position: absolute;
+top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+}

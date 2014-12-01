@@ -1,0 +1,147 @@
+/*  GENERAL  */
+html {
+margin: 0;
+padding: 0;
+}
+
+body {
+margin: 0 auto;
+padding: 0 0 0 10px;
+width: 960px;
+}
+
+#container {
+width: 960px;
+margin: 0px auto;
+}
+
+#main {
+width: 960px;
+margin: 0 auto;
+text-align: left;
+}
+
+#maintable {
+width: 100%;
+}
+
+.columncenter {
+width: 646px;
+padding: 0;
+margin: 0;
+}
+
+.columnright {
+width: 314px;
+padding: 0;
+margin: 0
+}
+
+.columnleft {
+display: none;
+visibility: hidden;
+}
+
+.clear, table {
+clear: both;
+}
+
+/*  NAVIGATION  */
+#nav {
+width: 960px;
+text-align: left;
+}
+
+#nav ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+#nav ul li {
+list-style-type: none;
+display: inline;
+}
+
+#navbuttons {
+width: 960px;
+}
+
+#navbuttons li {
+display: inline;
+float: left;
+}
+
+#navbuttons a {
+display: block;
+}
+
+/* ADBLADE */
+#adblade{
+width: 270px;
+height: 125px;
+overflow:hidden;
+padding: 2px;
+}
+
+/* EVENTS v2 */
+#event-section {
+font-size: 12px;
+}
+
+#event-section .mini-sidebar {
+float:right;
+width: 155px;
+border: 1px dotted #cccccc;
+}
+
+#event-section .mini-sidebar h1 {
+font-size: 16px;
+background: #ccc;
+padding:3px 3px 3px 8px;
+margin:0;
+}
+
+#event-section .mini-sidebar h3 {
+font-size:14px;
+margin:5px;
+padding:0;
+}
+
+#event-section .mini-sidebar input {
+margin: 3px;
+width: 145px;
+}
+
+#event-section .event-list-detail {
+margin: 5px 5px 15px 0;
+}
+
+#event-section #event-list h1 {
+font-size: 18px;
+}
+
+#event-section .event-list-detail .event-thumb {
+float:left;
+margin: 0 5px 0 0;
+}
+
+#event-section .event-list-detail .event-thumb img {
+margin:0;
+padding:0;
+}
+
+#event-section .event-list-detail h2 {
+font-size: 16px;
+margin:0 0;
+padding:0;
+}
+
+#event-section .event-list-detail p {
+margin:0;
+padding:0;
+}
+
+#event-section .event-list-detail p.event-description {
+margin-top: 3px;
+}

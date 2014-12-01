@@ -1,0 +1,32 @@
+{
+    "release": {
+        "id": "acs2012_5yr",
+        "name": "ACS 2012 5-year",
+        "years": "2008-2012"
+    },
+    "tables": {
+        "B01002": {
+            "title": "Median Age by Sex",
+            "universe": "Total Population",
+            "denominator_column_id": null,
+            "columns": {
+                "B01002000.5": {
+                    "name": "Median age --",
+                    "indent": 0
+                },
+                "B01002001": {
+                    "name": "Total:",
+                    "indent": 1
+                },
+                "B01002002": {
+                    "name": "Male",
+                    "indent": 1
+                },
+                "B01002003": {
+                    "name": "Female",
+                    "indent": 1
+                }
+            }
+        }
+    }
+}

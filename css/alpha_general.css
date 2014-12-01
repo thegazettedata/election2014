@@ -1,0 +1,1102 @@
+#container {
+width: 965px;
+margin: 0px auto;
+}
+
+#main {
+width: 800px;
+float: left;
+text-align: left;
+position:relative;
+}
+ 
+#natadad160x600rightout {
+float: left;
+margin-left: 5px;
+padding: 0;
+}
+
+#natad160x600rightout iframe {
+margin: 0;
+padding: 0;
+width: 160px;
+}
+
+.videoiconlow, .videoiconhi {
+display: inline;
+}
+
+.videoiconhi {
+padding-left: 5px;
+}
+
+#commenticon  {
+display: none;
+}
+
+
+#homerelated #pagination {
+display: none;
+visibility: hidden;
+}
+
+.newtag {
+margin: 0px 2px 0 0;
+padding: 0px;
+display: inline;
+}
+
+.newtag span{
+font-weight: bold;
+color: #CC0033;
+}
+
+.updatetag {
+margin: 0 2px 0 0;
+padding: 0px;
+display:inline;
+}
+
+.updatetag span{
+font-weight: bold;
+color: #CC6633;
+}
+
+#imware {
+text-align: center;
+margin-top: 10px;
+clear: both;
+}
+
+#contextualad {
+text-align: center;
+margin-top: 5px;
+clear: both;
+}
+
+.storyinfo {
+clear: both;
+}
+
+.storyinfo p {
+padding: 0;
+margin: 0;
+}
+
+/* callouts and banners */
+.callout {
+margin-bottom: 5px;
+text-align: center;
+}
+
+.callout #wov {
+text-align: left;
+}
+
+.banner468x60 {
+height: 60px;
+width: 468px;
+margin-bottom: 5px;
+}
+
+#topstorymore, .topstorymore, .sectiondiv, .sectiondiv2, .sectiondiv3 {
+clear: both;
+}
+
+.topstorymore {
+min-height: 75px;
+}
+
+#topstory {
+min-height: 150px;
+}
+
+table.cmP_survey td.cmP_title, table.cmP_survey td.cmP_question {
+background: inherit;
+color: #000 !important;
+}
+
+#enewsform, #enewsform form, #enewsform input {
+margin: 0px;
+padding: 0px;
+}
+
+#enewsform p {
+padding: 0px;
+margin: 0px 0px 5px 0px;
+}
+
+.storyinfo {
+font-size: 10px;
+}
+
+#ynicon {
+font-size: 10px;
+}
+
+#storysection #ynicon {
+font-size: 10px;
+padding: 10px 5px 5px 6px;
+}
+
+#navbuttons li.sfhover {
+position:static;
+z-index: 10;
+}
+
+.layout {
+text-align: center;
+border: 1px solid #000;
+margin-bottom: 5px;
+}
+
+#index #featured .videoiconimg {
+width: 13px;
+height:9px;
+border: 0;
+margin-left: 3px;
+}
+
+#gallerypop #gallerynav {
+background-image: url(http://images.bimedia.net/designimages/gallery_bottom.gif);
+background-repeat: repeat-x;
+background-color: #DCDCDC;
+height: 30px;
+padding: 5px;
+margin: 0;
+border-top: 1px solid #fff;
+}
+
+#gallerypop #galleryimage {
+padding-bottom: 7px;
+margin: 0px;
+background-color: #B5B5B5;
+text-align: center;
+}
+
+#gallerypop body {
+background-color: #7F7F7F;
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+#gallerypop p {
+float: left;
+margin-right: 10px;
+margin: 5px 7px 0 0;
+padding: 0;
+font-size: 13px;
+}
+
+#gallerypop #prev{
+float: left;
+margin-right: 10px;
+}
+
+#gallerypop #next {
+float: left;
+}
+
+#gallerypop .caption {
+margin-left: 10px;
+padding-top: 5px;
+width: 80%;
+}
+
+#gallerypop #natadad728x90gallerypop {
+background-image: url(http://images.bimedia.net/designimages/gallery_bottom.gif);
+background-repeat: repeat-x;
+background-color: #7F7F7F;
+border-top: 1px solid #fff;
+}
+
+/* STOCKS FEED IFRAME */
+#stocks{
+height: 420px;
+}
+
+#stocksfeed iframe {
+width: 160px;
+height: 390px;
+margin: 0 0 5px 7px;
+}
+
+#stocksfeed {
+margin: 0 !important;
+}
+
+/*  YOUNEWSTV STYLES */
+.storylabel {
+color: #333;
+}
+
+.storylabel span {
+color: #900;
+}
+
+/* MP Stlyes */
+#mostpopular .videoicon {
+display: inline;
+}
+
+#mostpopular .videoicon span {
+display: none;
+visibility: visible;
+}
+
+#flashUpgrade {
+font-size: 13px;
+line-height: 17px;
+width: 80%;
+padding: 10px;
+margin: 10px auto;
+border: 3px solid #900;
+background: #e3aeae;
+color: #333;
+}
+
+#flashUpgrade a {
+color: #900;
+text-decoration: underline;
+}
+
+/*  SEARCH RESULTS  */
+#searchresults #storderby {
+font-size: 12px;
+}
+
+#searchresults #searchtools {
+width: 100%;
+height: 30px;
+line-height: 30px;
+font-size: 13px;
+clear: left;
+margin: 10px 0;
+}
+
+#searchresults #searchtools #stprev {
+width: 15%;
+height: 30px;
+float: left;
+}
+
+#searchresults #searchtools #stpages {
+width: 70%;
+float: left;
+text-align: center;
+font-size: 14px;
+height: 30px;
+}
+
+#searchresults #searchtools .page {
+display: inline;
+margin: 0;
+font-size: 13px;
+}
+
+* html #searchresults #searchtools .page {
+margin: 0 2px;
+}
+
+#searchresults #searchtools #stnext {
+text-align: right;
+width: 15%;
+float: left;
+}
+
+#searchresults td.instructions,
+#searchresults td.instructions h2,
+#searchresults span {
+font-size: 12px;
+}
+
+
+/* List Order End Date */
+
+#eventlistorder h2 span.eventend {
+display:none;
+visibility:hidden;
+}
+
+
+
+/* ---- ADS LAYOUT ---- */
+#ad_01.layout,
+#ad_150ad1.layout,
+#ad_160ad1.layout,
+#ad_headerpromo {
+background-color: #FFC;
+}
+
+#ad_02.layout,
+#ad_150ad2.layout,
+#ad_160ad2.layout,
+#ad_header {
+background-color: #FCC;
+}
+
+#ad_03.layout,
+#ad_150ad3.layout,
+#ad_160ad3.layout,
+#ad_sectionsponsor1 {
+background-color: #F99;
+}
+
+#ad_04.layout,
+#ad_150ad4.layout,
+#ad_160ad4.layout,
+#ad_sectionsponsor2 {
+background-color: #F96;
+}
+
+#ad_05.layout,
+#ad_150ad5.layout,
+#ad_160ad5.layout,
+#ad_sectionsponsor3 {
+background-color: #CFF;
+}
+
+#ad_06.layout,
+#ad_150ad6.layout,
+#ad_160ad6.layout,
+#ad_sectionsponsor4 {
+background-color: #9CF;
+}
+
+#ad_07.layout,
+#ad_150ad_multi.layout,
+#ad_sectionsponsor5 {
+background-color: #CCC;
+}
+
+#ad_08.layout,
+#ad_160ad_multi.layout,
+#ad_sectionsponsor6 {
+background-color: #CC9;
+}
+
+#ad_09.layout,
+#ad_sectionsponsor7 {
+background-color: #CF9;
+}
+
+#ad_10.layout,
+#ad_leaderboard1 {
+background-color: #690;
+}
+
+#ad_11.layout,
+#ad_leaderboard2
+#ad_sectionsponsorweather {
+background-color: #FCF;
+}
+
+#ad_12.layout,
+#ad_banner,
+#ad_sectionsponsortraffic {
+background-color: #FC6;
+}
+
+#ad_headerpromo {
+width: 300px;
+float: left;
+}
+
+#ad_header {
+width: 300px;
+float: left;
+}
+
+#ad_story {
+width: 300px;
+float:left;
+overflow:hidden;
+}
+
+#natrevibatom {
+clear: both;
+}
+
+
+/* Mortgage Marvel */
+.columncenter #mmwidget {
+width: 287px;
+float: right;
+} 
+#MortgageMarvel_Apply {
+	background: #99BBCC;
+	background-repeat: repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: #000000;
+	cursor: hand;
+}
+#MortgageMarvel_Apply A:link {
+	background: #99BBCC;
+	background-repeat: repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-decoration:none;
+	color: #000000;
+}
+#MortgageMarvel_Apply A:visited {
+	background: #99BBCC;
+	background-repeat: repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-decoration:none;
+	color: #000000;
+}
+
+#MortgageMarvel_MasterResultsAPR{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #003753;
+}
+#MortgageMarvel_MasterResultsAPR A:link{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #003753;
+}
+#MortgageMarvel_MasterResultsAPR A:visited{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #003753;
+}
+#ChangOptions A:link{
+	color: #000000;
+}
+#ChangOptions A:visited{
+	color: #000000;
+}
+
+#MortgageMarvel_MasterResultsLabel{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+}
+#MortgageMarvel_MasterResults{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+}
+#MortgageMarvel_Institution{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #07628d;
+	text-decoration:none;
+
+}
+#MortgageMarvel_Institution A:link{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #07628d;
+	text-decoration:none;
+
+}
+#MortgageMarvel_Institution A:visited{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #07628d;
+	text-decoration:none;
+}
+
+#MortgageMarvel_Product{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #155372;
+}
+#MortgageMarvel_Header{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	background-color: #99BBCC;
+	color: #003753;
+	background: #99BBCC;
+}
+#MortgageMarvel_Pic{
+	background: #99BBCC;
+	width: 52px;
+	height: 48px;
+}
+#MortgageMarvelTimeStamp{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	background-color: #e8f2f6;
+	text-align:right;
+}
+#MortgageMarvel_Heading{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #003753;
+}
+#DateTime{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #003753;
+}
+#MortgageMarvel_Loading{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #003753;
+
+}
+#MortgageMarvel_Link{
+	text-decoration:none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #003753;
+}
+#MortgageMarvel_Label{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align:left;
+	color: #155372;
+	font-weight: bold;
+}
+#MortgageMarvel_Footer{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #003753;
+	background-color: #99BBCC;
+}
+#MortgageMarvel_Body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #ddd;
+	color: #07628d;
+}
+#MortgageMarvel_BtnBlue {
+	font-size: 11px;
+	font-weight: bold;
+	cursor: hand;
+	background: #99BBCC;
+}
+#MortgageMarvel_BtnBlue A:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	padding-right: 3px;
+	padding-left: 3px;
+	text-decoration:none;
+	height: 14px;
+}
+#MortgageMarvel_BtnBlue A:visited {
+	font-size: 11px;
+	font-weight: bold;
+	padding-right: 3px;
+	padding-left: 3px;
+	text-decoration:none;
+	height: 14px;
+}
+#MortgageMarvelContainer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	background-color: #c4d8e2;
+	bordeR: #5a8ba4 solid;
+	border-width: 1px 0;
+}
+#MortgageMarvel_Footer A:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #003753;
+}
+#MortgageMarvel_Footer A:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #003753;
+}
+#MortgageMarvel_FooterHome {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #003753;
+	background-color: #99BBCC;
+}
+#MortgageMarvel_FooterHome A:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #003753;
+	background-color: #99BBCC;
+}
+#MortgageMarvel_FooterHome A:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #003753;
+	background-color: #99BBCC;
+}
+
+/* JavaScript Show/Hide */
+
+.hide {
+display: none;
+}
+
+.show {
+display: block;
+}
+
+/*  STORY TOOLS */
+div#imhoriz,
+div#imvert {
+display: none;
+visibility: hidden;
+}
+
+ul.imhoriz {
+width: auto;
+margin: 0 0 10px 0;
+list-style-type: none;
+}
+
+ul.imhoriz li {
+float: left;
+margin: 10px;
+}
+
+ul.imhoriz li a {
+display: block;
+text-decoration: none;
+color: #333;
+padding: 5px 0 5px 20px;
+}
+
+ul.imhoriz li a:hover {
+text-decoration: underline;
+}
+
+ul.imvert .tool-digg,
+ul.imvert .tool-delicious,
+ul.imvert .tool-facebook,
+ul.horiz .tool-digg,
+ul.horiz .tool-delicious,
+ul.horiz .tool-facebook  {
+display: none;
+visibility: hidden;
+}
+
+ul.imvert {
+margin: 4px 5px;
+padding: 0;
+list-style-type: none;
+font-family: Arial, sans-serif;
+font-size: 10px;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+ul.imvert li {
+height: 23px;
+line-height: 25px;
+}
+
+* html ul.imvert li,
+*:first-child+html ul.imvert li {
+height: 20px;
+line-height: 20px;
+}
+
+ul.imvert li a {
+display: block;
+padding-left: 20px;
+text-decoration: none !important;
+color: #333;
+}
+
+ul.imvert a:hover {
+text-decoration: underline !important;
+}
+
+.story #imware .tool-comment a {
+background: transparent url(http://images.bimedia.net/designimages/icon_comment_12x12.png) center left no-repeat;
+}
+
+.story #imware .tool-email a {
+background: transparent url(http://images.bimedia.net/designimages/bim_imware_email.gif) center left no-repeat;
+}
+
+.story #imware .tool-print a {
+background: transparent url(http://images.bimedia.net/designimages/bim_imware_print.gif) center left no-repeat;
+}
+
+.story #imware .tool-yn a {
+background: transparent url(http://images.bimedia.net/designimages/yn_icon.gif) center left no-repeat;
+}
+
+.story #imware .tool-digg a {
+background: transparent url(http://images.bimedia.net/designimages/bim_imware_digg.gif) center left no-repeat;
+}
+
+.story #imware .tool-delicious a {
+background: transparent url(http://images.bimedia.net/designimages/bim_imware_delicious.gif) center left no-repeat;
+}
+
+.story #imware .tool-facebook a {
+background: transparent url(http://images.bimedia.net/designimages/bim_imware_facebook.gif) center left no-repeat;
+}
+
+.story #imware .tool-gallery a {
+background: transparent url(http://images.bimedia.net/designimages/bim_imware_images.gif) center left no-repeat;
+}
+
+.story #imware .tool-twitter a {
+background: transparent url(http://images.bimedia.net/designimages/bim-twitter-icon.png) center left no-repeat;
+}
+
+/*  MAP TEXT  */
+#googleMap .additional,
+#googleMap p.label {
+font-size: 12px;
+line-height: 16px;
+font-weight: bold;
+padding: 0 !important;
+margin: 0 !important;
+width: 400px;
+}
+
+
+#googleMap p.address,
+#googleMap p.city {
+font-size: 11px;
+line-height: 16px;
+padding: 0 !important;
+margin: 0 !important;
+display: block;
+}
+
+#livestreamsection {
+margin-bottom: 30px;
+}
+#livestreamsection #center {
+text-align: center;
+}
+
+/*ERROR*/
+
+#system-error {
+background: #fff;
+margin:0;
+padding: 10px;
+}
+
+
+/*BREAKING NEWS*/
+
+#breaking-events-images {
+width: 100%;
+margin:0;
+padding:0;
+}
+
+#breaking-events-images .photo {
+float:left;
+list-style-type:none;
+margin: 0px 0 0 3px;
+padding:0;
+}
+
+#breaking h5,
+#breaking #breaking-related {
+clear:both;
+}
+
+label.required{
+padding: 0 2px 0 2px;
+color: red;
+display: inline;
+}
+
+label.required span{
+display: inline;
+}
+
+/* Event Form Styles */
+
+#eventform{
+background-color: white;
+}
+
+#eventform span{
+color: black;
+}
+
+#eventform input {
+margin-bottom: 5px;
+}
+
+#eventform #groupEventInfo #titleGroup{
+margin: 5px;
+padding: 5px;
+}
+
+#eventform #groupEventInfo #titleGroup span{
+font-weight:bold;
+margin:5px 0 0 0;
+}
+
+#eventform #groupEventInfo #titleGroup input,
+#eventform #groupEventInfo #titleGroup textarea{
+border: 1px solid #ADADAD;
+display: block;
+padding: 3px;
+margin:5px 0 5px 0;
+width: 95%;
+}
+
+
+#eventform #groupEventTime{
+margin: 5px;
+padding: 5px;
+min-height: 150px;
+}
+
+#eventform #groupEventTime #startTimeGroup span,
+#eventform #groupEventTime #endTimeGroup span,
+#eventform #groupEventTime #startDateGroup span,
+#eventform #groupEventTime #endDateGroup span {
+font-weight:bold;
+}
+
+#eventform #groupEventTime .radiogroup{
+display: inline;
+}
+
+#eventform #groupEventTime #eventTypeRadioGroup p{
+width: 200px;
+display: inline;
+}
+
+#eventform #groupEventTime .eventTypeMessage {
+padding: 5px;
+font-weight: bold;
+}
+
+#eventform #groupEventTime .eventTypeMessage span {
+text-decoration:underline;
+}
+
+
+#eventform #groupEventTime #startTimeGroup{
+float: left;
+width: 125px;
+height: 50px;
+}
+
+#eventform #groupEventTime #startDateGroup{
+clear:left;
+float:left;
+width: 125px;
+height: 50px;
+}
+
+#eventform #groupEventTime #endDateGroup{
+float: left;
+width: 125px;
+height: 50px;
+}
+
+#eventform #groupEventTime #endTimeGroup{
+float: left;
+width: 125px;
+height: 50px;
+}
+
+#eventform #groupEventTime #eventWeeklyDisplay,
+#eventform #groupEventTime #eventMonthlyDisplay{
+margin: 5px;
+}
+
+#eventform #groupEventTime #eventMonthlyOrdinalGroup{
+margin: 3px 0 3px 0;
+}
+
+
+#eventform #groupEventTime input,
+#eventform #groupEventTime select{
+border: 1px solid #ADADAD;
+}
+
+
+#eventform #submitterGroup {
+margin: 5px;
+padding: 5px;
+clear: both;
+}
+
+#eventform #submitterGroup span{
+display: block;
+font-weight: bold;
+margin:2px 0 0 0;
+}
+
+#eventform #submitterGroup input{
+border: 1px solid #ADADAD;
+display: block;
+padding: 3px;
+margin:5px 0 0 0;
+width: 95%;
+}
+
+#eventform #submitdiv {
+text-align: center;
+margin: 5px;
+}
+
+/* contact form */
+.contact-body .error {
+color: red;	
+}
+
+/*---------- Recent Comments ----------*/
+#recent-comments{
+clear: both;
+float: left;
+margin-bottom:8px;
+overflow:hidden;
+width: 300px;
+}
+
+#recent-comments h5{
+font-size: 12px;
+margin: 0;
+padding: 0;
+}
+
+#recent-comments .commentor{
+font-size: 12px;
+float: left;
+width: 300px;
+font-weight: bold;
+}
+
+#recent-comments .scrollMask .hentry p{
+font-size: 1.2em;    
+float: left;
+background: url(http://images.bimedia.net/designimages/quote_down.png) 100% 70% no-repeat;
+}
+
+#recent-comments .comment-body{
+padding: 5px 0px 0px 30px;
+font-size: 13px;
+background: url(http://images.bimedia.net/designimages/quote_up.png) top left no-repeat;
+float: left;
+clear: both;
+width: 250px;
+}
+
+#recent-comments .scrollMask .read{
+clear: both;
+float: right;
+font-size: 12px;
+margin-top: 10px;
+}
+
+#recent-comments .scrollMask .story-title{
+text-decoration: underline;
+}
+
+/* AOL Autos Widget */
+.columnright #cnnAOLAutoswidget {
+width: 300px;
+overflow:hidden;
+background:#cccccc;
+font-size: 12px;
+}
+
+.columnright #cnnAOLAutoswidget .cnnAOLAutos_hed,
+.columnright #cnnAOLAutoswidget #cnnAOLAutosbody,
+.columnright #cnnAOLAutoswidget #cnnAOLAutosLinks {
+padding: 3px;
+}
+
+.columnright #cnnAOLAutoswidget .boxHeading {
+font-size:20px;
+text-align:center;
+border-bottom: 3px solid #dddddd;
+}
+
+.columnright #cnnAOLAutoswidget #cnnAOLAutosbody label {
+float:left;
+margin-right:3px;
+}
+
+/* Most Popular Widget */
+
+#most-pop {
+width: 300px;
+height: 350px;
+overflow:hidden;
+}
+
+#most-pop #most-tabs li{
+list-style-type:none; 
+float:left;
+margin: 0 15px 5px 0px;
+}
+
+#most-pop .ui-tabs-panel {
+clear:both;
+width: 230px;
+overflow:hidden;
+}
+
+#most-pop #scroll-mask ul {
+width: 9990px;
+}
+
+#most-pop #scroll-mask ul li {
+float:left;
+width: 220px;
+list-style-type:none;
+}
+
+#most-pop .mp-image {
+width: 200px;
+}
+
+.section_pagination ul {
+text-align:center;
+}
+
+.section_pagination ul li {
+display:inline-block;
+list-style-type:none;
+font-size:14px;
+line-height:16px;
+padding:2px;
+}
+
+.section_pagination ul li.current {
+pointer-events: none;
+cursor: default;
+font-weight:bold;
+font-size:16px;
+}
